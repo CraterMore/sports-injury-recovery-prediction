@@ -1,0 +1,1539 @@
+InjuryTypeDimKey,InjuryType,BodyPart,Severity,InjuryCause,IsRecurrentInjury
+1,Ligament Sprain,Calf,Minor,Contact,No
+2,Eye Injury,Eye,Minor,Overuse,Yes
+3,Fracture,Knee,Moderate,Contact,Yes
+4,Muscle Strain,Calf,Moderate,Overuse,Yes
+5,Ligament Sprain,Foot,Minor,Non-contact,No
+6,Fracture,Calf,Moderate,Non-contact,No
+7,Ankle Sprain,Ankle,Minor,Fall,Yes
+8,Facial Injury,Face,Moderate,Non-contact,No
+9,Shoulder Injury,Shoulder,Minor,Contact,No
+10,Muscle Strain,Hamstring,Minor,Fall,No
+11,Shin Splints,Shin,Minor,Contact,Yes
+12,Contusion,Calf,Minor,Fall,No
+13,Achilles Injury,Achilles,Moderate,Fall,No
+14,Contusion,Foot,Severe,Non-contact,No
+15,Fracture,Nose,Minor,Non-contact,Yes
+16,Facial Injury,Face,Minor,Contact,No
+17,Muscle Strain,Calf,Minor,Non-contact,Yes
+18,Shoulder Injury,Shoulder,Minor,Overuse,No
+19,Concussion,Head,Minor,Non-contact,No
+20,Fracture,Shoulder,Moderate,Non-contact,No
+21,Wrist Strain,Wrist,Severe,Overuse,No
+22,Fracture,Hamstring,Minor,Contact,No
+23,Concussion,Head,Severe,Non-contact,Yes
+24,Ligament Sprain,Calf,Moderate,Overuse,No
+25,Facial Injury,Face,Moderate,Non-contact,Yes
+26,Fracture,Shoulder,Minor,Fall,No
+27,Tendon Injury,Ankle,Severe,Overuse,No
+28,Tendon Injury,Hip,Minor,Overuse,No
+29,Eye Injury,Eye,Severe,Overuse,No
+30,Fracture,Face,Moderate,Fall,No
+31,Rib Injury,Ribs,Minor,Overuse,No
+32,Shoulder Injury,Shoulder,Minor,Non-contact,No
+33,Tendon Injury,Hip,Moderate,Non-contact,No
+34,Muscle Strain,Calf,Severe,Fall,No
+35,Eye Injury,Eye,Minor,Contact,No
+36,Muscle Strain,Finger,Minor,Contact,No
+37,Back Strain,Back,Minor,Contact,No
+38,Concussion,Head,Moderate,Overuse,No
+39,Concussion,Head,Minor,Fall,No
+40,Tennis Elbow,Elbow,Minor,Non-contact,No
+41,Muscle Strain,Achilles,Minor,Overuse,No
+42,Back Strain,Back,Moderate,Fall,No
+43,Knee Injury,Knee,Moderate,Contact,No
+44,Fracture,Hamstring,Minor,Fall,No
+45,Tendon Injury,Calf,Moderate,Contact,Yes
+46,Fracture,Foot,Severe,Overuse,No
+47,Shoulder Injury,Shoulder,Moderate,Contact,No
+48,Contusion,Head,Moderate,Non-contact,Yes
+49,Fracture,Back,Moderate,Fall,Yes
+50,Ankle Sprain,Ankle,Minor,Contact,No
+51,Hamstring Injury,Hamstring,Moderate,Fall,No
+52,Shoulder Injury,Shoulder,Moderate,Non-contact,Yes
+53,Eye Injury,Eye,Minor,Fall,No
+54,Knee Injury,Knee,Severe,Fall,No
+55,Concussion,Head,Moderate,Fall,Yes
+56,Knee Injury,Knee,Minor,Contact,No
+57,Fracture,Knee,Severe,Contact,No
+58,Achilles Injury,Achilles,Severe,Overuse,No
+59,Ankle Sprain,Ankle,Severe,Overuse,Yes
+60,Ankle Sprain,Ankle,Severe,Overuse,No
+61,Facial Injury,Face,Moderate,Overuse,Yes
+62,Concussion,Head,Severe,Fall,No
+63,Tendon Injury,Shin,Minor,Fall,No
+64,Fracture,Head,Severe,Contact,No
+65,Knee Injury,Knee,Moderate,Non-contact,No
+66,Ankle Sprain,Ankle,Moderate,Contact,No
+67,Shin Splints,Shin,Minor,Overuse,No
+68,Ligament Sprain,Knee,Moderate,Overuse,No
+69,Eye Injury,Eye,Minor,Overuse,No
+70,Knee Injury,Knee,Minor,Overuse,Yes
+71,Facial Injury,Face,Moderate,Fall,No
+72,Facial Injury,Face,Severe,Contact,No
+73,Shin Splints,Shin,Minor,Fall,No
+74,Muscle Strain,Knee,Minor,Fall,Yes
+75,Finger Injury,Finger,Minor,Non-contact,Yes
+76,Fracture,Jaw,Minor,Fall,No
+77,Muscle Strain,Ankle,Minor,Fall,No
+78,Tennis Elbow,Elbow,Moderate,Contact,Yes
+79,Wrist Strain,Wrist,Minor,Overuse,No
+80,Shoulder Injury,Shoulder,Minor,Fall,No
+81,Rib Injury,Ribs,Severe,Overuse,No
+82,Contusion,Hamstring,Minor,Non-contact,Yes
+83,Ankle Sprain,Ankle,Minor,Non-contact,Yes
+84,Wrist Strain,Wrist,Minor,Fall,No
+85,Fracture,Hamstring,Moderate,Overuse,No
+86,Contusion,Hip,Moderate,Non-contact,No
+87,Hamstring Injury,Hamstring,Minor,Fall,No
+88,Back Strain,Back,Severe,Contact,No
+89,Finger Injury,Finger,Minor,Overuse,No
+90,Wrist Strain,Wrist,Severe,Fall,No
+91,Tennis Elbow,Elbow,Moderate,Overuse,Yes
+92,Concussion,Head,Minor,Overuse,No
+93,Muscle Strain,Shoulder,Minor,Contact,Yes
+94,Ankle Sprain,Ankle,Moderate,Overuse,Yes
+95,Achilles Injury,Achilles,Minor,Overuse,No
+96,Fracture,Hamstring,Minor,Non-contact,No
+97,Shoulder Injury,Shoulder,Moderate,Overuse,No
+98,Concussion,Head,Minor,Non-contact,Yes
+99,Muscle Strain,Head,Minor,Non-contact,Yes
+100,Rib Injury,Ribs,Minor,Fall,No
+101,Knee Injury,Knee,Severe,Contact,No
+102,Facial Injury,Face,Minor,Fall,Yes
+103,Knee Injury,Knee,Minor,Fall,No
+104,Eye Injury,Eye,Moderate,Overuse,No
+105,Fracture,Hand,Moderate,Contact,Yes
+106,Ankle Sprain,Ankle,Minor,Overuse,No
+107,Fracture,Shoulder,Moderate,Contact,No
+108,Rib Injury,Ribs,Moderate,Overuse,No
+109,Muscle Strain,Hip,Severe,Overuse,No
+110,Rib Injury,Ribs,Severe,Overuse,Yes
+111,Tendon Injury,Foot,Moderate,Overuse,No
+112,Ankle Sprain,Ankle,Moderate,Fall,No
+113,Fracture,Jaw,Severe,Fall,No
+114,Tennis Elbow,Elbow,Moderate,Fall,No
+115,Back Strain,Back,Severe,Fall,No
+116,Eye Injury,Eye,Moderate,Overuse,Yes
+117,Tennis Elbow,Elbow,Moderate,Non-contact,No
+118,Muscle Strain,Ankle,Minor,Non-contact,No
+119,Ankle Sprain,Ankle,Moderate,Fall,Yes
+120,Tendon Injury,Shin,Minor,Contact,No
+121,Shoulder Injury,Shoulder,Severe,Overuse,No
+122,Tendon Injury,Hip,Minor,Non-contact,No
+123,Eye Injury,Eye,Moderate,Contact,Yes
+124,Fracture,Knee,Minor,Fall,Yes
+125,Achilles Injury,Achilles,Moderate,Contact,Yes
+126,Concussion,Head,Minor,Contact,Yes
+127,Tendon Injury,Knee,Minor,Overuse,No
+128,Muscle Strain,Calf,Moderate,Contact,Yes
+129,Concussion,Head,Moderate,Non-contact,No
+130,Ankle Sprain,Ankle,Minor,Non-contact,No
+131,Knee Injury,Knee,Moderate,Non-contact,Yes
+132,Facial Injury,Face,Minor,Non-contact,No
+133,Tennis Elbow,Elbow,Moderate,Non-contact,Yes
+134,Muscle Strain,Calf,Minor,Overuse,No
+135,Fracture,Wrist,Minor,Non-contact,No
+136,Tendon Injury,Ankle,Minor,Non-contact,No
+137,Tendon Injury,Knee,Minor,Non-contact,Yes
+138,Muscle Strain,Finger,Minor,Fall,No
+139,Finger Injury,Finger,Minor,Fall,No
+140,Hamstring Injury,Hamstring,Moderate,Contact,Yes
+141,Fracture,Knee,Severe,Non-contact,No
+142,Ligament Sprain,Shoulder,Moderate,Fall,No
+143,Facial Injury,Face,Moderate,Contact,Yes
+144,Wrist Strain,Wrist,Minor,Overuse,Yes
+145,Back Strain,Back,Moderate,Overuse,No
+146,Tennis Elbow,Elbow,Minor,Fall,No
+147,Fracture,Hip,Moderate,Contact,Yes
+148,Fracture,Jaw,Severe,Non-contact,Yes
+149,Fracture,Shin,Moderate,Contact,Yes
+150,Muscle Strain,Ankle,Minor,Fall,Yes
+151,Eye Injury,Eye,Moderate,Contact,No
+152,Rib Injury,Ribs,Minor,Non-contact,No
+153,Tendon Injury,Calf,Minor,Contact,No
+154,Contusion,Head,Minor,Non-contact,No
+155,Tendon Injury,Ankle,Severe,Overuse,Yes
+156,Muscle Strain,Knee,Moderate,Contact,Yes
+157,Fracture,Knee,Moderate,Non-contact,No
+158,Finger Injury,Finger,Minor,Contact,No
+159,Tendon Injury,Hip,Moderate,Fall,Yes
+160,Concussion,Head,Severe,Contact,No
+161,Fracture,Achilles,Minor,Non-contact,No
+162,Muscle Strain,Shoulder,Minor,Overuse,No
+163,Finger Injury,Finger,Moderate,Fall,Yes
+164,Hamstring Injury,Hamstring,Moderate,Non-contact,No
+165,Facial Injury,Face,Moderate,Contact,No
+166,Fracture,Calf,Moderate,Contact,No
+167,Shoulder Injury,Shoulder,Severe,Contact,No
+168,Tendon Injury,Shin,Minor,Overuse,Yes
+169,Ankle Sprain,Ankle,Minor,Contact,Yes
+170,Wrist Strain,Wrist,Moderate,Overuse,Yes
+171,Contusion,Hip,Minor,Contact,No
+172,Contusion,Hamstring,Minor,Fall,No
+173,Ankle Sprain,Ankle,Moderate,Overuse,No
+174,Concussion,Head,Minor,Fall,Yes
+175,Facial Injury,Face,Severe,Overuse,No
+176,Muscle Strain,Back,Moderate,Contact,Yes
+177,Wrist Strain,Wrist,Minor,Contact,Yes
+178,Muscle Strain,Back,Minor,Non-contact,No
+179,Fracture,Back,Moderate,Fall,No
+180,Back Strain,Back,Minor,Contact,Yes
+181,Eye Injury,Eye,Minor,Non-contact,No
+182,Contusion,Ankle,Moderate,Contact,No
+183,Back Strain,Back,Moderate,Non-contact,Yes
+184,Finger Injury,Finger,Severe,Contact,Yes
+185,Concussion,Head,Minor,Overuse,Yes
+186,Wrist Strain,Wrist,Minor,Fall,Yes
+187,Fracture,Hip,Minor,Contact,No
+188,Shoulder Injury,Shoulder,Moderate,Fall,Yes
+189,Contusion,Foot,Minor,Fall,No
+190,Tendon Injury,Knee,Minor,Non-contact,No
+191,Muscle Strain,Hamstring,Moderate,Fall,No
+192,Muscle Strain,Calf,Moderate,Non-contact,No
+193,Facial Injury,Face,Minor,Non-contact,Yes
+194,Ligament Sprain,Hip,Moderate,Non-contact,No
+195,Hamstring Injury,Hamstring,Minor,Non-contact,No
+196,Wrist Strain,Wrist,Severe,Non-contact,No
+197,Muscle Strain,Achilles,Minor,Fall,No
+198,Muscle Strain,Shin,Moderate,Overuse,No
+199,Fracture,Achilles,Minor,Overuse,No
+200,Tendon Injury,Shoulder,Severe,Overuse,No
+201,Facial Injury,Face,Minor,Overuse,Yes
+202,Fracture,Ankle,Minor,Contact,Yes
+203,Fracture,Hamstring,Minor,Overuse,Yes
+204,Fracture,Head,Severe,Overuse,No
+205,Tendon Injury,Knee,Severe,Non-contact,No
+206,Back Strain,Back,Severe,Non-contact,No
+207,Concussion,Head,Moderate,Fall,No
+208,Back Strain,Back,Severe,Overuse,No
+209,Fracture,Shoulder,Minor,Contact,No
+210,Tendon Injury,Knee,Minor,Fall,No
+211,Fracture,Ankle,Moderate,Overuse,No
+212,Achilles Injury,Achilles,Severe,Non-contact,No
+213,Ankle Sprain,Ankle,Severe,Non-contact,No
+214,Fracture,Ankle,Minor,Overuse,No
+215,Fracture,Shoulder,Moderate,Contact,Yes
+216,Muscle Strain,Knee,Minor,Fall,No
+217,Fracture,Calf,Minor,Non-contact,No
+218,Shin Splints,Shin,Severe,Contact,No
+219,Fracture,Knee,Minor,Fall,No
+220,Muscle Strain,Foot,Severe,Contact,No
+221,Fracture,Jaw,Moderate,Non-contact,No
+222,Tendon Injury,Foot,Minor,Contact,No
+223,Shoulder Injury,Shoulder,Moderate,Fall,No
+224,Wrist Strain,Wrist,Moderate,Fall,No
+225,Achilles Injury,Achilles,Minor,Non-contact,Yes
+226,Shin Splints,Shin,Minor,Fall,Yes
+227,Rib Injury,Ribs,Moderate,Overuse,Yes
+228,Contusion,Hip,Minor,Non-contact,No
+229,Back Strain,Back,Minor,Overuse,No
+230,Ankle Sprain,Ankle,Severe,Contact,No
+231,Tendon Injury,Calf,Minor,Non-contact,No
+232,Concussion,Head,Severe,Overuse,No
+233,Finger Injury,Finger,Severe,Fall,No
+234,Muscle Strain,Knee,Minor,Contact,No
+235,Fracture,Face,Minor,Fall,Yes
+236,Wrist Strain,Wrist,Moderate,Overuse,No
+237,Shoulder Injury,Shoulder,Minor,Overuse,Yes
+238,Fracture,Ankle,Minor,Contact,No
+239,Hamstring Injury,Hamstring,Moderate,Overuse,No
+240,Tendon Injury,Hamstring,Minor,Non-contact,No
+241,Muscle Strain,Calf,Minor,Overuse,Yes
+242,Fracture,Shin,Moderate,Contact,No
+243,Muscle Strain,Shoulder,Minor,Non-contact,Yes
+244,Ligament Sprain,Hip,Moderate,Contact,Yes
+245,Fracture,Shoulder,Minor,Non-contact,No
+246,Ankle Sprain,Ankle,Severe,Fall,Yes
+247,Shin Splints,Shin,Moderate,Non-contact,No
+248,Tennis Elbow,Elbow,Minor,Overuse,Yes
+249,Achilles Injury,Achilles,Severe,Fall,No
+250,Facial Injury,Face,Severe,Non-contact,No
+251,Ligament Sprain,Hamstring,Minor,Non-contact,No
+252,Fracture,Foot,Minor,Overuse,No
+253,Fracture,Foot,Severe,Contact,No
+254,Facial Injury,Face,Minor,Fall,No
+255,Hamstring Injury,Hamstring,Minor,Overuse,Yes
+256,Concussion,Head,Moderate,Contact,No
+257,Concussion,Head,Minor,Contact,No
+258,Contusion,Ankle,Minor,Overuse,Yes
+259,Tennis Elbow,Elbow,Severe,Contact,Yes
+260,Back Strain,Back,Moderate,Non-contact,No
+261,Rib Injury,Ribs,Severe,Non-contact,No
+262,Contusion,Foot,Severe,Contact,No
+263,Eye Injury,Eye,Severe,Overuse,Yes
+264,Finger Injury,Finger,Moderate,Overuse,No
+265,Fracture,Achilles,Minor,Non-contact,Yes
+266,Tendon Injury,Hip,Severe,Non-contact,No
+267,Rib Injury,Ribs,Severe,Fall,No
+268,Facial Injury,Face,Moderate,Overuse,No
+269,Tennis Elbow,Elbow,Minor,Overuse,No
+270,Fracture,Shoulder,Severe,Contact,Yes
+271,Fracture,Hamstring,Minor,Fall,Yes
+272,Shoulder Injury,Shoulder,Moderate,Non-contact,No
+273,Knee Injury,Knee,Moderate,Overuse,No
+274,Muscle Strain,Wrist,Moderate,Fall,No
+275,Ligament Sprain,Shoulder,Minor,Non-contact,No
+276,Shin Splints,Shin,Severe,Non-contact,No
+277,Achilles Injury,Achilles,Minor,Fall,No
+278,Fracture,Knee,Minor,Contact,Yes
+279,Ligament Sprain,Ankle,Minor,Non-contact,Yes
+280,Muscle Strain,Achilles,Moderate,Non-contact,No
+281,Knee Injury,Knee,Minor,Non-contact,No
+282,Achilles Injury,Achilles,Minor,Non-contact,No
+283,Muscle Strain,Finger,Minor,Non-contact,No
+284,Muscle Strain,Foot,Minor,Overuse,Yes
+285,Hamstring Injury,Hamstring,Moderate,Overuse,Yes
+286,Fracture,Foot,Moderate,Fall,No
+287,Contusion,Shoulder,Moderate,Fall,No
+288,Muscle Strain,Hamstring,Severe,Non-contact,No
+289,Ligament Sprain,Ankle,Minor,Non-contact,No
+290,Fracture,Shoulder,Severe,Fall,No
+291,Muscle Strain,Hamstring,Minor,Contact,No
+292,Muscle Strain,Wrist,Moderate,Contact,Yes
+293,Hamstring Injury,Hamstring,Minor,Contact,No
+294,Fracture,Calf,Moderate,Overuse,No
+295,Ankle Sprain,Ankle,Moderate,Contact,Yes
+296,Contusion,Shoulder,Minor,Fall,No
+297,Muscle Strain,Back,Moderate,Non-contact,No
+298,Muscle Strain,Shin,Minor,Contact,Yes
+299,Fracture,Hamstring,Minor,Non-contact,Yes
+300,Fracture,Achilles,Minor,Contact,No
+301,Fracture,Face,Severe,Fall,No
+302,Muscle Strain,Back,Moderate,Contact,No
+303,Back Strain,Back,Minor,Non-contact,No
+304,Fracture,Hip,Minor,Non-contact,Yes
+305,Ligament Sprain,Foot,Moderate,Contact,Yes
+306,Fracture,Finger,Moderate,Overuse,Yes
+307,Ligament Sprain,Head,Severe,Contact,No
+308,Back Strain,Back,Moderate,Overuse,Yes
+309,Muscle Strain,Knee,Moderate,Overuse,No
+310,Ligament Sprain,Foot,Minor,Overuse,No
+311,Tendon Injury,Ankle,Severe,Contact,Yes
+312,Muscle Strain,Finger,Severe,Fall,No
+313,Concussion,Head,Severe,Contact,Yes
+314,Tennis Elbow,Elbow,Minor,Contact,No
+315,Shin Splints,Shin,Moderate,Fall,No
+316,Rib Injury,Ribs,Minor,Fall,Yes
+317,Hamstring Injury,Hamstring,Moderate,Fall,Yes
+318,Ankle Sprain,Ankle,Moderate,Non-contact,No
+319,Rib Injury,Ribs,Moderate,Contact,No
+320,Fracture,Achilles,Moderate,Contact,No
+321,Fracture,Knee,Minor,Non-contact,No
+322,Fracture,Hand,Severe,Contact,No
+323,Tendon Injury,Shoulder,Moderate,Contact,No
+324,Muscle Strain,Hip,Minor,Non-contact,No
+325,Rib Injury,Ribs,Moderate,Non-contact,No
+326,Muscle Strain,Hip,Minor,Fall,No
+327,Back Strain,Back,Moderate,Contact,Yes
+328,Hamstring Injury,Hamstring,Minor,Non-contact,Yes
+329,Tendon Injury,Hamstring,Minor,Overuse,No
+330,Finger Injury,Finger,Minor,Non-contact,No
+331,Hamstring Injury,Hamstring,Moderate,Contact,No
+332,Back Strain,Back,Severe,Overuse,Yes
+333,Tendon Injury,Hamstring,Minor,Fall,No
+334,Knee Injury,Knee,Minor,Fall,Yes
+335,Hamstring Injury,Hamstring,Severe,Non-contact,No
+336,Ligament Sprain,Head,Minor,Contact,Yes
+337,Fracture,Ankle,Severe,Fall,No
+338,Rib Injury,Ribs,Minor,Contact,No
+339,Achilles Injury,Achilles,Minor,Contact,No
+340,Shoulder Injury,Shoulder,Severe,Overuse,Yes
+341,Fracture,Ribs,Minor,Non-contact,No
+342,Ligament Sprain,Calf,Minor,Overuse,No
+343,Fracture,Hand,Minor,Overuse,No
+344,Fracture,Back,Moderate,Non-contact,Yes
+345,Fracture,Calf,Moderate,Fall,No
+346,Fracture,Foot,Minor,Contact,No
+347,Concussion,Head,Severe,Fall,Yes
+348,Fracture,Shoulder,Minor,Fall,Yes
+349,Contusion,Hip,Minor,Fall,No
+350,Contusion,Hamstring,Minor,Fall,Yes
+351,Fracture,Achilles,Severe,Overuse,No
+352,Hamstring Injury,Hamstring,Severe,Contact,Yes
+353,Finger Injury,Finger,Moderate,Non-contact,No
+354,Eye Injury,Eye,Minor,Contact,Yes
+355,Back Strain,Back,Minor,Non-contact,Yes
+356,Shin Splints,Shin,Moderate,Non-contact,Yes
+357,Achilles Injury,Achilles,Moderate,Non-contact,No
+358,Fracture,Achilles,Moderate,Non-contact,Yes
+359,Ankle Sprain,Ankle,Severe,Fall,No
+360,Finger Injury,Finger,Severe,Overuse,Yes
+361,Back Strain,Back,Severe,Contact,Yes
+362,Fracture,Shin,Minor,Contact,No
+363,Eye Injury,Eye,Minor,Fall,Yes
+364,Fracture,Shoulder,Severe,Fall,Yes
+365,Shin Splints,Shin,Severe,Overuse,No
+366,Achilles Injury,Achilles,Moderate,Contact,No
+367,Tendon Injury,Hamstring,Moderate,Non-contact,Yes
+368,Contusion,Calf,Moderate,Overuse,No
+369,Hamstring Injury,Hamstring,Severe,Overuse,No
+370,Ankle Sprain,Ankle,Minor,Fall,No
+371,Muscle Strain,Achilles,Moderate,Contact,No
+372,Wrist Strain,Wrist,Minor,Non-contact,No
+373,Tendon Injury,Hamstring,Moderate,Non-contact,No
+374,Fracture,Calf,Minor,Fall,No
+375,Tennis Elbow,Elbow,Moderate,Contact,No
+376,Muscle Strain,Calf,Minor,Non-contact,No
+377,Shoulder Injury,Shoulder,Severe,Fall,No
+378,Muscle Strain,Ankle,Minor,Contact,No
+379,Rib Injury,Ribs,Minor,Non-contact,Yes
+380,Ligament Sprain,Ankle,Minor,Contact,No
+381,Achilles Injury,Achilles,Moderate,Overuse,No
+382,Ligament Sprain,Shoulder,Minor,Fall,No
+383,Muscle Strain,Shoulder,Severe,Fall,No
+384,Fracture,Nose,Moderate,Fall,No
+385,Fracture,Finger,Minor,Overuse,No
+386,Tendon Injury,Hamstring,Severe,Fall,No
+387,Tennis Elbow,Elbow,Minor,Non-contact,Yes
+388,Tendon Injury,Hip,Moderate,Contact,No
+389,Back Strain,Back,Moderate,Contact,No
+390,Ligament Sprain,Hamstring,Minor,Overuse,No
+391,Eye Injury,Eye,Moderate,Non-contact,Yes
+392,Muscle Strain,Shoulder,Minor,Contact,No
+393,Fracture,Hip,Minor,Non-contact,No
+394,Back Strain,Back,Moderate,Fall,Yes
+395,Contusion,Hip,Moderate,Contact,Yes
+396,Tendon Injury,Ankle,Minor,Contact,No
+397,Knee Injury,Knee,Moderate,Contact,Yes
+398,Concussion,Head,Moderate,Non-contact,Yes
+399,Ligament Sprain,Calf,Moderate,Non-contact,No
+400,Fracture,Foot,Minor,Overuse,Yes
+401,Tendon Injury,Calf,Moderate,Non-contact,No
+402,Wrist Strain,Wrist,Minor,Contact,No
+403,Fracture,Knee,Severe,Overuse,No
+404,Fracture,Back,Minor,Overuse,No
+405,Muscle Strain,Shoulder,Minor,Non-contact,No
+406,Fracture,Shoulder,Minor,Overuse,No
+407,Fracture,Calf,Moderate,Contact,Yes
+408,Tendon Injury,Calf,Minor,Contact,Yes
+409,Contusion,Hamstring,Minor,Contact,Yes
+410,Wrist Strain,Wrist,Moderate,Non-contact,No
+411,Fracture,Ankle,Moderate,Overuse,Yes
+412,Fracture,Ribs,Moderate,Contact,Yes
+413,Fracture,Hamstring,Minor,Overuse,No
+414,Ligament Sprain,Hamstring,Severe,Non-contact,No
+415,Fracture,Jaw,Moderate,Overuse,No
+416,Muscle Strain,Shoulder,Minor,Fall,No
+417,Shoulder Injury,Shoulder,Moderate,Overuse,Yes
+418,Contusion,Calf,Minor,Overuse,No
+419,Tennis Elbow,Elbow,Severe,Fall,No
+420,Tendon Injury,Shin,Moderate,Contact,No
+421,Muscle Strain,Hamstring,Minor,Overuse,No
+422,Concussion,Head,Severe,Non-contact,No
+423,Tendon Injury,Foot,Minor,Non-contact,Yes
+424,Muscle Strain,Back,Moderate,Overuse,Yes
+425,Contusion,Hip,Minor,Non-contact,Yes
+426,Muscle Strain,Foot,Moderate,Non-contact,No
+427,Fracture,Knee,Minor,Overuse,No
+428,Ligament Sprain,Ankle,Minor,Fall,No
+429,Fracture,Knee,Moderate,Fall,No
+430,Muscle Strain,Foot,Moderate,Contact,No
+431,Ligament Sprain,Foot,Moderate,Fall,Yes
+432,Tendon Injury,Back,Moderate,Non-contact,Yes
+433,Fracture,Ankle,Moderate,Contact,Yes
+434,Tendon Injury,Shoulder,Minor,Non-contact,No
+435,Muscle Strain,Calf,Minor,Contact,Yes
+436,Finger Injury,Finger,Moderate,Fall,No
+437,Fracture,Head,Minor,Non-contact,No
+438,Knee Injury,Knee,Moderate,Fall,Yes
+439,Ligament Sprain,Hip,Minor,Fall,No
+440,Muscle Strain,Ankle,Moderate,Fall,Yes
+441,Tendon Injury,Foot,Minor,Fall,No
+442,Muscle Strain,Hamstring,Minor,Contact,Yes
+443,Shoulder Injury,Shoulder,Severe,Non-contact,Yes
+444,Contusion,Head,Minor,Fall,No
+445,Ligament Sprain,Hip,Moderate,Fall,No
+446,Muscle Strain,Wrist,Minor,Overuse,Yes
+447,Muscle Strain,Achilles,Moderate,Fall,No
+448,Achilles Injury,Achilles,Severe,Contact,No
+449,Tendon Injury,Hip,Minor,Fall,No
+450,Fracture,Hip,Minor,Fall,No
+451,Knee Injury,Knee,Severe,Non-contact,No
+452,Fracture,Back,Minor,Contact,No
+453,Shoulder Injury,Shoulder,Minor,Non-contact,Yes
+454,Ligament Sprain,Foot,Minor,Contact,No
+455,Muscle Strain,Foot,Severe,Non-contact,No
+456,Shoulder Injury,Shoulder,Severe,Fall,Yes
+457,Shin Splints,Shin,Moderate,Overuse,Yes
+458,Muscle Strain,Hip,Moderate,Non-contact,No
+459,Wrist Strain,Wrist,Minor,Non-contact,Yes
+460,Tendon Injury,Shoulder,Moderate,Non-contact,Yes
+461,Tendon Injury,Hamstring,Minor,Contact,No
+462,Knee Injury,Knee,Minor,Overuse,No
+463,Shin Splints,Shin,Severe,Fall,No
+464,Fracture,Finger,Moderate,Non-contact,No
+465,Ligament Sprain,Hamstring,Minor,Contact,No
+466,Muscle Strain,Shin,Minor,Fall,No
+467,Eye Injury,Eye,Severe,Contact,No
+468,Tendon Injury,Shoulder,Minor,Overuse,No
+469,Concussion,Head,Severe,Overuse,Yes
+470,Contusion,Head,Moderate,Non-contact,No
+471,Fracture,Finger,Moderate,Overuse,No
+472,Hamstring Injury,Hamstring,Minor,Overuse,No
+473,Ligament Sprain,Hamstring,Minor,Fall,No
+474,Back Strain,Back,Minor,Fall,No
+475,Tendon Injury,Hip,Severe,Fall,No
+476,Fracture,Finger,Moderate,Fall,No
+477,Fracture,Wrist,Minor,Overuse,No
+478,Shin Splints,Shin,Moderate,Overuse,No
+479,Muscle Strain,Head,Moderate,Overuse,No
+480,Fracture,Back,Severe,Overuse,No
+481,Fracture,Achilles,Moderate,Non-contact,No
+482,Muscle Strain,Shin,Moderate,Contact,No
+483,Fracture,Ankle,Moderate,Non-contact,No
+484,Muscle Strain,Ankle,Moderate,Non-contact,No
+485,Fracture,Eye,Moderate,Fall,No
+486,Back Strain,Back,Minor,Overuse,Yes
+487,Contusion,Foot,Severe,Non-contact,Yes
+488,Muscle Strain,Achilles,Minor,Contact,Yes
+489,Ligament Sprain,Hamstring,Minor,Overuse,Yes
+490,Tennis Elbow,Elbow,Severe,Overuse,Yes
+491,Tendon Injury,Ankle,Minor,Overuse,No
+492,Tendon Injury,Hamstring,Minor,Contact,Yes
+493,Tendon Injury,Head,Minor,Fall,No
+494,Fracture,Calf,Minor,Contact,No
+495,Contusion,Knee,Minor,Non-contact,Yes
+496,Muscle Strain,Wrist,Severe,Contact,No
+497,Tendon Injury,Knee,Moderate,Overuse,No
+498,Fracture,Knee,Minor,Non-contact,Yes
+499,Ligament Sprain,Knee,Moderate,Non-contact,No
+500,Shoulder Injury,Shoulder,Severe,Non-contact,No
+501,Ligament Sprain,Calf,Moderate,Fall,No
+502,Tendon Injury,Foot,Moderate,Contact,No
+503,Tendon Injury,Knee,Moderate,Overuse,Yes
+504,Fracture,Knee,Moderate,Fall,Yes
+505,Finger Injury,Finger,Moderate,Contact,No
+506,Muscle Strain,Foot,Minor,Overuse,No
+507,Fracture,Hamstring,Severe,Overuse,No
+508,Muscle Strain,Foot,Moderate,Overuse,No
+509,Muscle Strain,Calf,Severe,Overuse,No
+510,Muscle Strain,Knee,Moderate,Non-contact,No
+511,Fracture,Head,Minor,Contact,No
+512,Muscle Strain,Knee,Minor,Non-contact,Yes
+513,Fracture,Ribs,Minor,Overuse,Yes
+514,Fracture,Nose,Minor,Contact,No
+515,Shoulder Injury,Shoulder,Minor,Fall,Yes
+516,Wrist Strain,Wrist,Moderate,Contact,No
+517,Fracture,Calf,Moderate,Overuse,Yes
+518,Fracture,Wrist,Minor,Contact,No
+519,Muscle Strain,Calf,Moderate,Overuse,No
+520,Fracture,Head,Moderate,Contact,No
+521,Ligament Sprain,Hip,Minor,Overuse,No
+522,Fracture,Ankle,Moderate,Contact,No
+523,Ligament Sprain,Shoulder,Moderate,Contact,No
+524,Knee Injury,Knee,Moderate,Fall,No
+525,Fracture,Hip,Moderate,Non-contact,Yes
+526,Achilles Injury,Achilles,Minor,Contact,Yes
+527,Ligament Sprain,Ankle,Moderate,Contact,Yes
+528,Muscle Strain,Back,Minor,Overuse,Yes
+529,Shoulder Injury,Shoulder,Severe,Contact,Yes
+530,Fracture,Hand,Moderate,Fall,No
+531,Tendon Injury,Ankle,Minor,Non-contact,Yes
+532,Tendon Injury,Foot,Minor,Contact,Yes
+533,Contusion,Head,Minor,Overuse,No
+534,Muscle Strain,Shoulder,Moderate,Overuse,Yes
+535,Tennis Elbow,Elbow,Severe,Contact,No
+536,Tennis Elbow,Elbow,Minor,Contact,Yes
+537,Fracture,Jaw,Severe,Overuse,No
+538,Tennis Elbow,Elbow,Moderate,Overuse,No
+539,Fracture,Knee,Minor,Contact,No
+540,Fracture,Hip,Moderate,Non-contact,No
+541,Muscle Strain,Foot,Minor,Fall,No
+542,Eye Injury,Eye,Moderate,Non-contact,No
+543,Eye Injury,Eye,Severe,Non-contact,No
+544,Muscle Strain,Ankle,Severe,Contact,Yes
+545,Muscle Strain,Knee,Moderate,Fall,No
+546,Contusion,Calf,Moderate,Fall,No
+547,Muscle Strain,Shoulder,Minor,Fall,Yes
+548,Muscle Strain,Ankle,Severe,Overuse,Yes
+549,Tendon Injury,Back,Moderate,Overuse,No
+550,Contusion,Shoulder,Moderate,Contact,No
+551,Fracture,Ribs,Minor,Contact,No
+552,Fracture,Shin,Moderate,Overuse,No
+553,Muscle Strain,Hip,Minor,Contact,No
+554,Muscle Strain,Wrist,Minor,Fall,No
+555,Muscle Strain,Calf,Moderate,Contact,No
+556,Fracture,Calf,Minor,Non-contact,Yes
+557,Tendon Injury,Back,Moderate,Contact,No
+558,Fracture,Ankle,Minor,Fall,No
+559,Muscle Strain,Calf,Moderate,Fall,No
+560,Muscle Strain,Calf,Minor,Fall,No
+561,Fracture,Face,Moderate,Overuse,No
+562,Fracture,Hand,Minor,Non-contact,No
+563,Fracture,Hand,Minor,Fall,Yes
+564,Muscle Strain,Knee,Severe,Overuse,No
+565,Knee Injury,Knee,Minor,Non-contact,Yes
+566,Fracture,Hip,Minor,Contact,Yes
+567,Muscle Strain,Wrist,Minor,Overuse,No
+568,Fracture,Head,Minor,Contact,Yes
+569,Fracture,Finger,Minor,Overuse,Yes
+570,Shin Splints,Shin,Moderate,Contact,Yes
+571,Rib Injury,Ribs,Moderate,Fall,No
+572,Finger Injury,Finger,Moderate,Contact,Yes
+573,Ligament Sprain,Hip,Severe,Overuse,No
+574,Contusion,Head,Minor,Overuse,Yes
+575,Tendon Injury,Achilles,Minor,Overuse,No
+576,Tendon Injury,Foot,Minor,Non-contact,No
+577,Finger Injury,Finger,Severe,Non-contact,No
+578,Ligament Sprain,Knee,Severe,Overuse,No
+579,Muscle Strain,Hamstring,Moderate,Overuse,Yes
+580,Shoulder Injury,Shoulder,Moderate,Contact,Yes
+581,Facial Injury,Face,Severe,Fall,No
+582,Tendon Injury,Shoulder,Moderate,Non-contact,No
+583,Contusion,Shoulder,Severe,Fall,Yes
+584,Wrist Strain,Wrist,Moderate,Non-contact,Yes
+585,Fracture,Eye,Moderate,Overuse,Yes
+586,Fracture,Head,Moderate,Overuse,No
+587,Tendon Injury,Knee,Moderate,Non-contact,Yes
+588,Contusion,Knee,Minor,Contact,No
+589,Fracture,Face,Minor,Fall,No
+590,Eye Injury,Eye,Moderate,Fall,Yes
+591,Ligament Sprain,Knee,Minor,Non-contact,Yes
+592,Muscle Strain,Achilles,Minor,Fall,Yes
+593,Muscle Strain,Shoulder,Severe,Contact,No
+594,Contusion,Ankle,Moderate,Overuse,No
+595,Ligament Sprain,Ankle,Moderate,Overuse,No
+596,Tendon Injury,Foot,Severe,Contact,No
+597,Tendon Injury,Foot,Moderate,Overuse,Yes
+598,Muscle Strain,Back,Severe,Contact,No
+599,Shin Splints,Shin,Moderate,Contact,No
+600,Muscle Strain,Shoulder,Minor,Overuse,Yes
+601,Eye Injury,Eye,Moderate,Fall,No
+602,Fracture,Shin,Minor,Contact,Yes
+603,Contusion,Head,Moderate,Overuse,No
+604,Fracture,Finger,Moderate,Contact,No
+605,Knee Injury,Knee,Minor,Contact,Yes
+606,Contusion,Knee,Moderate,Overuse,Yes
+607,Ligament Sprain,Hamstring,Moderate,Overuse,Yes
+608,Tendon Injury,Foot,Moderate,Non-contact,No
+609,Ligament Sprain,Hip,Minor,Contact,No
+610,Fracture,Wrist,Minor,Fall,No
+611,Tendon Injury,Shoulder,Minor,Contact,No
+612,Hamstring Injury,Hamstring,Severe,Contact,No
+613,Tendon Injury,Shoulder,Minor,Non-contact,Yes
+614,Ligament Sprain,Foot,Moderate,Fall,No
+615,Muscle Strain,Hamstring,Moderate,Contact,No
+616,Fracture,Jaw,Minor,Contact,No
+617,Fracture,Head,Minor,Overuse,No
+618,Muscle Strain,Finger,Moderate,Overuse,No
+619,Tendon Injury,Back,Severe,Overuse,No
+620,Back Strain,Back,Severe,Non-contact,Yes
+621,Fracture,Eye,Minor,Overuse,No
+622,Muscle Strain,Finger,Severe,Non-contact,Yes
+623,Contusion,Knee,Moderate,Overuse,No
+624,Fracture,Head,Severe,Fall,No
+625,Fracture,Eye,Minor,Overuse,Yes
+626,Muscle Strain,Hamstring,Minor,Non-contact,Yes
+627,Contusion,Shoulder,Minor,Contact,No
+628,Fracture,Head,Moderate,Contact,Yes
+629,Fracture,Shin,Severe,Non-contact,Yes
+630,Contusion,Hip,Moderate,Fall,No
+631,Finger Injury,Finger,Moderate,Overuse,Yes
+632,Fracture,Foot,Minor,Non-contact,No
+633,Muscle Strain,Back,Moderate,Fall,No
+634,Ligament Sprain,Shoulder,Minor,Overuse,No
+635,Rib Injury,Ribs,Minor,Contact,Yes
+636,Muscle Strain,Wrist,Minor,Contact,No
+637,Fracture,Shin,Severe,Fall,Yes
+638,Muscle Strain,Shoulder,Moderate,Non-contact,No
+639,Tendon Injury,Hip,Moderate,Non-contact,Yes
+640,Tendon Injury,Foot,Moderate,Contact,Yes
+641,Shin Splints,Shin,Minor,Non-contact,No
+642,Fracture,Face,Minor,Contact,No
+643,Fracture,Foot,Moderate,Non-contact,No
+644,Muscle Strain,Ankle,Moderate,Fall,No
+645,Muscle Strain,Achilles,Minor,Contact,No
+646,Ligament Sprain,Knee,Severe,Contact,No
+647,Facial Injury,Face,Moderate,Fall,Yes
+648,Fracture,Eye,Moderate,Contact,Yes
+649,Muscle Strain,Knee,Minor,Non-contact,No
+650,Fracture,Jaw,Minor,Overuse,No
+651,Fracture,Hip,Severe,Overuse,No
+652,Knee Injury,Knee,Moderate,Overuse,Yes
+653,Shin Splints,Shin,Minor,Non-contact,Yes
+654,Contusion,Hamstring,Moderate,Contact,No
+655,Wrist Strain,Wrist,Moderate,Fall,Yes
+656,Fracture,Eye,Severe,Contact,No
+657,Ligament Sprain,Knee,Minor,Non-contact,No
+658,Shin Splints,Shin,Minor,Contact,No
+659,Ligament Sprain,Head,Moderate,Overuse,No
+660,Contusion,Foot,Moderate,Contact,No
+661,Fracture,Calf,Severe,Fall,No
+662,Muscle Strain,Finger,Minor,Overuse,Yes
+663,Contusion,Ankle,Moderate,Contact,Yes
+664,Fracture,Hip,Moderate,Fall,Yes
+665,Tendon Injury,Ankle,Severe,Non-contact,No
+666,Rib Injury,Ribs,Moderate,Non-contact,Yes
+667,Fracture,Shin,Severe,Contact,No
+668,Fracture,Shoulder,Moderate,Overuse,No
+669,Fracture,Head,Moderate,Fall,No
+670,Fracture,Head,Minor,Fall,No
+671,Tendon Injury,Back,Moderate,Fall,No
+672,Contusion,Knee,Moderate,Fall,Yes
+673,Tendon Injury,Calf,Moderate,Fall,No
+674,Fracture,Back,Minor,Fall,No
+675,Fracture,Face,Moderate,Contact,No
+676,Fracture,Head,Minor,Non-contact,Yes
+677,Tendon Injury,Calf,Minor,Overuse,No
+678,Knee Injury,Knee,Severe,Overuse,No
+679,Fracture,Wrist,Moderate,Fall,No
+680,Fracture,Calf,Minor,Overuse,No
+681,Tendon Injury,Foot,Moderate,Fall,Yes
+682,Ligament Sprain,Ankle,Minor,Contact,Yes
+683,Muscle Strain,Hamstring,Minor,Fall,Yes
+684,Fracture,Achilles,Minor,Fall,Yes
+685,Tendon Injury,Knee,Moderate,Contact,Yes
+686,Concussion,Head,Moderate,Overuse,Yes
+687,Muscle Strain,Calf,Minor,Contact,No
+688,Muscle Strain,Hip,Severe,Contact,Yes
+689,Ligament Sprain,Hamstring,Severe,Overuse,No
+690,Muscle Strain,Foot,Minor,Non-contact,No
+691,Ligament Sprain,Ankle,Moderate,Non-contact,No
+692,Ligament Sprain,Head,Moderate,Overuse,Yes
+693,Ligament Sprain,Foot,Moderate,Non-contact,No
+694,Muscle Strain,Finger,Moderate,Contact,No
+695,Ligament Sprain,Ankle,Severe,Fall,Yes
+696,Fracture,Achilles,Severe,Fall,Yes
+697,Contusion,Head,Minor,Contact,No
+698,Achilles Injury,Achilles,Moderate,Overuse,Yes
+699,Ligament Sprain,Hamstring,Moderate,Fall,No
+700,Finger Injury,Finger,Severe,Fall,Yes
+701,Muscle Strain,Knee,Minor,Overuse,No
+702,Fracture,Finger,Minor,Contact,Yes
+703,Ligament Sprain,Head,Severe,Overuse,Yes
+704,Ligament Sprain,Head,Minor,Contact,No
+705,Muscle Strain,Hamstring,Moderate,Overuse,No
+706,Muscle Strain,Back,Minor,Fall,No
+707,Tendon Injury,Hip,Minor,Contact,No
+708,Back Strain,Back,Minor,Fall,Yes
+709,Contusion,Calf,Severe,Fall,No
+710,Contusion,Calf,Severe,Contact,No
+711,Hamstring Injury,Hamstring,Minor,Contact,Yes
+712,Muscle Strain,Shin,Moderate,Non-contact,No
+713,Rib Injury,Ribs,Severe,Fall,Yes
+714,Fracture,Hamstring,Moderate,Contact,No
+715,Tennis Elbow,Elbow,Severe,Overuse,No
+716,Muscle Strain,Ankle,Moderate,Overuse,No
+717,Fracture,Face,Moderate,Non-contact,No
+718,Ligament Sprain,Ankle,Moderate,Non-contact,Yes
+719,Tendon Injury,Calf,Severe,Fall,Yes
+720,Contusion,Hamstring,Severe,Contact,No
+721,Muscle Strain,Finger,Severe,Contact,No
+722,Ligament Sprain,Foot,Minor,Overuse,Yes
+723,Tendon Injury,Hip,Moderate,Fall,No
+724,Facial Injury,Face,Minor,Overuse,No
+725,Contusion,Hip,Moderate,Overuse,No
+726,Finger Injury,Finger,Minor,Fall,Yes
+727,Muscle Strain,Hip,Severe,Fall,Yes
+728,Fracture,Hip,Minor,Overuse,No
+729,Muscle Strain,Finger,Moderate,Non-contact,No
+730,Fracture,Eye,Minor,Fall,No
+731,Muscle Strain,Hip,Moderate,Overuse,No
+732,Ligament Sprain,Hip,Minor,Non-contact,No
+733,Fracture,Finger,Severe,Contact,No
+734,Muscle Strain,Shoulder,Moderate,Fall,No
+735,Tendon Injury,Knee,Moderate,Fall,Yes
+736,Tendon Injury,Shin,Moderate,Non-contact,No
+737,Muscle Strain,Knee,Severe,Fall,No
+738,Contusion,Hip,Moderate,Contact,No
+739,Contusion,Foot,Minor,Non-contact,Yes
+740,Fracture,Back,Minor,Fall,Yes
+741,Finger Injury,Finger,Severe,Contact,No
+742,Contusion,Shoulder,Moderate,Non-contact,No
+743,Fracture,Knee,Moderate,Contact,No
+744,Muscle Strain,Finger,Severe,Non-contact,No
+745,Ligament Sprain,Knee,Minor,Fall,No
+746,Tendon Injury,Achilles,Minor,Fall,No
+747,Shin Splints,Shin,Severe,Contact,Yes
+748,Muscle Strain,Shoulder,Moderate,Non-contact,Yes
+749,Ligament Sprain,Ankle,Minor,Overuse,No
+750,Muscle Strain,Foot,Moderate,Contact,Yes
+751,Muscle Strain,Hip,Moderate,Non-contact,Yes
+752,Tendon Injury,Shin,Minor,Overuse,No
+753,Contusion,Hamstring,Moderate,Non-contact,No
+754,Fracture,Hip,Severe,Contact,Yes
+755,Finger Injury,Finger,Moderate,Non-contact,Yes
+756,Tendon Injury,Knee,Minor,Contact,No
+757,Fracture,Back,Minor,Non-contact,No
+758,Fracture,Calf,Minor,Contact,Yes
+759,Fracture,Hand,Moderate,Non-contact,No
+760,Ligament Sprain,Head,Minor,Non-contact,No
+761,Tendon Injury,Achilles,Moderate,Overuse,Yes
+762,Fracture,Jaw,Moderate,Contact,No
+763,Contusion,Hip,Minor,Overuse,No
+764,Fracture,Ribs,Minor,Overuse,No
+765,Wrist Strain,Wrist,Moderate,Contact,Yes
+766,Ligament Sprain,Knee,Severe,Contact,Yes
+767,Shoulder Injury,Shoulder,Minor,Contact,Yes
+768,Tendon Injury,Calf,Moderate,Overuse,No
+769,Contusion,Calf,Minor,Non-contact,No
+770,Muscle Strain,Ankle,Severe,Fall,No
+771,Fracture,Jaw,Minor,Non-contact,No
+772,Contusion,Shoulder,Moderate,Fall,Yes
+773,Tendon Injury,Hip,Moderate,Overuse,Yes
+774,Tendon Injury,Foot,Severe,Fall,Yes
+775,Fracture,Nose,Severe,Overuse,No
+776,Fracture,Shin,Moderate,Fall,No
+777,Ligament Sprain,Knee,Severe,Fall,No
+778,Muscle Strain,Knee,Minor,Contact,Yes
+779,Fracture,Shoulder,Minor,Non-contact,Yes
+780,Muscle Strain,Achilles,Severe,Contact,No
+781,Tendon Injury,Calf,Minor,Overuse,Yes
+782,Fracture,Hip,Severe,Fall,No
+783,Ligament Sprain,Foot,Moderate,Overuse,No
+784,Tendon Injury,Ankle,Minor,Overuse,Yes
+785,Muscle Strain,Achilles,Moderate,Non-contact,Yes
+786,Fracture,Hand,Moderate,Contact,No
+787,Fracture,Achilles,Minor,Fall,No
+788,Contusion,Hip,Severe,Non-contact,Yes
+789,Tendon Injury,Head,Moderate,Overuse,No
+790,Fracture,Knee,Moderate,Overuse,No
+791,Muscle Strain,Back,Severe,Non-contact,No
+792,Rib Injury,Ribs,Moderate,Fall,Yes
+793,Fracture,Back,Severe,Fall,No
+794,Fracture,Nose,Minor,Fall,No
+795,Muscle Strain,Achilles,Moderate,Overuse,No
+796,Tendon Injury,Ankle,Moderate,Fall,No
+797,Tendon Injury,Hip,Moderate,Contact,Yes
+798,Back Strain,Back,Severe,Fall,Yes
+799,Muscle Strain,Hamstring,Severe,Fall,No
+800,Muscle Strain,Hamstring,Minor,Non-contact,No
+801,Muscle Strain,Achilles,Moderate,Fall,Yes
+802,Muscle Strain,Back,Minor,Contact,No
+803,Ligament Sprain,Head,Severe,Contact,Yes
+804,Muscle Strain,Foot,Minor,Fall,Yes
+805,Tennis Elbow,Elbow,Severe,Non-contact,No
+806,Fracture,Ankle,Minor,Non-contact,No
+807,Contusion,Calf,Severe,Fall,Yes
+808,Fracture,Shin,Minor,Non-contact,No
+809,Ligament Sprain,Foot,Minor,Fall,Yes
+810,Tendon Injury,Achilles,Moderate,Non-contact,No
+811,Ligament Sprain,Calf,Severe,Contact,No
+812,Muscle Strain,Knee,Moderate,Contact,No
+813,Fracture,Ribs,Moderate,Non-contact,No
+814,Muscle Strain,Shoulder,Moderate,Overuse,No
+815,Ligament Sprain,Calf,Minor,Fall,No
+816,Fracture,Nose,Moderate,Contact,No
+817,Knee Injury,Knee,Severe,Fall,Yes
+818,Hamstring Injury,Hamstring,Severe,Fall,No
+819,Tendon Injury,Back,Minor,Non-contact,No
+820,Tendon Injury,Foot,Moderate,Non-contact,Yes
+821,Tendon Injury,Ankle,Minor,Fall,Yes
+822,Tendon Injury,Knee,Moderate,Non-contact,No
+823,Muscle Strain,Head,Minor,Overuse,No
+824,Tendon Injury,Achilles,Minor,Non-contact,No
+825,Muscle Strain,Wrist,Moderate,Non-contact,No
+826,Achilles Injury,Achilles,Moderate,Non-contact,Yes
+827,Fracture,Back,Severe,Contact,Yes
+828,Finger Injury,Finger,Minor,Contact,Yes
+829,Wrist Strain,Wrist,Severe,Contact,Yes
+830,Muscle Strain,Achilles,Minor,Non-contact,No
+831,Contusion,Ankle,Moderate,Non-contact,No
+832,Tendon Injury,Head,Moderate,Fall,No
+833,Tendon Injury,Ankle,Minor,Contact,Yes
+834,Fracture,Hip,Severe,Contact,No
+835,Ligament Sprain,Shoulder,Minor,Contact,Yes
+836,Tennis Elbow,Elbow,Minor,Fall,Yes
+837,Contusion,Foot,Severe,Fall,No
+838,Ligament Sprain,Foot,Minor,Non-contact,Yes
+839,Wrist Strain,Wrist,Severe,Contact,No
+840,Fracture,Hand,Minor,Fall,No
+841,Tendon Injury,Hamstring,Minor,Overuse,Yes
+842,Tendon Injury,Back,Minor,Fall,No
+843,Muscle Strain,Hamstring,Moderate,Non-contact,No
+844,Facial Injury,Face,Minor,Contact,Yes
+845,Tendon Injury,Foot,Moderate,Fall,No
+846,Tendon Injury,Shoulder,Moderate,Fall,No
+847,Contusion,Hamstring,Severe,Fall,No
+848,Muscle Strain,Wrist,Minor,Non-contact,No
+849,Tendon Injury,Hamstring,Moderate,Fall,Yes
+850,Fracture,Knee,Severe,Contact,Yes
+851,Achilles Injury,Achilles,Minor,Fall,Yes
+852,Tendon Injury,Back,Minor,Overuse,No
+853,Muscle Strain,Calf,Severe,Contact,Yes
+854,Fracture,Jaw,Minor,Non-contact,Yes
+855,Tendon Injury,Knee,Moderate,Contact,No
+856,Ligament Sprain,Shoulder,Minor,Non-contact,Yes
+857,Contusion,Shoulder,Minor,Non-contact,No
+858,Fracture,Hip,Moderate,Overuse,No
+859,Muscle Strain,Ankle,Moderate,Contact,No
+860,Tendon Injury,Back,Minor,Contact,No
+861,Contusion,Shoulder,Moderate,Overuse,No
+862,Achilles Injury,Achilles,Moderate,Fall,Yes
+863,Fracture,Achilles,Moderate,Fall,No
+864,Ankle Sprain,Ankle,Severe,Non-contact,Yes
+865,Tendon Injury,Ankle,Moderate,Non-contact,No
+866,Eye Injury,Eye,Minor,Non-contact,Yes
+867,Fracture,Nose,Minor,Non-contact,No
+868,Ligament Sprain,Shoulder,Minor,Contact,No
+869,Muscle Strain,Ankle,Severe,Non-contact,Yes
+870,Eye Injury,Eye,Severe,Fall,No
+871,Finger Injury,Finger,Severe,Overuse,No
+872,Tendon Injury,Head,Severe,Overuse,No
+873,Muscle Strain,Hip,Minor,Overuse,No
+874,Muscle Strain,Hip,Moderate,Fall,No
+875,Ligament Sprain,Head,Minor,Fall,Yes
+876,Muscle Strain,Hip,Severe,Contact,No
+877,Fracture,Foot,Moderate,Overuse,No
+878,Muscle Strain,Wrist,Moderate,Overuse,No
+879,Tendon Injury,Calf,Severe,Overuse,No
+880,Fracture,Finger,Severe,Fall,No
+881,Tendon Injury,Achilles,Moderate,Overuse,No
+882,Fracture,Hip,Severe,Non-contact,Yes
+883,Fracture,Eye,Moderate,Contact,No
+884,Muscle Strain,Achilles,Minor,Overuse,Yes
+885,Muscle Strain,Foot,Moderate,Fall,No
+886,Muscle Strain,Calf,Severe,Non-contact,Yes
+887,Contusion,Head,Minor,Contact,Yes
+888,Muscle Strain,Shin,Minor,Overuse,No
+889,Fracture,Foot,Minor,Contact,Yes
+890,Muscle Strain,Foot,Minor,Contact,No
+891,Muscle Strain,Calf,Minor,Fall,Yes
+892,Tendon Injury,Achilles,Severe,Non-contact,No
+893,Contusion,Shoulder,Severe,Non-contact,No
+894,Fracture,Jaw,Severe,Fall,Yes
+895,Contusion,Hamstring,Minor,Non-contact,No
+896,Facial Injury,Face,Severe,Fall,Yes
+897,Ligament Sprain,Calf,Severe,Fall,No
+898,Tendon Injury,Achilles,Moderate,Contact,No
+899,Fracture,Knee,Severe,Fall,No
+900,Tendon Injury,Knee,Minor,Fall,Yes
+901,Tendon Injury,Foot,Minor,Overuse,No
+902,Muscle Strain,Ankle,Minor,Contact,Yes
+903,Fracture,Shoulder,Severe,Contact,No
+904,Fracture,Finger,Moderate,Fall,Yes
+905,Contusion,Knee,Severe,Non-contact,Yes
+906,Fracture,Hip,Moderate,Contact,No
+907,Muscle Strain,Knee,Severe,Fall,Yes
+908,Tendon Injury,Ankle,Severe,Fall,No
+909,Fracture,Back,Moderate,Contact,No
+910,Fracture,Back,Moderate,Non-contact,No
+911,Contusion,Foot,Moderate,Overuse,No
+912,Hamstring Injury,Hamstring,Minor,Fall,Yes
+913,Tendon Injury,Hamstring,Moderate,Contact,No
+914,Fracture,Wrist,Severe,Contact,Yes
+915,Ligament Sprain,Foot,Severe,Contact,No
+916,Muscle Strain,Finger,Minor,Non-contact,Yes
+917,Tendon Injury,Back,Severe,Contact,No
+918,Muscle Strain,Ankle,Minor,Overuse,Yes
+919,Tendon Injury,Hamstring,Severe,Non-contact,Yes
+920,Tendon Injury,Ankle,Moderate,Contact,Yes
+921,Tendon Injury,Achilles,Severe,Overuse,No
+922,Fracture,Achilles,Severe,Overuse,Yes
+923,Knee Injury,Knee,Severe,Contact,Yes
+924,Fracture,Foot,Moderate,Fall,Yes
+925,Tendon Injury,Calf,Severe,Non-contact,No
+926,Muscle Strain,Back,Minor,Overuse,No
+927,Muscle Strain,Ankle,Minor,Overuse,No
+928,Contusion,Knee,Minor,Fall,No
+929,Ligament Sprain,Hamstring,Severe,Contact,No
+930,Concussion,Head,Moderate,Contact,Yes
+931,Fracture,Ribs,Severe,Non-contact,Yes
+932,Contusion,Foot,Minor,Contact,No
+933,Fracture,Hamstring,Severe,Fall,No
+934,Tendon Injury,Hip,Minor,Contact,Yes
+935,Fracture,Foot,Moderate,Contact,No
+936,Fracture,Calf,Severe,Non-contact,No
+937,Muscle Strain,Head,Minor,Non-contact,No
+938,Ligament Sprain,Shoulder,Moderate,Fall,Yes
+939,Rib Injury,Ribs,Severe,Contact,No
+940,Tendon Injury,Ankle,Moderate,Overuse,No
+941,Tendon Injury,Shin,Moderate,Contact,Yes
+942,Muscle Strain,Head,Severe,Contact,No
+943,Tendon Injury,Hamstring,Moderate,Overuse,Yes
+944,Fracture,Face,Minor,Non-contact,No
+945,Muscle Strain,Back,Minor,Fall,Yes
+946,Muscle Strain,Shin,Severe,Contact,No
+947,Fracture,Eye,Minor,Contact,No
+948,Fracture,Back,Severe,Contact,No
+949,Muscle Strain,Ankle,Minor,Non-contact,Yes
+950,Ligament Sprain,Head,Severe,Fall,No
+951,Contusion,Ankle,Severe,Fall,No
+952,Ligament Sprain,Hip,Moderate,Contact,No
+953,Fracture,Achilles,Moderate,Overuse,No
+954,Muscle Strain,Shin,Minor,Non-contact,No
+955,Contusion,Shoulder,Moderate,Overuse,Yes
+956,Tendon Injury,Knee,Moderate,Fall,No
+957,Tendon Injury,Shin,Moderate,Fall,No
+958,Tendon Injury,Foot,Minor,Fall,Yes
+959,Tendon Injury,Shin,Minor,Contact,Yes
+960,Tendon Injury,Shoulder,Moderate,Overuse,No
+961,Muscle Strain,Knee,Moderate,Fall,Yes
+962,Ligament Sprain,Shoulder,Moderate,Overuse,No
+963,Ligament Sprain,Foot,Severe,Non-contact,Yes
+964,Muscle Strain,Knee,Severe,Contact,No
+965,Ligament Sprain,Ankle,Severe,Overuse,No
+966,Ankle Sprain,Ankle,Severe,Contact,Yes
+967,Muscle Strain,Ankle,Moderate,Contact,Yes
+968,Contusion,Calf,Minor,Overuse,Yes
+969,Fracture,Back,Moderate,Overuse,No
+970,Fracture,Foot,Severe,Non-contact,No
+971,Fracture,Ribs,Moderate,Non-contact,Yes
+972,Tendon Injury,Knee,Minor,Contact,Yes
+973,Fracture,Ankle,Severe,Non-contact,No
+974,Tendon Injury,Hip,Severe,Contact,No
+975,Fracture,Achilles,Minor,Overuse,Yes
+976,Fracture,Shoulder,Severe,Non-contact,Yes
+977,Fracture,Shoulder,Minor,Contact,Yes
+978,Tendon Injury,Knee,Severe,Contact,No
+979,Fracture,Ribs,Severe,Overuse,Yes
+980,Contusion,Foot,Minor,Non-contact,No
+981,Muscle Strain,Knee,Minor,Overuse,Yes
+982,Fracture,Wrist,Minor,Overuse,Yes
+983,Fracture,Foot,Minor,Fall,No
+984,Fracture,Hamstring,Severe,Overuse,Yes
+985,Tendon Injury,Shin,Minor,Non-contact,No
+986,Muscle Strain,Wrist,Severe,Contact,Yes
+987,Fracture,Calf,Severe,Overuse,No
+988,Ligament Sprain,Foot,Severe,Non-contact,No
+989,Ligament Sprain,Calf,Moderate,Overuse,Yes
+990,Muscle Strain,Calf,Severe,Non-contact,No
+991,Contusion,Head,Severe,Non-contact,No
+992,Fracture,Wrist,Moderate,Non-contact,No
+993,Ankle Sprain,Ankle,Minor,Overuse,Yes
+994,Fracture,Hip,Moderate,Fall,No
+995,Tendon Injury,Hamstring,Severe,Overuse,No
+996,Fracture,Achilles,Severe,Non-contact,No
+997,Contusion,Ankle,Minor,Fall,No
+998,Contusion,Calf,Moderate,Non-contact,No
+999,Contusion,Knee,Minor,Contact,Yes
+1000,Muscle Strain,Finger,Minor,Overuse,No
+1001,Fracture,Finger,Minor,Contact,No
+1002,Ligament Sprain,Hamstring,Minor,Non-contact,Yes
+1003,Tendon Injury,Achilles,Minor,Fall,Yes
+1004,Muscle Strain,Calf,Severe,Overuse,Yes
+1005,Fracture,Shoulder,Severe,Non-contact,No
+1006,Tendon Injury,Shin,Severe,Overuse,No
+1007,Shin Splints,Shin,Minor,Overuse,Yes
+1008,Ankle Sprain,Ankle,Moderate,Non-contact,Yes
+1009,Ligament Sprain,Foot,Moderate,Overuse,Yes
+1010,Tendon Injury,Hip,Moderate,Overuse,No
+1011,Contusion,Hamstring,Moderate,Fall,No
+1012,Muscle Strain,Hip,Severe,Fall,No
+1013,Ligament Sprain,Hamstring,Severe,Contact,Yes
+1014,Contusion,Hip,Severe,Fall,No
+1015,Contusion,Ankle,Minor,Overuse,No
+1016,Fracture,Hamstring,Moderate,Non-contact,No
+1017,Fracture,Shoulder,Moderate,Overuse,Yes
+1018,Fracture,Nose,Minor,Overuse,No
+1019,Tendon Injury,Calf,Severe,Fall,No
+1020,Fracture,Shin,Severe,Overuse,No
+1021,Muscle Strain,Finger,Minor,Fall,Yes
+1022,Ligament Sprain,Hamstring,Moderate,Overuse,No
+1023,Fracture,Back,Moderate,Overuse,Yes
+1024,Ligament Sprain,Calf,Minor,Fall,Yes
+1025,Muscle Strain,Achilles,Minor,Non-contact,Yes
+1026,Achilles Injury,Achilles,Severe,Overuse,Yes
+1027,Ligament Sprain,Calf,Minor,Non-contact,No
+1028,Tendon Injury,Calf,Minor,Fall,No
+1029,Fracture,Shin,Moderate,Non-contact,Yes
+1030,Achilles Injury,Achilles,Minor,Overuse,Yes
+1031,Fracture,Face,Severe,Non-contact,No
+1032,Fracture,Head,Moderate,Non-contact,Yes
+1033,Fracture,Calf,Minor,Fall,Yes
+1034,Shin Splints,Shin,Severe,Fall,Yes
+1035,Fracture,Ribs,Moderate,Contact,No
+1036,Tendon Injury,Hamstring,Severe,Non-contact,No
+1037,Fracture,Finger,Severe,Overuse,No
+1038,Contusion,Foot,Minor,Overuse,No
+1039,Tendon Injury,Foot,Severe,Non-contact,Yes
+1040,Fracture,Head,Moderate,Overuse,Yes
+1041,Tendon Injury,Ankle,Minor,Fall,No
+1042,Tendon Injury,Back,Moderate,Fall,Yes
+1043,Fracture,Hand,Moderate,Overuse,No
+1044,Ligament Sprain,Hamstring,Moderate,Fall,Yes
+1045,Fracture,Finger,Minor,Fall,Yes
+1046,Eye Injury,Eye,Severe,Non-contact,Yes
+1047,Ligament Sprain,Foot,Severe,Contact,Yes
+1048,Muscle Strain,Hip,Minor,Contact,Yes
+1049,Fracture,Back,Severe,Non-contact,No
+1050,Fracture,Achilles,Minor,Contact,Yes
+1051,Contusion,Head,Moderate,Fall,No
+1052,Muscle Strain,Foot,Minor,Contact,Yes
+1053,Ligament Sprain,Head,Moderate,Fall,No
+1054,Contusion,Calf,Minor,Contact,No
+1055,Muscle Strain,Shin,Minor,Contact,No
+1056,Fracture,Head,Minor,Fall,Yes
+1057,Muscle Strain,Back,Moderate,Non-contact,Yes
+1058,Muscle Strain,Hamstring,Severe,Non-contact,Yes
+1059,Contusion,Calf,Minor,Fall,Yes
+1060,Contusion,Ankle,Moderate,Fall,No
+1061,Wrist Strain,Wrist,Severe,Fall,Yes
+1062,Contusion,Shoulder,Severe,Contact,Yes
+1063,Ligament Sprain,Hamstring,Moderate,Non-contact,Yes
+1064,Fracture,Eye,Minor,Non-contact,No
+1065,Fracture,Head,Minor,Overuse,Yes
+1066,Fracture,Shoulder,Moderate,Fall,No
+1067,Fracture,Back,Severe,Fall,Yes
+1068,Rib Injury,Ribs,Moderate,Contact,Yes
+1069,Achilles Injury,Achilles,Severe,Contact,Yes
+1070,Tendon Injury,Hamstring,Moderate,Fall,No
+1071,Shin Splints,Shin,Moderate,Fall,Yes
+1072,Tendon Injury,Calf,Minor,Fall,Yes
+1073,Facial Injury,Face,Severe,Non-contact,Yes
+1074,Fracture,Eye,Moderate,Non-contact,No
+1075,Fracture,Eye,Severe,Fall,No
+1076,Muscle Strain,Hamstring,Minor,Overuse,Yes
+1077,Ligament Sprain,Hip,Minor,Overuse,Yes
+1078,Contusion,Ankle,Minor,Contact,No
+1079,Fracture,Eye,Moderate,Overuse,No
+1080,Fracture,Hamstring,Minor,Contact,Yes
+1081,Fracture,Ankle,Moderate,Fall,No
+1082,Muscle Strain,Hip,Minor,Fall,Yes
+1083,Ligament Sprain,Ankle,Moderate,Contact,No
+1084,Fracture,Face,Minor,Overuse,Yes
+1085,Ligament Sprain,Foot,Minor,Fall,No
+1086,Contusion,Ankle,Minor,Non-contact,No
+1087,Fracture,Wrist,Severe,Fall,No
+1088,Ligament Sprain,Calf,Severe,Non-contact,No
+1089,Fracture,Back,Minor,Non-contact,Yes
+1090,Ligament Sprain,Knee,Minor,Contact,No
+1091,Tendon Injury,Calf,Severe,Overuse,Yes
+1092,Tennis Elbow,Elbow,Moderate,Fall,Yes
+1093,Tendon Injury,Calf,Minor,Non-contact,Yes
+1094,Fracture,Hand,Minor,Non-contact,Yes
+1095,Fracture,Shin,Severe,Fall,No
+1096,Fracture,Hamstring,Severe,Contact,No
+1097,Muscle Strain,Back,Severe,Fall,No
+1098,Muscle Strain,Back,Severe,Non-contact,Yes
+1099,Fracture,Eye,Moderate,Fall,Yes
+1100,Muscle Strain,Shoulder,Severe,Non-contact,Yes
+1101,Muscle Strain,Head,Minor,Fall,No
+1102,Contusion,Ankle,Severe,Overuse,No
+1103,Muscle Strain,Foot,Severe,Non-contact,Yes
+1104,Fracture,Eye,Severe,Non-contact,No
+1105,Fracture,Shoulder,Moderate,Non-contact,Yes
+1106,Tendon Injury,Back,Severe,Fall,No
+1107,Facial Injury,Face,Severe,Overuse,Yes
+1108,Tendon Injury,Head,Moderate,Non-contact,No
+1109,Tendon Injury,Achilles,Minor,Contact,Yes
+1110,Knee Injury,Knee,Severe,Non-contact,Yes
+1111,Fracture,Shin,Minor,Overuse,No
+1112,Contusion,Foot,Severe,Overuse,No
+1113,Contusion,Knee,Severe,Non-contact,No
+1114,Contusion,Shoulder,Minor,Fall,Yes
+1115,Muscle Strain,Head,Minor,Contact,No
+1116,Wrist Strain,Wrist,Severe,Non-contact,Yes
+1117,Contusion,Hamstring,Minor,Contact,No
+1118,Fracture,Finger,Moderate,Non-contact,Yes
+1119,Fracture,Ribs,Moderate,Fall,No
+1120,Fracture,Head,Severe,Contact,Yes
+1121,Tendon Injury,Head,Minor,Overuse,Yes
+1122,Muscle Strain,Head,Moderate,Overuse,Yes
+1123,Muscle Strain,Finger,Moderate,Fall,No
+1124,Ligament Sprain,Ankle,Severe,Contact,No
+1125,Muscle Strain,Achilles,Severe,Contact,Yes
+1126,Contusion,Head,Moderate,Contact,Yes
+1127,Muscle Strain,Hamstring,Severe,Overuse,No
+1128,Muscle Strain,Achilles,Severe,Non-contact,No
+1129,Fracture,Hand,Severe,Overuse,No
+1130,Contusion,Knee,Moderate,Contact,Yes
+1131,Muscle Strain,Shin,Severe,Fall,No
+1132,Contusion,Hip,Severe,Non-contact,No
+1133,Contusion,Foot,Moderate,Non-contact,No
+1134,Fracture,Ankle,Moderate,Non-contact,Yes
+1135,Tendon Injury,Hamstring,Moderate,Overuse,No
+1136,Contusion,Head,Severe,Contact,No
+1137,Muscle Strain,Knee,Severe,Overuse,Yes
+1138,Fracture,Knee,Moderate,Overuse,Yes
+1139,Tendon Injury,Shoulder,Moderate,Overuse,Yes
+1140,Muscle Strain,Wrist,Severe,Overuse,No
+1141,Fracture,Finger,Severe,Non-contact,No
+1142,Contusion,Head,Moderate,Overuse,Yes
+1143,Tendon Injury,Hamstring,Minor,Fall,Yes
+1144,Tendon Injury,Shoulder,Severe,Non-contact,No
+1145,Contusion,Knee,Moderate,Fall,No
+1146,Fracture,Achilles,Severe,Contact,No
+1147,Fracture,Nose,Moderate,Contact,Yes
+1148,Muscle Strain,Wrist,Minor,Fall,Yes
+1149,Tendon Injury,Shoulder,Minor,Contact,Yes
+1150,Contusion,Head,Severe,Fall,No
+1151,Contusion,Shoulder,Severe,Overuse,No
+1152,Fracture,Nose,Moderate,Overuse,No
+1153,Muscle Strain,Finger,Moderate,Non-contact,Yes
+1154,Muscle Strain,Foot,Severe,Overuse,No
+1155,Fracture,Ankle,Severe,Contact,No
+1156,Fracture,Hamstring,Moderate,Fall,No
+1157,Tendon Injury,Shin,Severe,Contact,No
+1158,Shin Splints,Shin,Severe,Non-contact,Yes
+1159,Ligament Sprain,Shoulder,Moderate,Non-contact,No
+1160,Muscle Strain,Hamstring,Severe,Contact,No
+1161,Muscle Strain,Shoulder,Severe,Non-contact,No
+1162,Tendon Injury,Shin,Moderate,Overuse,No
+1163,Contusion,Foot,Minor,Fall,Yes
+1164,Contusion,Hamstring,Moderate,Non-contact,Yes
+1165,Muscle Strain,Hamstring,Moderate,Contact,Yes
+1166,Finger Injury,Finger,Minor,Overuse,Yes
+1167,Muscle Strain,Head,Severe,Contact,Yes
+1168,Tendon Injury,Ankle,Severe,Contact,No
+1169,Fracture,Shin,Minor,Fall,Yes
+1170,Fracture,Calf,Severe,Contact,No
+1171,Tendon Injury,Foot,Severe,Overuse,No
+1172,Muscle Strain,Calf,Severe,Contact,No
+1173,Muscle Strain,Achilles,Moderate,Contact,Yes
+1174,Fracture,Shoulder,Moderate,Fall,Yes
+1175,Fracture,Calf,Severe,Non-contact,Yes
+1176,Fracture,Hamstring,Severe,Non-contact,No
+1177,Rib Injury,Ribs,Severe,Contact,Yes
+1178,Contusion,Hip,Severe,Contact,No
+1179,Ligament Sprain,Hamstring,Moderate,Contact,Yes
+1180,Ligament Sprain,Shoulder,Severe,Fall,No
+1181,Fracture,Face,Minor,Overuse,No
+1182,Contusion,Hip,Moderate,Non-contact,Yes
+1183,Fracture,Nose,Moderate,Fall,Yes
+1184,Rib Injury,Ribs,Severe,Non-contact,Yes
+1185,Muscle Strain,Knee,Severe,Non-contact,No
+1186,Ligament Sprain,Calf,Moderate,Contact,No
+1187,Fracture,Ribs,Severe,Overuse,No
+1188,Fracture,Ribs,Severe,Non-contact,No
+1189,Contusion,Hamstring,Moderate,Contact,Yes
+1190,Tendon Injury,Knee,Severe,Overuse,No
+1191,Contusion,Head,Moderate,Fall,Yes
+1192,Ligament Sprain,Ankle,Moderate,Overuse,Yes
+1193,Fracture,Achilles,Moderate,Overuse,Yes
+1194,Fracture,Hip,Severe,Non-contact,No
+1195,Contusion,Shoulder,Moderate,Contact,Yes
+1196,Tendon Injury,Head,Minor,Fall,Yes
+1197,Tendon Injury,Shin,Severe,Non-contact,Yes
+1198,Ligament Sprain,Head,Moderate,Contact,No
+1199,Muscle Strain,Back,Minor,Non-contact,Yes
+1200,Muscle Strain,Foot,Moderate,Non-contact,Yes
+1201,Fracture,Jaw,Severe,Non-contact,No
+1202,Fracture,Knee,Moderate,Non-contact,Yes
+1203,Ligament Sprain,Hamstring,Moderate,Contact,No
+1204,Fracture,Shin,Minor,Fall,No
+1205,Muscle Strain,Finger,Minor,Contact,Yes
+1206,Muscle Strain,Knee,Moderate,Overuse,Yes
+1207,Ligament Sprain,Ankle,Moderate,Fall,No
+1208,Tendon Injury,Head,Minor,Contact,No
+1209,Muscle Strain,Head,Moderate,Non-contact,Yes
+1210,Fracture,Achilles,Moderate,Contact,Yes
+1211,Fracture,Wrist,Minor,Contact,Yes
+1212,Ligament Sprain,Hamstring,Severe,Non-contact,Yes
+1213,Fracture,Foot,Severe,Contact,Yes
+1214,Fracture,Face,Severe,Contact,No
+1215,Tendon Injury,Back,Moderate,Non-contact,No
+1216,Fracture,Foot,Severe,Fall,No
+1217,Tendon Injury,Hip,Severe,Overuse,Yes
+1218,Tendon Injury,Foot,Severe,Fall,No
+1219,Contusion,Knee,Moderate,Non-contact,No
+1220,Contusion,Knee,Minor,Fall,Yes
+1221,Contusion,Ankle,Minor,Fall,Yes
+1222,Fracture,Nose,Severe,Fall,Yes
+1223,Fracture,Eye,Minor,Non-contact,Yes
+1224,Fracture,Hip,Minor,Overuse,Yes
+1225,Tendon Injury,Hamstring,Moderate,Contact,Yes
+1226,Muscle Strain,Shin,Moderate,Fall,No
+1227,Fracture,Calf,Moderate,Fall,Yes
+1228,Muscle Strain,Calf,Moderate,Non-contact,Yes
+1229,Muscle Strain,Achilles,Severe,Overuse,Yes
+1230,Fracture,Calf,Severe,Contact,Yes
+1231,Muscle Strain,Achilles,Severe,Fall,Yes
+1232,Fracture,Shin,Minor,Non-contact,Yes
+1233,Contusion,Hamstring,Moderate,Overuse,No
+1234,Fracture,Hand,Minor,Contact,Yes
+1235,Fracture,Hip,Minor,Fall,Yes
+1236,Muscle Strain,Head,Moderate,Fall,Yes
+1237,Muscle Strain,Back,Moderate,Fall,Yes
+1238,Ligament Sprain,Head,Moderate,Non-contact,No
+1239,Contusion,Hip,Minor,Fall,Yes
+1240,Contusion,Calf,Severe,Overuse,No
+1241,Ligament Sprain,Head,Minor,Fall,No
+1242,Contusion,Shoulder,Minor,Overuse,Yes
+1243,Contusion,Ankle,Minor,Non-contact,Yes
+1244,Muscle Strain,Head,Moderate,Non-contact,No
+1245,Eye Injury,Eye,Severe,Fall,Yes
+1246,Tendon Injury,Head,Minor,Non-contact,No
+1247,Fracture,Head,Moderate,Fall,Yes
+1248,Muscle Strain,Foot,Severe,Fall,No
+1249,Fracture,Foot,Severe,Fall,Yes
+1250,Contusion,Knee,Moderate,Contact,No
+1251,Contusion,Knee,Severe,Contact,No
+1252,Ligament Sprain,Foot,Moderate,Non-contact,Yes
+1253,Contusion,Head,Severe,Contact,Yes
+1254,Fracture,Shin,Moderate,Non-contact,No
+1255,Fracture,Back,Severe,Overuse,Yes
+1256,Ligament Sprain,Shoulder,Moderate,Contact,Yes
+1257,Fracture,Shoulder,Severe,Overuse,No
+1258,Ligament Sprain,Hip,Severe,Contact,No
+1259,Ligament Sprain,Head,Minor,Non-contact,Yes
+1260,Muscle Strain,Hamstring,Moderate,Fall,Yes
+1261,Contusion,Knee,Severe,Overuse,No
+1262,Tendon Injury,Head,Severe,Contact,Yes
+1263,Muscle Strain,Back,Moderate,Overuse,No
+1264,Tendon Injury,Achilles,Minor,Contact,No
+1265,Tendon Injury,Hip,Severe,Non-contact,Yes
+1266,Fracture,Wrist,Moderate,Overuse,Yes
+1267,Muscle Strain,Shoulder,Moderate,Contact,No
+1268,Tendon Injury,Calf,Severe,Contact,No
+1269,Tennis Elbow,Elbow,Severe,Fall,Yes
+1270,Ligament Sprain,Hip,Moderate,Overuse,No
+1271,Fracture,Jaw,Severe,Contact,No
+1272,Fracture,Eye,Moderate,Non-contact,Yes
+1273,Contusion,Hip,Severe,Fall,Yes
+1274,Tendon Injury,Achilles,Moderate,Fall,No
+1275,Contusion,Hamstring,Moderate,Fall,Yes
+1276,Ligament Sprain,Calf,Minor,Overuse,Yes
+1277,Ligament Sprain,Hip,Severe,Non-contact,Yes
+1278,Muscle Strain,Shin,Moderate,Contact,Yes
+1279,Muscle Strain,Hip,Moderate,Contact,Yes
+1280,Muscle Strain,Finger,Severe,Overuse,No
+1281,Ligament Sprain,Ankle,Minor,Fall,Yes
+1282,Fracture,Foot,Moderate,Non-contact,Yes
+1283,Contusion,Foot,Severe,Fall,Yes
+1284,Ligament Sprain,Ankle,Severe,Non-contact,No
+1285,Contusion,Shoulder,Minor,Overuse,No
+1286,Ligament Sprain,Head,Severe,Non-contact,No
+1287,Ligament Sprain,Hamstring,Moderate,Non-contact,No
+1288,Fracture,Hamstring,Moderate,Fall,Yes
+1289,Fracture,Knee,Minor,Overuse,Yes
+1290,Fracture,Ribs,Moderate,Fall,Yes
+1291,Contusion,Ankle,Severe,Non-contact,Yes
+1292,Contusion,Hamstring,Severe,Non-contact,No
+1293,Muscle Strain,Hip,Moderate,Contact,No
+1294,Ligament Sprain,Hamstring,Severe,Fall,No
+1295,Finger Injury,Finger,Severe,Non-contact,Yes
+1296,Ligament Sprain,Ankle,Moderate,Fall,Yes
+1297,Fracture,Hand,Severe,Overuse,Yes
+1298,Fracture,Shin,Moderate,Overuse,Yes
+1299,Contusion,Knee,Minor,Overuse,No
+1300,Fracture,Nose,Severe,Fall,No
+1301,Ligament Sprain,Shoulder,Severe,Overuse,No
+1302,Fracture,Eye,Minor,Fall,Yes
+1303,Tendon Injury,Hamstring,Severe,Contact,Yes
+1304,Contusion,Foot,Moderate,Overuse,Yes
+1305,Contusion,Head,Severe,Overuse,No
+1306,Muscle Strain,Achilles,Severe,Non-contact,Yes
+1307,Fracture,Nose,Minor,Fall,Yes
+1308,Ligament Sprain,Head,Minor,Overuse,Yes
+1309,Fracture,Head,Moderate,Non-contact,No
+1310,Tendon Injury,Shoulder,Severe,Overuse,Yes
+1311,Fracture,Hand,Severe,Fall,Yes
+1312,Ligament Sprain,Knee,Moderate,Fall,No
+1313,Fracture,Hip,Moderate,Overuse,Yes
+1314,Fracture,Foot,Severe,Overuse,Yes
+1315,Contusion,Head,Minor,Fall,Yes
+1316,Muscle Strain,Achilles,Severe,Overuse,No
+1317,Muscle Strain,Calf,Severe,Fall,Yes
+1318,Contusion,Hamstring,Minor,Overuse,No
+1319,Fracture,Hamstring,Moderate,Overuse,Yes
+1320,Fracture,Shoulder,Minor,Overuse,Yes
+1321,Tendon Injury,Knee,Severe,Fall,Yes
+1322,Fracture,Eye,Severe,Non-contact,Yes
+1323,Contusion,Knee,Minor,Non-contact,No
+1324,Ligament Sprain,Shoulder,Minor,Fall,Yes
+1325,Muscle Strain,Achilles,Moderate,Overuse,Yes
+1326,Muscle Strain,Ankle,Severe,Contact,No
+1327,Tendon Injury,Shin,Severe,Non-contact,No
+1328,Fracture,Ribs,Minor,Fall,No
+1329,Fracture,Jaw,Moderate,Non-contact,Yes
+1330,Fracture,Achilles,Severe,Contact,Yes
+1331,Fracture,Jaw,Moderate,Fall,No
+1332,Ligament Sprain,Head,Moderate,Contact,Yes
+1333,Muscle Strain,Finger,Moderate,Contact,Yes
+1334,Fracture,Foot,Minor,Fall,Yes
+1335,Contusion,Calf,Moderate,Non-contact,Yes
+1336,Ligament Sprain,Knee,Moderate,Contact,No
+1337,Fracture,Nose,Moderate,Overuse,Yes
+1338,Fracture,Hamstring,Severe,Fall,Yes
+1339,Fracture,Hand,Severe,Contact,Yes
+1340,Fracture,Achilles,Severe,Fall,No
+1341,Muscle Strain,Hip,Moderate,Overuse,Yes
+1342,Fracture,Wrist,Moderate,Overuse,No
+1343,Tendon Injury,Head,Minor,Overuse,No
+1344,Tendon Injury,Shin,Moderate,Non-contact,Yes
+1345,Fracture,Knee,Severe,Overuse,Yes
+1346,Tendon Injury,Shoulder,Minor,Overuse,Yes
+1347,Fracture,Foot,Severe,Non-contact,Yes
+1348,Tendon Injury,Achilles,Moderate,Fall,Yes
+1349,Contusion,Foot,Moderate,Fall,No
+1350,Contusion,Hamstring,Minor,Overuse,Yes
+1351,Contusion,Calf,Moderate,Overuse,Yes
+1352,Fracture,Ankle,Minor,Overuse,Yes
+1353,Ligament Sprain,Hip,Minor,Non-contact,Yes
+1354,Hamstring Injury,Hamstring,Severe,Non-contact,Yes
+1355,Fracture,Ribs,Moderate,Overuse,No
+1356,Muscle Strain,Wrist,Severe,Fall,No
+1357,Fracture,Hamstring,Moderate,Non-contact,Yes
+1358,Fracture,Ankle,Severe,Overuse,No
+1359,Fracture,Jaw,Minor,Overuse,Yes
+1360,Tendon Injury,Achilles,Severe,Contact,No
+1361,Ligament Sprain,Shoulder,Severe,Overuse,Yes
+1362,Ligament Sprain,Head,Moderate,Non-contact,Yes
+1363,Contusion,Foot,Minor,Contact,Yes
+1364,Ligament Sprain,Head,Moderate,Fall,Yes
+1365,Ligament Sprain,Foot,Severe,Fall,No
+1366,Tendon Injury,Shoulder,Moderate,Fall,Yes
+1367,Tendon Injury,Head,Severe,Non-contact,No
+1368,Fracture,Shin,Minor,Overuse,Yes
+1369,Ligament Sprain,Foot,Minor,Contact,Yes
+1370,Fracture,Finger,Minor,Non-contact,No
+1371,Muscle Strain,Hip,Severe,Non-contact,No
+1372,Tendon Injury,Shin,Severe,Contact,Yes
+1373,Tendon Injury,Hip,Minor,Non-contact,Yes
+1374,Fracture,Nose,Moderate,Non-contact,No
+1375,Contusion,Head,Minor,Non-contact,Yes
+1376,Fracture,Face,Minor,Non-contact,Yes
+1377,Tendon Injury,Hip,Severe,Overuse,No
+1378,Fracture,Calf,Moderate,Non-contact,Yes
+1379,Ligament Sprain,Knee,Minor,Overuse,Yes
+1380,Tendon Injury,Hamstring,Severe,Contact,No
+1381,Fracture,Ankle,Minor,Fall,Yes
+1382,Tendon Injury,Shin,Moderate,Fall,Yes
+1383,Fracture,Finger,Severe,Fall,Yes
+1384,Muscle Strain,Hamstring,Severe,Fall,Yes
+1385,Fracture,Wrist,Moderate,Contact,No
+1386,Fracture,Hand,Minor,Contact,No
+1387,Muscle Strain,Ankle,Severe,Overuse,No
+1388,Ligament Sprain,Hip,Severe,Fall,Yes
+1389,Fracture,Ribs,Severe,Fall,No
+1390,Tendon Injury,Head,Moderate,Contact,Yes
+1391,Muscle Strain,Back,Severe,Overuse,No
+1392,Achilles Injury,Achilles,Severe,Non-contact,Yes
+1393,Fracture,Jaw,Minor,Contact,Yes
+1394,Ligament Sprain,Head,Severe,Non-contact,Yes
+1395,Tendon Injury,Knee,Severe,Contact,Yes
+1396,Muscle Strain,Wrist,Moderate,Contact,No
+1397,Fracture,Achilles,Moderate,Fall,Yes
+1398,Hamstring Injury,Hamstring,Moderate,Non-contact,Yes
+1399,Tendon Injury,Shoulder,Minor,Fall,No
+1400,Fracture,Wrist,Moderate,Fall,Yes
+1401,Contusion,Foot,Minor,Overuse,Yes
+1402,Muscle Strain,Hip,Moderate,Fall,Yes
+1403,Muscle Strain,Shoulder,Severe,Overuse,No
+1404,Ligament Sprain,Hip,Minor,Fall,Yes
+1405,Muscle Strain,Knee,Severe,Contact,Yes
+1406,Contusion,Knee,Moderate,Non-contact,Yes
+1407,Contusion,Hip,Severe,Overuse,No
+1408,Achilles Injury,Achilles,Severe,Fall,Yes
+1409,Muscle Strain,Back,Severe,Fall,Yes
+1410,Tendon Injury,Foot,Minor,Overuse,Yes
+1411,Fracture,Back,Minor,Overuse,Yes
+1412,Muscle Strain,Head,Severe,Overuse,No
+1413,Ligament Sprain,Knee,Moderate,Fall,Yes
+1414,Ligament Sprain,Calf,Minor,Contact,Yes
+1415,Fracture,Nose,Moderate,Non-contact,Yes
+1416,Contusion,Ankle,Minor,Contact,Yes
+1417,Tendon Injury,Back,Severe,Non-contact,No
+1418,Shin Splints,Shin,Severe,Overuse,Yes
+1419,Tendon Injury,Hamstring,Minor,Non-contact,Yes
+1420,Tendon Injury,Calf,Moderate,Contact,No
+1421,Muscle Strain,Ankle,Moderate,Overuse,Yes
+1422,Rib Injury,Ribs,Minor,Overuse,Yes
+1423,Contusion,Foot,Moderate,Non-contact,Yes
+1424,Fracture,Nose,Minor,Overuse,Yes
+1425,Fracture,Wrist,Severe,Overuse,No
+1426,Fracture,Hand,Moderate,Fall,Yes
+1427,Muscle Strain,Shoulder,Severe,Fall,Yes
+1428,Contusion,Ankle,Severe,Non-contact,No
+1429,Tendon Injury,Head,Severe,Fall,No
+1430,Fracture,Calf,Severe,Overuse,Yes
+1431,Fracture,Shoulder,Severe,Overuse,Yes
+1432,Ligament Sprain,Knee,Moderate,Overuse,Yes
+1433,Fracture,Ankle,Moderate,Fall,Yes
+1434,Muscle Strain,Calf,Moderate,Fall,Yes
+1435,Muscle Strain,Wrist,Severe,Non-contact,No
+1436,Muscle Strain,Wrist,Severe,Non-contact,Yes
+1437,Fracture,Face,Minor,Contact,Yes
+1438,Muscle Strain,Shin,Severe,Non-contact,No
+1439,Fracture,Wrist,Severe,Overuse,Yes
+1440,Hamstring Injury,Hamstring,Severe,Overuse,Yes
+1441,Tendon Injury,Knee,Minor,Overuse,Yes
+1442,Ligament Sprain,Hamstring,Severe,Fall,Yes
+1443,Tendon Injury,Achilles,Severe,Fall,No
+1444,Tendon Injury,Hip,Severe,Contact,Yes
+1445,Ligament Sprain,Knee,Minor,Contact,Yes
+1446,Muscle Strain,Knee,Moderate,Non-contact,Yes
+1447,Fracture,Calf,Minor,Overuse,Yes
+1448,Fracture,Ankle,Minor,Non-contact,Yes
+1449,Tendon Injury,Head,Moderate,Non-contact,Yes
+1450,Tendon Injury,Back,Moderate,Overuse,Yes
+1451,Fracture,Back,Moderate,Contact,Yes
+1452,Tendon Injury,Ankle,Moderate,Overuse,Yes
+1453,Ligament Sprain,Head,Severe,Fall,Yes
+1454,Muscle Strain,Foot,Severe,Contact,Yes
+1455,Muscle Strain,Shoulder,Moderate,Contact,Yes
+1456,Contusion,Shoulder,Minor,Contact,Yes
+1457,Fracture,Back,Severe,Non-contact,Yes
+1458,Muscle Strain,Hamstring,Moderate,Non-contact,Yes
+1459,Muscle Strain,Back,Minor,Contact,Yes
+1460,Ligament Sprain,Head,Minor,Overuse,No
+1461,Fracture,Nose,Severe,Contact,No
+1462,Fracture,Wrist,Severe,Contact,No
+1463,Fracture,Achilles,Severe,Non-contact,Yes
+1464,Muscle Strain,Foot,Moderate,Fall,Yes
+1465,Knee Injury,Knee,Severe,Overuse,Yes
+1466,Contusion,Shoulder,Minor,Non-contact,Yes
+1467,Fracture,Eye,Minor,Contact,Yes
+1468,Tendon Injury,Foot,Severe,Non-contact,No
+1469,Muscle Strain,Wrist,Moderate,Overuse,Yes
+1470,Fracture,Face,Severe,Overuse,Yes
+1471,Tendon Injury,Foot,Severe,Overuse,Yes
+1472,Muscle Strain,Head,Severe,Non-contact,No
+1473,Muscle Strain,Hip,Minor,Non-contact,Yes
+1474,Tendon Injury,Achilles,Moderate,Non-contact,Yes
+1475,Contusion,Knee,Severe,Fall,No
+1476,Fracture,Wrist,Minor,Non-contact,Yes
+1477,Facial Injury,Face,Severe,Contact,Yes
+1478,Tendon Injury,Back,Minor,Fall,Yes
+1479,Muscle Strain,Head,Moderate,Contact,No
+1480,Fracture,Nose,Minor,Contact,Yes
+1481,Tendon Injury,Shin,Severe,Fall,No
+1482,Muscle Strain,Foot,Minor,Non-contact,Yes
+1483,Ligament Sprain,Hamstring,Minor,Contact,Yes
+1484,Contusion,Calf,Moderate,Contact,No
+1485,Fracture,Face,Moderate,Overuse,Yes
+1486,Muscle Strain,Achilles,Severe,Fall,No
+1487,Muscle Strain,Wrist,Minor,Non-contact,Yes
+1488,Fracture,Nose,Severe,Contact,Yes
+1489,Muscle Strain,Shoulder,Severe,Overuse,Yes
+1490,Ligament Sprain,Foot,Moderate,Contact,No
+1491,Eye Injury,Eye,Severe,Contact,Yes
+1492,Tennis Elbow,Elbow,Severe,Non-contact,Yes
+1493,Contusion,Shoulder,Moderate,Non-contact,Yes
+1494,Muscle Strain,Wrist,Moderate,Fall,Yes
+1495,Muscle Strain,Shin,Severe,Overuse,No
+1496,Ligament Sprain,Calf,Severe,Overuse,No
+1497,Tendon Injury,Hip,Minor,Fall,Yes
+1498,Fracture,Finger,Minor,Fall,No
+1499,Tendon Injury,Hamstring,Severe,Overuse,Yes
+1500,Tendon Injury,Head,Minor,Contact,Yes
+1501,Ligament Sprain,Knee,Minor,Overuse,No
+1502,Contusion,Hip,Moderate,Overuse,Yes
+1503,Tendon Injury,Knee,Severe,Fall,No
+1504,Muscle Strain,Head,Severe,Fall,Yes
+1505,Muscle Strain,Shin,Minor,Overuse,Yes
+1506,Contusion,Knee,Severe,Overuse,Yes
+1507,Fracture,Ribs,Severe,Fall,Yes
+1508,Fracture,Head,Severe,Non-contact,No
+1509,Fracture,Finger,Moderate,Contact,Yes
+1510,Hamstring Injury,Hamstring,Severe,Fall,Yes
+1511,Ligament Sprain,Knee,Severe,Non-contact,No
+1512,Fracture,Hand,Severe,Fall,No
+1513,Ligament Sprain,Shoulder,Minor,Overuse,Yes
+1514,Muscle Strain,Head,Severe,Fall,No
+1515,Fracture,Foot,Minor,Non-contact,Yes
+1516,Tendon Injury,Ankle,Moderate,Contact,No
+1517,Ligament Sprain,Knee,Moderate,Non-contact,Yes
+1518,Tendon Injury,Back,Moderate,Contact,Yes
+1519,Ligament Sprain,Calf,Severe,Contact,Yes
+1520,Contusion,Hip,Minor,Contact,Yes
+1521,Fracture,Knee,Severe,Non-contact,Yes
+1522,Fracture,Ribs,Minor,Contact,Yes
+1523,Tendon Injury,Calf,Moderate,Fall,Yes
+1524,Muscle Strain,Hip,Severe,Non-contact,Yes
+1525,Tendon Injury,Shoulder,Severe,Fall,No
+1526,Ligament Sprain,Hip,Severe,Fall,No
+1527,Fracture,Foot,Moderate,Overuse,Yes
+1528,Contusion,Shoulder,Severe,Contact,No
+1529,Muscle Strain,Ankle,Severe,Non-contact,No
+1530,Fracture,Ankle,Severe,Overuse,Yes
+1531,Fracture,Wrist,Moderate,Contact,Yes
+1532,Tendon Injury,Achilles,Minor,Non-contact,Yes
+1533,Fracture,Calf,Severe,Fall,Yes
+1534,Tendon Injury,Head,Severe,Fall,Yes
+1535,Ligament Sprain,Calf,Moderate,Contact,Yes
+1536,Tendon Injury,Calf,Moderate,Non-contact,Yes
+1537,Fracture,Wrist,Minor,Fall,Yes
+1538,Fracture,Hamstring,Moderate,Contact,Yes

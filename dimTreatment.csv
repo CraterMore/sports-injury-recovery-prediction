@@ -1,0 +1,19 @@
+TreatmentDimKey,TreatmentMethod,Outcome,,,
+1,Massage,Fully Recovered,,,
+2,Surgery,Recovered with Limitation,,,Unique methods
+3,Physiotherapy,Retired,,1,Massage
+4,Rest,Fully Recovered,,2,Surgery
+5,Surgery,Fully Recovered,,3,Physiotherapy
+6,Physiotherapy,Fully Recovered,,4,Rest
+7,Rest,Recovered with Limitation,,5,Ice/Heat Therapy
+8,Physiotherapy,Recovered with Limitation,,6,Medication
+9,Ice/Heat Therapy,Fully Recovered,,,
+10,Medication,Recovered with Limitation,,,
+11,Ice/Heat Therapy,Recovered with Limitation,,,
+12,Medication,Fully Recovered,,,
+13,Ice/Heat Therapy,Retired,,,
+14,Massage,Retired,,,
+15,Rest,Retired,,,
+16,Medication,Retired,,,
+17,Massage,Recovered with Limitation,,,
+18,Surgery,Retired,,,
