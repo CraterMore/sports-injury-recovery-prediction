@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Sports Injury Recovery Predictor</title>
+</head>
+<body>
+    <div class="header-div">
+        <h1>Sports Injury Recovery Predictor</h1>
+        <h2>Follow the prompts to get your predicted recovery time, treatment method, and cost of recovery.</h2>
+    </div>
+
+    <form action="/predict" method="POST">
+        <div class="athlete-qs">
+            <h2 class="form-headers">Athlete Specific Questions</h2>
+            <div class="age-gender">
+                <div class="stacked-input">
+                    <label for="age" id="age-label">What is the athlete's age?</label>
+                    <input type="text" id="age" name="age">
+                </div>
+
+                <div class="stacked-input">
+                    <p>What is the athlete's gender?</p>
+                    <div>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <label for="minutes" class="mins">How many minutes has the athlete played in the last 30 days?</label>
+                <input type="text" id="minutes" name="minutes">
+            </div>
+        </div>
+
+        <div class="injury-qs">
+            <h2 class="form-headers">Injury-Related Questions</h2>
+            <div class="question">
+                <p>What body part did the injury occur on?</p>
+                <div class="main-box">
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="calf" name="body-part">
+                            <label for="calf">Calf</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="knee" name="body-part">
+                            <label for="knee">Knee</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="foot" name="body-part">
+                            <label for="foot">Foot</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="ankle" name="body-part">
+                            <label for="ankle">Ankle</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="face" name="body-part">
+                            <label for="face">Face</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="shoulder" name="body-part">
+                            <label for="shoulder">Shoulder</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="hamstring" name="body-part">
+                            <label for="hamstring">Hamstring</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="shin" name="body-part">
+                            <label for="shin">Shin</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="achilles" name="body-part">
+                            <label for="achilles">Achilles</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="nose" name="body-part">
+                            <label for="nose">Nose</label>
+                        </div>
+                    </div>
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="head" name="body-part">
+                            <label for="head">Head</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="wrist" name="body-part">
+                            <label for="wrist">Wrist</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="hip" name="body-part">
+                            <label for="hip">Hip</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="ribs" name="body-part">
+                            <label for="ribs">Ribs</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="finger" name="body-part">
+                            <label for="finger">Finger</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="back" name="body-part">
+                            <label for="back">Back</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="elbow" name="body-part">
+                            <label for="elbow">Elbow</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="jaw" name="body-part">
+                            <label for="jaw">Jaw</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="hand" name="body-part">
+                            <label for="hand">Hand</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What is the athlete's injury?</p>
+                <div class="main-box">
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="ligament" name="injury">
+                            <label for="ligament">Ligament Sprain</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="eye" name="injury">
+                            <label for="eye">Eye Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="fracture" name="injury">
+                            <label for="fracture">Fracture</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="muscle-strain" name="injury">
+                            <label for="muscle-strain">Muscle Strain</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="ankle-sprain" name="injury">
+                            <label for="ankle-sprain">Ankle Sprain</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="facial" name="injury">
+                            <label for="facial">Facial Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="shoulder-injury" name="injury">
+                            <label for="shoulder-injury">Shoulder Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="shin-splints" name="injury">
+                            <label for="shin-splints">Shin Splints</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="contusion" name="injury">
+                            <label for="contusion">Contusion</label>
+                        </div>
+                    </div>
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="wrist-strain" name="injury">
+                            <label for="wrist-strain">Wrist Strain</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="tendon" name="injury">
+                            <label for="tendon">Tendon Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="rib-injury" name="injury">
+                            <label for="rib-injury">Rib Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="back-strain" name="injury">
+                            <label for="back-strain">Back Strain</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="tennis-elbow" name="injury">
+                            <label for="tennis-elbow">Tennis Elbow</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="knee-injury" name="injury">
+                            <label for="knee-injury">Knee Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="hamstring-injury" name="injury">
+                            <label for="hamstring-injury">Hamstring Injury</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="finger-injury" name="injury">
+                            <label for="finger-injury">Finger Injury</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What is the severity of the injury?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="minor" name="severity">
+                    <label for="minor">Minor</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="moderate" name="severity">
+                    <label for="moderate">Moderate</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="severe" name="severity">
+                    <label for="severe">Severe</label>
+                </div>
+
+                <p>What was the cause of the injury?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="contact" name="cause">
+                    <label for="contact">Contact</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="overuse" name="cause">
+                    <label for="overuse">Overuse</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="non-contact" name="cause">
+                    <label for="non-contact">Non-contact</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="fall" name="cause">
+                    <label for="fall">Fall</label>
+                </div>
+
+                <p>Is the injury recurrent?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="yes" name="recurrent">
+                    <label for="yes">Yes</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="no" name="recurrent">
+                    <label for="no">No</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-qs">
+            <h2 class="form-headers">Event-level Questions</h2>
+            <div class="question">
+                <p>What sport was the athlete playing when the injury occurred?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="football" name="sport">
+                    <label for="football">Football</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="boxing" name="sport">
+                    <label for="boxing">Boxing</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="basketball" name="sport">
+                    <label for="basketball">Basketball</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="tennis" name="sport">
+                    <label for="tennis">Tennis</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="athletics" name="sport">
+                    <label for="athletics">Athletics</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What competition level does the athlete play at?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="amateur" name="competition">
+                    <label for="amateur">Amateur</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="professional" name="competition">
+                    <label for="professional">Professional</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What region did the injury occur in?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="north" name="region">
+                    <label for="north">Northern Europe</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="central" name="region">
+                    <label for="central">Central Europe</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="south" name="region">
+                    <label for="south">Southern Europe</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="west" name="region">
+                    <label for="west">Western Europe</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What event type did the injury occur during?</p>
+                <div class="input-label-pair">
+                    <input type="radio" id="warm-up" name="event">
+                    <label for="warm-up">Warm-up</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="competition" name="event">
+                    <label for="competition">Competition</label>
+                </div>
+                <div class="input-label-pair">
+                    <input type="radio" id="training" name="event">
+                    <label for="training">Training</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>What surface did the injury occur on?</p>
+                <div class="main-box">
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="grass" name="surface">
+                            <label for="grass">Grass</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="ring" name="surface">
+                            <label for="ring">Ring</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="indoor-court" name="surface">
+                            <label for="indoor-court">Indoor Court</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="turf" name="surface">
+                            <label for="turf">Artificial Turf</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="wood" name="surface">
+                            <label for="wood">Wooden Floor</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="mat" name="surface">
+                            <label for="mat">Training Mat</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="hard-court" name="surface">
+                            <label for="hard-court">Hard Court</label>
+                        </div>
+                    </div>
+                    <div class="sub-box">
+                        <div class="input-label-pair">
+                            <input type="radio" id="field" name="surface">
+                            <label for="field">Field</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="indoor-track" name="surface">
+                            <label for="indoor-track">Indoor Track</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="clay" name="surface">
+                            <label for="clay">Clay</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="track" name="surface">
+                            <label for="track">Track</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="road" name="surface">
+                            <label for="road">Road</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="outdoor-court" name="surface">
+                            <label for="outdoor-court">Outdoor Court</label>
+                        </div>
+                        <div class="input-label-pair">
+                            <input type="radio" id="gym" name="surface">
+                            <label for="gym">Gym Floor</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="submit-button">
+            <button type="submit" id="predict">Predict</button>
+        </div>
+    </form>
+</body>
+</html>

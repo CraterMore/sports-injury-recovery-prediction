@@ -1,0 +1,156 @@
+.main-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #FAFAFA;
+    padding-left: 2rem;
+    padding-top: 1rem
+}
+
+p {
+    font-weight: 600;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.header-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #636363;
+    font-size: 20px;
+}
+
+.athlete-qs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    gap: 0.25rem;
+}
+
+.injury-qs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.event-qs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.age-gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5rem;
+    align-items: flex-start;
+
+}
+
+.athlete-qs label {
+    font-weight: 600;
+}
+
+#minutes {
+    margin-top: 0.4rem;
+}
+
+.stacked-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.stacked-input label {
+    margin-bottom: 0.4rem;
+}
+
+.stacked-input p {
+    margin: 0 0 0.4rem 0;
+}
+
+.stacked-input div {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.stacked-input input[type="radio"] {
+    margin-right: 0.25rem;
+}
+
+form {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="text"] {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 150px;
+    background-color: #FAFAFA;
+}
+
+#age-label {
+    font-weight: 600;
+}
+
+.input-label-pair {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+button {
+    background-color: #000042;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-headers {
+    color: #000042
+}
