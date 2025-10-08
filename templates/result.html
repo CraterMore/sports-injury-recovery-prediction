@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Prediction Result</title>
+    <link rel="stylesheet" href="../static/style.css" />
 </head>
 <body>
-    <h1>Predicted Recovery Time and Treatment Method which will lead to a full recovery with the highest probability</h1>
-    <p>Recovery Time: {{ recovery_time }} Days</p>
-    <p>Treatment Method: {{ treatment_method }}</p>
-    <a href="/">Back to Form</a>
+    <div class="header-div">
+        <h1>Predictions</h1>
+    </div>
+    <div id="centering">
+        <div class="predictions">
+            <p>Recovery Time: {{ recovery_time }} Days</p>
+            <p>Treatment Method: {{ treatment }}</p>
+            <p>Probability of Making a Full Recovery: {{ full_recovery_prob }}</p>
+            <a href="/">Back to Form</a>
+        </div>
+    </div>
 </body>
 </html>

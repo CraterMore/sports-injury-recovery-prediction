@@ -44,6 +44,6 @@ final = merged[
 ]
 
 # save to csv
-final.to_csv("flattened.csv", index=False)
+final.to_csv("FinalInjuryData.csv", index=False)
 
 print(final.head())
