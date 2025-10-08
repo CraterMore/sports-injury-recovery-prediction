@@ -124,7 +124,7 @@ def test_with_real_data():
     # Save model
     print("\n" + "="*60)
     print("Saving model...")
-    predictor.save_model('real_injury_model.pkl')
+    predictor.save_model('injury_recovery_model.pkl')
     
     print("\n" + "="*60)
     print("✓ ANALYSIS COMPLETE!")

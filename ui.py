@@ -1,3 +1,4 @@
+import pandas as pd
 from flask import Flask, render_template, request, jsonify
 
 from regression import InjuryRecoveryPredictor
@@ -6,7 +7,7 @@ app = Flask(__name__)
 
 # load trained model
 predictor = InjuryRecoveryPredictor()
-predictor.load_model("real_injury_model.pkl")
+predictor.load_model("injury_recovery_model.pkl")
 
 # form page
 @app.route("/", methods=["GET"])
@@ -45,18 +46,34 @@ def predict():
         'Region':region,
         'EventType': event,
         'SurfaceType': surface,
-        'Outcome': 'Fully Recovered',
+        'Outcome': 'Fully Recovered', #default/fallback
         'TreatmentMethod': 'Rest', #default
         'CostOfTreatmentEuros': 1800.0 # default, average across test data
     }
 
+    # convert input into DataFrame and match training features
+    input_df = pd.DataFrame([input_data])[predictor.feature_columns_reg]
+
+    # apply label encoders to categorical columns
+    for col, encoder in predictor.label_encoders.items():
+        if col in input_df.columns:
+            input_df[col] = encoder.transform(input_df[col].astype(str))
+
+    # scale features
+    input_scaled = predictor.scaler.transform(input_df)
+
     # linear regression prediction -> recovery time (days)
-    recovery_time = round(predictor.predict(input_data))
+    recovery_time = round(predictor.model_reg.predict(input_scaled)[0])
 
-    # logistic regression prediction -> probability of making full recovery based on treatment method
-    treatment_method =
+    # Logistic regression prediction -> probability of full recovery
+    # Note: assumes binary labels {0,1} where 1 = Fully Recovered
+    if hasattr(predictor.model_clf, "predict_proba"):
+        full_recovery_prob = predictor.model_clf.predict_proba(input_scaled)[0][1]
+    else:
+        full_recovery_prob = predictor.model_clf.predict(input_scaled)[0]
 
-    return render_template("result.html", recovery_time=recovery_time, treatment_method=treatment_method)
+    return render_template("result.html", recovery_time=recovery_time,
+                           treatment_method=round(full_recovery_prob * 100, 2))
 
 if __name__ == "__main__":
     app.run(debug=True)
