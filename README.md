@@ -62,20 +62,46 @@ The dataset originated from a multi-tab spreadsheet containing sports injury rec
     * StandardScalar
     * LabelEncoder 
 
-## Results 
-TODO
+## Results - Model Metrics and Performance
+
+### Treatment Method Model (Logistic Regression)
+- **Accuracy:** 78%
+- Predicts the probability of full recovery for different treatment methods
+
+### Recovery Time Model (Linear Regression with SGD)
+- **Mean Absolute Error (MAE):** 32.97 days
+- **Root Mean Squared Error (RMSE):** [Your RMSE value]
+- **R² Score:** 0.640
+- **Interpretation:** 
+  - The model explains 64% of the variance in recovery times
+  - Average prediction error is approximately 33 days
+  - Validated using 5-fold cross-validation
+
+### Key Hyperparameters
+- **Learning Rate:** 0.01
+- **Max Iterations:** 1,000
+- **Regularization:** L2 (Ridge) with α = 0.0001
+- **Early Stopping Tolerance:** 10⁻³
+
+### Model Features
+- **Preprocessing:** StandardScaler normalization + Label Encoding for categorical variables
+- **Optimization:** Stochastic Gradient Descent (SGD)
+- **Interpretability:** Coefficient analysis reveals feature impact on recovery time
 
 ## Installation & Usage
 
 ```bash
 # Clone repository
-git clone [your-repo-url]
+git clone https://github.com/CraterMore/sports-injury-recovery-prediction.git
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the models
-python main.py
+python ui.py
+
+# Open the localhost in your browser to use the UI
+# http://127.0.0.1:5000/
 ```
 
 ## Contributors
