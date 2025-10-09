@@ -2,10 +2,9 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, SGDRegressor
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import SGDRegressor, LogisticRegression
+from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-import matplotlib.pyplot as plt
 import joblib
 import os
 
@@ -15,10 +14,12 @@ class InjuryRecoveryPredictor:
     '''
 
     def __init__(self):
-        self.model = None
+        self.model_reg = None          # linear regression
+        self.model_clf = None          # logistic regression
         self.scaler = StandardScaler()
         self.label_encoders = {}
-        self.feature_columns = []
+        self.feature_columns_reg = []
+        self.feature_columns_clf = []
         self.results = {}
 
     def load_data(self, filepath):
@@ -52,7 +53,7 @@ class InjuryRecoveryPredictor:
     #     print("\nBasic statistics:")
     #     print(df.describe())
 
-    def preprocess_data(self, df, target_column='recovery_time'):
+    def preprocess_data(self, df, target_column='DaysToRecovery'):
         '''
         Preprocess the data: handle missing values and encode categorical variables.
         Input:
@@ -134,8 +135,8 @@ class InjuryRecoveryPredictor:
         return X_train_scaled, X_test_scaled
     
 
-    
-    def train_model(self, X_train, y_train, X_test, y_test, 
+    # linear regression (predicts days to recover)
+    def train_linear_model(self, X_train, y_train, X_test, y_test,
                     learning_rate=0.01, max_iter=1000, penalty='l2', alpha=0.0001):
         '''
         Train a Linear Regression model using Stochastic Gradient Descent (SGD).
@@ -159,7 +160,7 @@ class InjuryRecoveryPredictor:
         X_train_scaled, X_test_scaled = self.scale_features(X_train, X_test)
         
         # Initialize SGD Regressor (Linear Regression with Gradient Descent)
-        self.model = SGDRegressor(
+        self.model_reg = SGDRegressor(
             loss='squared_error',  # This makes it linear regression
             penalty=penalty,
             alpha=alpha,
@@ -177,10 +178,10 @@ class InjuryRecoveryPredictor:
         print(f"  Alpha: {alpha}")
         
         # Train the model
-        self.model.fit(X_train_scaled, y_train)
+        self.model_reg.fit(X_train_scaled, y_train)
         
         # Make predictions
-        y_pred = self.model.predict(X_test_scaled)
+        y_pred = self.model_reg.predict(X_test_scaled)
         
         # Calculate metrics
         mae = mean_absolute_error(y_test, y_pred)
@@ -188,28 +189,42 @@ class InjuryRecoveryPredictor:
         r2 = r2_score(y_test, y_pred)
         
         # Cross-validation
-        cv_scores = cross_val_score(self.model, X_train_scaled, y_train, 
+        cv_scores = cross_val_score(self.model_reg, X_train_scaled, y_train,
                                    cv=5, scoring='neg_mean_absolute_error')
         
-        self.results = {
+        self.results['linear'] = {
             'MAE': mae,
             'RMSE': rmse,
             'R2': r2,
             'CV_MAE': -cv_scores.mean(),
-            'iterations': self.model.n_iter_,
-            'converged': self.model.n_iter_ < max_iter
+            #'iterations': self.model_reg.n_iter_,
+            #'converged': self.model_reg.n_iter_ < max_iter
         }
         
-        print(f"\n  Iterations to converge: {self.model.n_iter_}")
+        #print(f"\n  Iterations to converge: {self.model_reg.n_iter_}")
         print(f"  MAE: {mae:.2f} days")
         print(f"  RMSE: {rmse:.2f} days")
         print(f"  R²: {r2:.3f}")
         print(f"  CV MAE: {-cv_scores.mean():.2f} days")
         
-        if not self.results['converged']:
-            print(f"\n  WARNING: Model did not converge! Consider increasing max_iter.")
-        
-        return self.results
+        #if not self.results['converged']:
+        #    print(f"\n  WARNING: Model did not converge! Consider increasing max_iter.")
+
+        print(f"Linear Regression MAE: {mae:.2f}, RMSE: {rmse:.2f}, R2: {r2:.3f}")
+        return self.results['linear']
+
+    # logistic regression (predicts probability of full recovery)
+    def train_logistic_model(self, X_train, y_train, X_test, y_test):
+        X_train_scaled, X_test_scaled = self.scale_features(X_train, X_test)
+        self.model_clf = LogisticRegression(max_iter=1000)
+        self.model_clf.fit(X_train_scaled, y_train)
+
+        y_pred = self.model_clf.predict(X_test_scaled)
+        accuracy = accuracy_score(y_test, y_pred)
+        self.results['logistic'] = {'Accuracy': accuracy}
+        print(f"Logistic Regression Accuracy: {accuracy * 100:.2f}%")
+
+        return self.results['logistic']
     
     def show_results(self):
         '''
@@ -228,14 +243,21 @@ class InjuryRecoveryPredictor:
         Output:
             pd.DataFrame: Feature coefficients (positive = increases recovery time)
         '''
-        if self.model is None:
+        if self.model_reg is None or self.model_clf is None:
             print("Model has not been trained yet.")
             return None
-            
-        coefficients_df = pd.DataFrame({
+
+        # linear regression coefficients
+        lin_df = pd.DataFrame({
             'Feature': self.feature_columns,
-            'Coefficient': self.model.coef_
-        }).sort_values('Coefficient', ascending=False, key=abs)
+            'Coefficient': self.model_reg.coef_
+        }).sort_values('LinearCoefficient', ascending=False, key=abs)
+
+        # logistic regression coefficients
+        log_df = pd.DataFrame({
+            'Feature': self.feature_columns,
+            'Coefficient': self.model_clf.coef_[0]
+        }).sort_values('LogisticCoefficient', ascending=False, key=abs)
         
         print("\n" + "="*60)
         print("FEATURE COEFFICIENTS")
@@ -243,9 +265,14 @@ class InjuryRecoveryPredictor:
         print("Positive = increases recovery time")
         print("Negative = decreases recovery time")
         print("Larger magnitude = stronger effect\n")
-        print(coefficients_df)
-        
-        return coefficients_df
+        print("Linear Regression Coefficients (effect on recovery days):")
+        print(lin_df)
+        print("\nLogistic Regression Coefficients (effect on log-odds of full recovery):")
+        print(log_df)
+
+        # merge into single dataframe
+        merged_df = pd.merge(lin_df, log_df, on='Feature')
+        return merged_df
     
     def predict(self, input_data):
         '''
@@ -255,7 +282,7 @@ class InjuryRecoveryPredictor:
         Output:
             float or np.array: Predicted recovery time(s)
         '''
-        if self.model is None:
+        if self.model_reg is None or self.model_clf is None:
             raise ValueError("No model has been trained yet. Call train_model() first.")
         
         # Convert dict to DataFrame if necessary
@@ -280,9 +307,10 @@ class InjuryRecoveryPredictor:
         input_scaled = self.scaler.transform(input_df)
         
         # Make prediction
-        prediction = self.model.predict(input_scaled)
+        predicted_days = self.model_reg.predict(input_scaled)[0]
+        predicted_prob = self.model_clf.predict_proba(input_scaled)[0][1]
         
-        return prediction[0] if len(prediction) == 1 else prediction
+        return round(predicted_days), round(predicted_prob, 2)
     
     def save_model(self, filepath='injury_recovery_model.pkl'):
         '''
@@ -290,14 +318,16 @@ class InjuryRecoveryPredictor:
         Input:
             filepath (str): Path to save the model
         '''
-        if self.model is None:
+        if self.model_reg is None and self.model_clf is None:
             raise ValueError("No model has been trained yet.")
         
         model_data = {
-            'model': self.model,
+            'model_reg': self.model_reg,
+            'model_clf': self.model_clf,
             'scaler': self.scaler,
             'label_encoders': self.label_encoders,
-            'feature_columns': self.feature_columns
+            'feature_columns_reg': self.feature_columns_reg,
+            'feature_columns_clf': self.feature_columns_clf,
         }
         
         joblib.dump(model_data, filepath)
@@ -305,7 +335,7 @@ class InjuryRecoveryPredictor:
     
     def load_model(self, filepath='injury_recovery_model.pkl'):
         '''
-        Load a previously saved model.
+        Load both models from file.
         Input:
             filepath (str): Path to the saved model
         '''
@@ -313,13 +343,14 @@ class InjuryRecoveryPredictor:
             raise FileNotFoundError(f"Model file not found: {filepath}")
         
         model_data = joblib.load(filepath)
-        self.model = model_data['model']
+        self.model_reg = model_data['model_reg']
+        self.model_clf = model_data['model_clf']
         self.scaler = model_data['scaler']
         self.label_encoders = model_data['label_encoders']
-        self.feature_columns = model_data['feature_columns']
+        self.feature_columns_reg = model_data['feature_columns_reg']
+        self.feature_columns_clf = model_data['feature_columns_clf']
         
-        print(f"Model loaded from {filepath}")
-        print(f"Model type: Linear Regression (Gradient Descent)")
+        print(f"Loaded combined models from {filepath}")
 
 
 def main():
@@ -330,29 +361,39 @@ def main():
     predictor = InjuryRecoveryPredictor()
     
     # Load data
-    df = predictor.load_data('your_data.csv')
+    df = predictor.load_data('FinalInjuryData.csv')
     if df is None:
         return
     
     # Explore data
-    predictor.explore_data(df)
+    #predictor.explore_data(df)
+
+    # drop outcome for linear regression model features
+    df_reg = df.drop(columns=['Outcome'], errors='ignore')
     
-    # Preprocess data
-    X, y = predictor.preprocess_data(df, target_column='recovery_time')
-    
-    # Split data
-    X_train, X_test, y_train, y_test = predictor.split_data(X, y)
-    
-    # Train model
-    results = predictor.train_model(X_train, y_train, X_test, y_test)
-    
+    # linear regression
+    X_reg, y_reg = predictor.preprocess_data(df_reg, target_column='DaysToRecovery')
+    X_train_r, X_test_r, y_train_r, y_test_r = predictor.split_data(X_reg, y_reg)
+    predictor.train_linear_model(X_train_r, y_train_r, X_test_r, y_test_r)
+    predictor.feature_columns_reg = X_reg.columns.tolist()
+
+    # drop daystorecovery for logistic regression model features
+    df_clf = df.drop(columns=['DaysToRecovery'], errors='ignore')
+
+    # logistic regression
+    df["Outcome"] = df["Outcome"].apply(lambda x: 1 if str(x).lower() == "fully recovered" else 0)
+    X_clf, y_clf = predictor.preprocess_data(df_clf, target_column="Outcome")
+    X_train_c, X_test_c, y_train_c, y_test_c = predictor.split_data(X_clf, y_clf)
+    predictor.train_logistic_model(X_train_c, y_train_c, X_test_c, y_test_c)
+    predictor.feature_columns_clf = X_clf.columns.tolist()
+
     # Show results
-    predictor.show_results()
+    #predictor.show_results()
     
     # Get feature importance
-    predictor.get_feature_importance()
+    #predictor.get_feature_importance()
     
-    # Save model
+    # Save both models
     predictor.save_model('injury_recovery_model.pkl')
     
     # Example prediction

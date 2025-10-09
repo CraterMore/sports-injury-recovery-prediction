@@ -248,7 +248,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,1384,Ligament Sprain,Hip,Moderate,Non-contact,No,Football,Amateur,Northern Europe,Competition,Grass,Physiotherapy,Fully Recovered,31,661.65
 36,Female,1978,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Central Europe,Training,Road,Physiotherapy,Fully Recovered,8,465.97
 39,Male,1629,Ankle Sprain,Ankle,Minor,Overuse,No,Basketball,Amateur,Western Europe,Warm-up,Wooden Floor,Medication,Fully Recovered,10,338.53
-20,Female,2662,Wrist Strain,Wrist,Severe,Non-contact,No,Tennis,Amateur,Southern Europe,Competition,Hard Court,Surgery,Fully Recovered,344,44032
+20,Female,2662,Wrist Strain,Wrist,Severe,Non-contact,No,Tennis,Amateur,Southern Europe,Competition,Hard Court,Surgery,Fully Recovered,344,44032.0
 38,Female,2141,Muscle Strain,Achilles,Minor,Fall,No,Basketball,Amateur,Northern Europe,Warm-up,Wooden Floor,Massage,Fully Recovered,10,58.75
 17,Male,2216,Muscle Strain,Shin,Moderate,Overuse,No,Athletics,Amateur,Southern Europe,Warm-up,Indoor Track,Rest,Recovered with Limitation,25,164.54
 35,Female,2261,Achilles Injury,Achilles,Minor,Overuse,No,Athletics,Amateur,Central Europe,Warm-up,Road,Massage,Retired,4,44.53
@@ -264,14 +264,14 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Female,1248,Tendon Injury,Knee,Severe,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Track,Physiotherapy,Fully Recovered,344,4730.69
 29,Female,2248,Back Strain,Back,Severe,Non-contact,No,Tennis,Professional,Southern Europe,Warm-up,Grass,Rest,Fully Recovered,155,2398.93
 25,Female,285,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Southern Europe,Training,Ring,Rest,Fully Recovered,27,555.05
-30,Female,1133,Back Strain,Back,Severe,Overuse,No,Tennis,Professional,Southern Europe,Training,Grass,Medication,Fully Recovered,350,9045
+30,Female,1133,Back Strain,Back,Severe,Overuse,No,Tennis,Professional,Southern Europe,Training,Grass,Medication,Fully Recovered,350,9045.0
 31,Female,1078,Fracture,Shoulder,Minor,Contact,No,Basketball,Professional,Southern Europe,Competition,Outdoor Court,Massage,Fully Recovered,8,228.06
 16,Male,2678,Tendon Injury,Knee,Minor,Fall,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,10,1196.52
 23,Female,679,Knee Injury,Knee,Minor,Contact,No,Tennis,Amateur,Central Europe,Training,Grass,Rest,Fully Recovered,8,117.22
 21,Female,958,Finger Injury,Finger,Minor,Fall,No,Basketball,Amateur,Southern Europe,Training,Wooden Floor,Physiotherapy,Recovered with Limitation,12,69.26
 28,Female,2229,Fracture,Ankle,Moderate,Overuse,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Massage,Recovered with Limitation,56,813.14
 27,Female,27,Achilles Injury,Achilles,Severe,Non-contact,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Medication,Fully Recovered,253,5966.72
-21,Female,1352,Ankle Sprain,Ankle,Severe,Non-contact,No,Basketball,Amateur,Southern Europe,Competition,Indoor Court,Rest,Fully Recovered,137,3409
+21,Female,1352,Ankle Sprain,Ankle,Severe,Non-contact,No,Basketball,Amateur,Southern Europe,Competition,Indoor Court,Rest,Fully Recovered,137,3409.0
 31,Male,2344,Hamstring Injury,Hamstring,Moderate,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Road,Surgery,Fully Recovered,16,2160.89
 21,Female,898,Fracture,Ankle,Minor,Overuse,No,Basketball,Amateur,Central Europe,Competition,Wooden Floor,Surgery,Fully Recovered,12,1270.99
 34,Female,67,Shoulder Injury,Shoulder,Minor,Overuse,No,Boxing,Professional,Southern Europe,Training,Ring,Ice/Heat Therapy,Recovered with Limitation,12,56.42
@@ -388,7 +388,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Male,830,Ankle Sprain,Ankle,Severe,Non-contact,No,Basketball,Amateur,Northern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,294,7540.75
 19,Male,688,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Indoor Track,Ice/Heat Therapy,Fully Recovered,14,145.33
 30,Female,2669,Shoulder Injury,Shoulder,Moderate,Fall,No,Boxing,Professional,Northern Europe,Competition,Ring,Physiotherapy,Fully Recovered,21,1390.6
-38,Male,2442,Knee Injury,Knee,Moderate,Overuse,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Medication,Recovered with Limitation,24,539
+38,Male,2442,Knee Injury,Knee,Moderate,Overuse,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Medication,Recovered with Limitation,24,539.0
 36,Female,898,Tendon Injury,Hip,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Track,Physiotherapy,Fully Recovered,9,258.9
 17,Female,858,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Central Europe,Competition,Wooden Floor,Surgery,Fully Recovered,45,3456.02
 17,Female,2374,Knee Injury,Knee,Moderate,Contact,No,Tennis,Amateur,Western Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,25,395.58
@@ -520,7 +520,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Male,2405,Ligament Sprain,Calf,Minor,Overuse,No,Football,Professional,Western Europe,Training,Indoor Court,Ice/Heat Therapy,Recovered with Limitation,7,54.04
 20,Female,2518,Fracture,Hand,Minor,Overuse,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,13,31.68
 40,Female,1940,Shoulder Injury,Shoulder,Minor,Fall,No,Boxing,Amateur,Central Europe,Competition,Training Mat,Rest,Recovered with Limitation,9,51.23
-22,Female,2255,Fracture,Back,Moderate,Non-contact,Yes,Athletics,Amateur,Northern Europe,Training,Field,Medication,Fully Recovered,40,439
+22,Female,2255,Fracture,Back,Moderate,Non-contact,Yes,Athletics,Amateur,Northern Europe,Training,Field,Medication,Fully Recovered,40,439.0
 30,Female,2037,Fracture,Calf,Moderate,Fall,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Retired,17,390.21
 21,Male,403,Fracture,Foot,Minor,Contact,No,Athletics,Amateur,Central Europe,Training,Track,Ice/Heat Therapy,Fully Recovered,6,41.35
 33,Male,2224,Ankle Sprain,Ankle,Moderate,Overuse,No,Tennis,Amateur,Northern Europe,Warm-up,Hard Court,Massage,Fully Recovered,31,1121.14
@@ -534,7 +534,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,1218,Hamstring Injury,Hamstring,Severe,Contact,Yes,Athletics,Amateur,Western Europe,Warm-up,Road,Physiotherapy,Fully Recovered,297,7084.17
 23,Female,1121,Finger Injury,Finger,Moderate,Non-contact,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Recovered with Limitation,39,729.53
 37,Female,1847,Eye Injury,Eye,Minor,Contact,Yes,Boxing,Professional,Northern Europe,Training,Training Mat,Physiotherapy,Recovered with Limitation,7,124.18
-30,Female,1901,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Medication,Fully Recovered,36,859
+30,Female,1901,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Medication,Fully Recovered,36,859.0
 33,Male,2189,Ligament Sprain,Foot,Minor,Overuse,No,Football,Professional,Northern Europe,Competition,Grass,Surgery,Fully Recovered,8,1150.95
 37,Male,195,Back Strain,Back,Minor,Overuse,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Surgery,Fully Recovered,8,1279.28
 28,Male,374,Facial Injury,Face,Moderate,Contact,Yes,Boxing,Professional,Northern Europe,Competition,Ring,Medication,Fully Recovered,53,366.84
@@ -565,7 +565,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 33,Male,1563,Tendon Injury,Foot,Moderate,Overuse,No,Football,Professional,Northern Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,59,592.35
 23,Male,1506,Facial Injury,Face,Moderate,Contact,No,Boxing,Amateur,Central Europe,Competition,Training Mat,Rest,Fully Recovered,20,207.34
 34,Male,2464,Ankle Sprain,Ankle,Moderate,Fall,No,Tennis,Amateur,Northern Europe,Training,Grass,Rest,Fully Recovered,39,415.85
-16,Male,1311,Concussion,Head,Moderate,Non-contact,No,Football,Amateur,Central Europe,Training,Grass,Massage,Fully Recovered,33,578
+16,Male,1311,Concussion,Head,Moderate,Non-contact,No,Football,Amateur,Central Europe,Training,Grass,Massage,Fully Recovered,33,578.0
 38,Female,215,Concussion,Head,Minor,Fall,Yes,Football,Amateur,Southern Europe,Competition,Artificial Turf,Rest,Fully Recovered,5,139.63
 39,Female,294,Muscle Strain,Finger,Minor,Fall,No,Basketball,Amateur,Central Europe,Training,Indoor Court,Medication,Fully Recovered,9,201.27
 38,Female,2364,Knee Injury,Knee,Moderate,Overuse,No,Tennis,Amateur,Northern Europe,Warm-up,Clay,Physiotherapy,Fully Recovered,23,706.34
@@ -643,7 +643,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 19,Male,2078,Shin Splints,Shin,Minor,Fall,No,Athletics,Amateur,Central Europe,Training,Indoor Track,Massage,Fully Recovered,13,106.57
 29,Female,1372,Shoulder Injury,Shoulder,Moderate,Contact,No,Tennis,Professional,Northern Europe,Competition,Indoor Court,Surgery,Recovered with Limitation,17,2266.85
 23,Female,1651,Rib Injury,Ribs,Minor,Fall,No,Boxing,Amateur,Western Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,11,182.75
-29,Male,382,Concussion,Head,Severe,Fall,No,Boxing,Amateur,Northern Europe,Warm-up,Gym Floor,Rest,Fully Recovered,121,700
+29,Male,382,Concussion,Head,Severe,Fall,No,Boxing,Amateur,Northern Europe,Warm-up,Gym Floor,Rest,Fully Recovered,121,700.0
 16,Male,981,Tendon Injury,Ankle,Minor,Contact,No,Football,Professional,Southern Europe,Warm-up,Indoor Court,Massage,Fully Recovered,7,206.18
 22,Female,1880,Knee Injury,Knee,Moderate,Contact,Yes,Basketball,Amateur,Northern Europe,Training,Outdoor Court,Physiotherapy,Fully Recovered,57,1890.8
 20,Male,1992,Fracture,Hamstring,Minor,Fall,No,Football,Professional,Western Europe,Training,Grass,Surgery,Recovered with Limitation,2,1444.94
@@ -811,7 +811,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,1337,Tendon Injury,Hamstring,Minor,Contact,No,Athletics,Professional,Western Europe,Competition,Road,Rest,Fully Recovered,1,86.87
 38,Female,2212,Knee Injury,Knee,Minor,Overuse,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,4,206.83
 26,Female,562,Tendon Injury,Calf,Moderate,Non-contact,No,Football,Amateur,Southern Europe,Training,Grass,Rest,Fully Recovered,34,544.94
-28,Male,717,Shin Splints,Shin,Severe,Fall,No,Athletics,Amateur,Southern Europe,Training,Road,Medication,Fully Recovered,86,6011
+28,Male,717,Shin Splints,Shin,Severe,Fall,No,Athletics,Amateur,Southern Europe,Training,Road,Medication,Fully Recovered,86,6011.0
 21,Male,1957,Concussion,Head,Moderate,Overuse,No,Boxing,Amateur,Western Europe,Warm-up,Gym Floor,Rest,Fully Recovered,53,264.88
 16,Female,345,Concussion,Head,Moderate,Overuse,No,Football,Amateur,Northern Europe,Training,Artificial Turf,Rest,Recovered with Limitation,21,442.69
 16,Female,159,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,3,31.01
@@ -1000,7 +1000,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,2629,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Tennis,Amateur,Central Europe,Competition,Grass,Surgery,Fully Recovered,43,5702.89
 39,Female,438,Contusion,Head,Minor,Overuse,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,2,63.42
 23,Female,5,Back Strain,Back,Moderate,Contact,No,Tennis,Professional,Western Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,48,1221.53
-39,Male,1556,Back Strain,Back,Minor,Overuse,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,12,787
+39,Male,1556,Back Strain,Back,Minor,Overuse,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,12,787.0
 26,Female,2314,Muscle Strain,Shoulder,Moderate,Overuse,Yes,Basketball,Amateur,Western Europe,Training,Outdoor Court,Surgery,Fully Recovered,30,5531.66
 17,Female,1519,Fracture,Calf,Moderate,Contact,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Ice/Heat Therapy,Fully Recovered,19,258.11
 34,Female,180,Tennis Elbow,Elbow,Severe,Contact,No,Tennis,Professional,Southern Europe,Training,Indoor Court,Surgery,Fully Recovered,168,24564.49
@@ -1021,7 +1021,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Female,2606,Concussion,Head,Minor,Fall,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Ice/Heat Therapy,Fully Recovered,4,191.56
 20,Male,1071,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Western Europe,Training,Ring,Ice/Heat Therapy,Fully Recovered,22,575.35
 33,Male,579,Wrist Strain,Wrist,Minor,Non-contact,Yes,Tennis,Amateur,Western Europe,Warm-up,Grass,Massage,Fully Recovered,7,218.09
-39,Female,2164,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Boxing,Amateur,Northern Europe,Competition,Training Mat,Surgery,Fully Recovered,34,3439
+39,Female,2164,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Boxing,Amateur,Northern Europe,Competition,Training Mat,Surgery,Fully Recovered,34,3439.0
 40,Female,173,Muscle Strain,Foot,Minor,Fall,No,Football,Professional,Western Europe,Training,Grass,Massage,Fully Recovered,14,80.38
 26,Female,2101,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Physiotherapy,Fully Recovered,4,309.07
 40,Female,1392,Eye Injury,Eye,Moderate,Non-contact,No,Boxing,Amateur,Central Europe,Training,Training Mat,Rest,Fully Recovered,30,166.89
@@ -1064,7 +1064,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Female,375,Back Strain,Back,Moderate,Overuse,No,Basketball,Professional,Central Europe,Training,Wooden Floor,Medication,Fully Recovered,20,724.78
 33,Male,2571,Fracture,Calf,Minor,Non-contact,Yes,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,4,139.46
 35,Male,2114,Shin Splints,Shin,Severe,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Field,Medication,Fully Recovered,355,6648.92
-36,Male,1476,Tendon Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Northern Europe,Warm-up,Road,Massage,Fully Recovered,11,234
+36,Male,1476,Tendon Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Northern Europe,Warm-up,Road,Massage,Fully Recovered,11,234.0
 39,Male,1099,Tendon Injury,Back,Moderate,Contact,No,Athletics,Amateur,Northern Europe,Competition,Track,Rest,Fully Recovered,16,263.04
 30,Female,2359,Rib Injury,Ribs,Moderate,Overuse,No,Boxing,Professional,Southern Europe,Competition,Ring,Massage,Retired,37,1062.07
 22,Male,1979,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Training,Indoor Track,Physiotherapy,Fully Recovered,7,130.05
@@ -1243,7 +1243,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Female,895,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Rest,Fully Recovered,4,148.42
 19,Female,1338,Fracture,Face,Severe,Fall,No,Boxing,Amateur,Central Europe,Competition,Ring,Physiotherapy,Recovered with Limitation,353,5917.66
 22,Female,1236,Eye Injury,Eye,Moderate,Fall,No,Boxing,Professional,Northern Europe,Warm-up,Training Mat,Surgery,Fully Recovered,36,2751.62
-28,Female,1890,Fracture,Shin,Minor,Contact,Yes,Athletics,Amateur,Northern Europe,Competition,Track,Massage,Fully Recovered,14,120
+28,Female,1890,Fracture,Shin,Minor,Contact,Yes,Athletics,Amateur,Northern Europe,Competition,Track,Massage,Fully Recovered,14,120.0
 32,Female,2349,Hamstring Injury,Hamstring,Severe,Overuse,No,Athletics,Amateur,Northern Europe,Warm-up,Field,Massage,Recovered with Limitation,230,5953.97
 38,Female,1519,Contusion,Head,Moderate,Overuse,No,Football,Amateur,Southern Europe,Training,Grass,Medication,Fully Recovered,31,400.46
 21,Female,2687,Fracture,Finger,Moderate,Contact,No,Basketball,Professional,Western Europe,Competition,Wooden Floor,Surgery,Fully Recovered,23,1985.02
@@ -1668,7 +1668,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 23,Female,1228,Tennis Elbow,Elbow,Severe,Overuse,No,Tennis,Professional,Western Europe,Warm-up,Indoor Court,Rest,Fully Recovered,131,4470.58
 33,Male,2013,Fracture,Calf,Minor,Contact,No,Football,Amateur,Southern Europe,Competition,Artificial Turf,Medication,Recovered with Limitation,4,230.44
 18,Male,1887,Tennis Elbow,Elbow,Minor,Overuse,Yes,Tennis,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Recovered with Limitation,11,417.7
-37,Female,1198,Knee Injury,Knee,Moderate,Contact,No,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,59,304
+37,Female,1198,Knee Injury,Knee,Moderate,Contact,No,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,59,304.0
 36,Female,1280,Muscle Strain,Ankle,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,29,1633.7
 38,Female,355,Fracture,Finger,Moderate,Contact,No,Basketball,Amateur,Southern Europe,Training,Outdoor Court,Medication,Fully Recovered,26,1051.19
 29,Female,1606,Shin Splints,Shin,Moderate,Fall,No,Athletics,Amateur,Western Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,26,295.87
@@ -1814,7 +1814,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 19,Female,1242,Rib Injury,Ribs,Minor,Contact,No,Boxing,Professional,Western Europe,Competition,Training Mat,Physiotherapy,Recovered with Limitation,12,83.17
 16,Female,2288,Tennis Elbow,Elbow,Minor,Non-contact,No,Tennis,Professional,Central Europe,Warm-up,Hard Court,Massage,Fully Recovered,9,99.89
 40,Female,2404,Rib Injury,Ribs,Minor,Contact,No,Boxing,Amateur,Western Europe,Competition,Gym Floor,Medication,Fully Recovered,7,286.7
-18,Male,1848,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Track,Rest,Fully Recovered,4,60
+18,Male,1848,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Track,Rest,Fully Recovered,4,60.0
 26,Female,2217,Muscle Strain,Foot,Moderate,Contact,Yes,Athletics,Amateur,Central Europe,Warm-up,Indoor Track,Rest,Fully Recovered,49,191.73
 16,Female,1955,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Amateur,Northern Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Retired,1,94.44
 19,Male,2096,Concussion,Head,Moderate,Fall,No,Football,Amateur,Central Europe,Training,Artificial Turf,Rest,Recovered with Limitation,34,404.37
@@ -1997,7 +1997,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 40,Male,1209,Rib Injury,Ribs,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Massage,Fully Recovered,14,221.84
 17,Male,1229,Tennis Elbow,Elbow,Minor,Fall,No,Tennis,Professional,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,11,143.39
 37,Female,1186,Knee Injury,Knee,Moderate,Overuse,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,33,879.59
-18,Female,250,Tendon Injury,Ankle,Minor,Overuse,Yes,Football,Amateur,Southern Europe,Warm-up,Indoor Court,Massage,Fully Recovered,1,221
+18,Female,250,Tendon Injury,Ankle,Minor,Overuse,Yes,Football,Amateur,Southern Europe,Warm-up,Indoor Court,Massage,Fully Recovered,1,221.0
 35,Female,835,Tennis Elbow,Elbow,Minor,Overuse,No,Tennis,Amateur,Central Europe,Training,Grass,Medication,Fully Recovered,3,286.97
 32,Female,2239,Muscle Strain,Achilles,Moderate,Non-contact,Yes,Basketball,Amateur,Southern Europe,Warm-up,Indoor Court,Massage,Recovered with Limitation,27,674.41
 23,Female,161,Knee Injury,Knee,Moderate,Contact,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,24,255.36
@@ -2008,7 +2008,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Female,622,Shin Splints,Shin,Minor,Fall,No,Athletics,Amateur,Northern Europe,Training,Indoor Track,Rest,Fully Recovered,1,45.52
 19,Male,1800,Muscle Strain,Shin,Moderate,Contact,No,Athletics,Professional,Northern Europe,Competition,Road,Massage,Fully Recovered,56,1178.9
 40,Male,2446,Contusion,Hip,Minor,Fall,No,Football,Amateur,Central Europe,Training,Grass,Medication,Fully Recovered,1,306.74
-37,Female,108,Fracture,Achilles,Minor,Fall,No,Athletics,Professional,Central Europe,Competition,Field,Physiotherapy,Retired,4,311
+37,Female,108,Fracture,Achilles,Minor,Fall,No,Athletics,Professional,Central Europe,Competition,Field,Physiotherapy,Retired,4,311.0
 36,Female,2189,Contusion,Hip,Severe,Non-contact,Yes,Football,Amateur,Southern Europe,Competition,Grass,Rest,Fully Recovered,188,3635.43
 38,Female,2148,Knee Injury,Knee,Minor,Fall,No,Tennis,Amateur,Central Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,4,173.17
 37,Female,879,Back Strain,Back,Severe,Overuse,Yes,Tennis,Amateur,Southern Europe,Competition,Hard Court,Surgery,Fully Recovered,243,41854.18
@@ -2051,7 +2051,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,2121,Facial Injury,Face,Moderate,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Training Mat,Ice/Heat Therapy,Fully Recovered,23,717.51
 38,Male,122,Ankle Sprain,Ankle,Minor,Overuse,No,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Massage,Fully Recovered,2,64.5
 29,Female,383,Tendon Injury,Hip,Moderate,Contact,Yes,Football,Amateur,Central Europe,Training,Indoor Court,Massage,Fully Recovered,57,1083.75
-23,Female,1561,Shoulder Injury,Shoulder,Minor,Contact,Yes,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,10,126
+23,Female,1561,Shoulder Injury,Shoulder,Minor,Contact,Yes,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,10,126.0
 27,Female,2519,Concussion,Head,Minor,Overuse,No,Football,Amateur,Central Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,8,80.63
 16,Female,238,Shoulder Injury,Shoulder,Moderate,Fall,No,Boxing,Amateur,Northern Europe,Training,Training Mat,Medication,Fully Recovered,33,889.23
 17,Male,1599,Back Strain,Back,Severe,Fall,Yes,Basketball,Amateur,Central Europe,Competition,Indoor Court,Medication,Recovered with Limitation,135,7376.99
@@ -2242,7 +2242,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 19,Female,1149,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Amateur,Central Europe,Warm-up,Hard Court,Physiotherapy,Fully Recovered,12,101.06
 31,Male,2088,Eye Injury,Eye,Moderate,Contact,No,Boxing,Amateur,Central Europe,Competition,Training Mat,Massage,Fully Recovered,58,598.31
 40,Male,783,Back Strain,Back,Moderate,Fall,Yes,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,57,4952.43
-30,Female,223,Eye Injury,Eye,Minor,Fall,No,Boxing,Amateur,Western Europe,Competition,Training Mat,Ice/Heat Therapy,Fully Recovered,1,153
+30,Female,223,Eye Injury,Eye,Minor,Fall,No,Boxing,Amateur,Western Europe,Competition,Training Mat,Ice/Heat Therapy,Fully Recovered,1,153.0
 22,Female,1093,Contusion,Head,Minor,Overuse,No,Football,Professional,Central Europe,Training,Grass,Massage,Fully Recovered,1,106.25
 40,Female,158,Tendon Injury,Hip,Moderate,Non-contact,No,Football,Amateur,Northern Europe,Warm-up,Artificial Turf,Massage,Fully Recovered,44,709.98
 24,Female,2014,Finger Injury,Finger,Minor,Contact,No,Basketball,Amateur,Western Europe,Competition,Outdoor Court,Surgery,Recovered with Limitation,13,875.51
@@ -2503,7 +2503,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,315,Tennis Elbow,Elbow,Minor,Non-contact,Yes,Tennis,Professional,Western Europe,Competition,Indoor Court,Surgery,Fully Recovered,7,581.79
 23,Female,2162,Fracture,Achilles,Moderate,Contact,No,Athletics,Professional,Central Europe,Warm-up,Indoor Track,Massage,Fully Recovered,43,921.89
 18,Male,1645,Finger Injury,Finger,Severe,Overuse,No,Basketball,Amateur,Northern Europe,Competition,Indoor Court,Medication,Fully Recovered,345,6089.47
-16,Male,65,Hamstring Injury,Hamstring,Minor,Contact,Yes,Athletics,Amateur,Northern Europe,Training,Indoor Track,Massage,Fully Recovered,9,82
+16,Male,65,Hamstring Injury,Hamstring,Minor,Contact,Yes,Athletics,Amateur,Northern Europe,Training,Indoor Track,Massage,Fully Recovered,9,82.0
 26,Male,2422,Back Strain,Back,Minor,Fall,No,Tennis,Amateur,Western Europe,Warm-up,Clay,Surgery,Fully Recovered,6,946.9
 40,Female,1190,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Rest,Recovered with Limitation,59,557.57
 40,Male,1095,Fracture,Calf,Moderate,Overuse,Yes,Athletics,Amateur,Northern Europe,Warm-up,Field,Ice/Heat Therapy,Retired,60,573.14
@@ -2629,7 +2629,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 33,Male,2283,Tendon Injury,Knee,Moderate,Fall,Yes,Football,Amateur,Central Europe,Warm-up,Indoor Court,Massage,Fully Recovered,45,1020.66
 16,Male,912,Concussion,Head,Minor,Overuse,No,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Rest,Fully Recovered,14,65.1
 23,Female,1981,Shoulder Injury,Shoulder,Moderate,Fall,No,Boxing,Amateur,Southern Europe,Warm-up,Ring,Rest,Fully Recovered,21,508.66
-24,Female,1833,Back Strain,Back,Moderate,Contact,No,Tennis,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,16,903
+24,Female,1833,Back Strain,Back,Moderate,Contact,No,Tennis,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,16,903.0
 21,Female,2173,Muscle Strain,Shoulder,Minor,Overuse,No,Football,Professional,Western Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,13,68.04
 28,Female,2606,Ankle Sprain,Ankle,Severe,Overuse,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,149,8945.77
 39,Male,1360,Hamstring Injury,Hamstring,Severe,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Track,Physiotherapy,Fully Recovered,262,9834.78
@@ -2735,7 +2735,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Female,2598,Wrist Strain,Wrist,Minor,Non-contact,No,Tennis,Professional,Western Europe,Competition,Hard Court,Rest,Fully Recovered,9,33.29
 19,Female,2602,Muscle Strain,Knee,Severe,Fall,Yes,Football,Amateur,Western Europe,Training,Artificial Turf,Physiotherapy,Fully Recovered,277,10888.77
 32,Female,437,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Northern Europe,Warm-up,Wooden Floor,Surgery,Fully Recovered,28,2070.25
-16,Female,489,Concussion,Head,Minor,Contact,Yes,Boxing,Amateur,Central Europe,Competition,Training Mat,Massage,Recovered with Limitation,8,257
+16,Female,489,Concussion,Head,Minor,Contact,Yes,Boxing,Amateur,Central Europe,Competition,Training Mat,Massage,Recovered with Limitation,8,257.0
 20,Male,2659,Wrist Strain,Wrist,Minor,Non-contact,Yes,Tennis,Professional,Central Europe,Competition,Hard Court,Medication,Fully Recovered,4,307.17
 29,Female,1839,Muscle Strain,Foot,Minor,Overuse,No,Athletics,Amateur,Western Europe,Warm-up,Track,Medication,Recovered with Limitation,8,127.71
 19,Female,1077,Hamstring Injury,Hamstring,Minor,Fall,No,Athletics,Professional,Southern Europe,Training,Indoor Track,Massage,Recovered with Limitation,14,120.21
@@ -2804,7 +2804,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Male,390,Muscle Strain,Ankle,Minor,Overuse,Yes,Basketball,Amateur,Central Europe,Competition,Indoor Court,Surgery,Fully Recovered,2,1269.73
 31,Male,1363,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Amateur,Southern Europe,Competition,Grass,Medication,Fully Recovered,46,610.58
 21,Male,1105,Knee Injury,Knee,Minor,Fall,No,Basketball,Amateur,Central Europe,Training,Wooden Floor,Medication,Fully Recovered,14,289.03
-21,Female,1101,Ankle Sprain,Ankle,Minor,Non-contact,No,Tennis,Amateur,Northern Europe,Competition,Grass,Ice/Heat Therapy,Recovered with Limitation,3,164
+21,Female,1101,Ankle Sprain,Ankle,Minor,Non-contact,No,Tennis,Amateur,Northern Europe,Competition,Grass,Ice/Heat Therapy,Recovered with Limitation,3,164.0
 19,Female,2452,Finger Injury,Finger,Minor,Fall,No,Basketball,Amateur,Western Europe,Competition,Outdoor Court,Massage,Recovered with Limitation,2,101.01
 28,Male,1547,Contusion,Calf,Minor,Non-contact,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,12,169.86
 32,Female,1364,Back Strain,Back,Minor,Contact,Yes,Basketball,Amateur,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,13,240.17
@@ -2813,7 +2813,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,2024,Tendon Injury,Foot,Minor,Overuse,No,Athletics,Professional,Southern Europe,Competition,Indoor Track,Medication,Fully Recovered,13,347.98
 33,Female,2334,Muscle Strain,Calf,Minor,Overuse,No,Athletics,Professional,Northern Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,13,194.34
 32,Female,935,Shoulder Injury,Shoulder,Severe,Contact,No,Tennis,Professional,Northern Europe,Competition,Clay,Ice/Heat Therapy,Retired,345,1344.94
-27,Female,2161,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,7,101
+27,Female,2161,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,7,101.0
 21,Female,683,Ligament Sprain,Hamstring,Minor,Overuse,No,Football,Amateur,Central Europe,Warm-up,Artificial Turf,Ice/Heat Therapy,Fully Recovered,14,24.35
 24,Female,396,Fracture,Shoulder,Moderate,Non-contact,No,Basketball,Professional,Central Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,44,1901.28
 30,Male,881,Tendon Injury,Hamstring,Severe,Non-contact,Yes,Football,Amateur,Southern Europe,Training,Artificial Turf,Massage,Fully Recovered,93,6367.53
@@ -2985,7 +2985,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 23,Female,2295,Ankle Sprain,Ankle,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,9,27.62
 31,Female,1031,Shoulder Injury,Shoulder,Moderate,Non-contact,Yes,Tennis,Amateur,Western Europe,Training,Indoor Court,Massage,Fully Recovered,54,710.36
 19,Female,2644,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Amateur,Central Europe,Training,Hard Court,Rest,Recovered with Limitation,7,68.69
-34,Male,262,Eye Injury,Eye,Severe,Non-contact,No,Boxing,Professional,Central Europe,Training,Ring,Surgery,Fully Recovered,164,28392
+34,Male,262,Eye Injury,Eye,Severe,Non-contact,No,Boxing,Professional,Central Europe,Training,Ring,Surgery,Fully Recovered,164,28392.0
 34,Female,202,Muscle Strain,Calf,Moderate,Overuse,No,Football,Professional,Northern Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,30,1963.87
 19,Female,1220,Knee Injury,Knee,Minor,Fall,No,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Physiotherapy,Recovered with Limitation,9,111.36
 21,Male,2230,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Tennis,Professional,Central Europe,Warm-up,Grass,Physiotherapy,Recovered with Limitation,29,1488.94
@@ -3236,7 +3236,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,1596,Muscle Strain,Ankle,Moderate,Contact,Yes,Football,Amateur,Western Europe,Training,Indoor Court,Rest,Fully Recovered,18,176.59
 19,Female,1278,Knee Injury,Knee,Minor,Contact,Yes,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,6,157.62
 33,Male,712,Shin Splints,Shin,Minor,Overuse,No,Athletics,Amateur,Northern Europe,Warm-up,Indoor Track,Physiotherapy,Fully Recovered,13,316.51
-22,Male,354,Ligament Sprain,Foot,Severe,Contact,No,Football,Amateur,Southern Europe,Competition,Grass,Surgery,Recovered with Limitation,230,8056
+22,Male,354,Ligament Sprain,Foot,Severe,Contact,No,Football,Amateur,Southern Europe,Competition,Grass,Surgery,Recovered with Limitation,230,8056.0
 23,Male,624,Muscle Strain,Knee,Moderate,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Track,Rest,Fully Recovered,39,409.09
 28,Female,845,Knee Injury,Knee,Severe,Non-contact,No,Tennis,Professional,Southern Europe,Competition,Indoor Court,Medication,Retired,253,4902.38
 39,Female,1676,Knee Injury,Knee,Minor,Overuse,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Medication,Fully Recovered,3,322.13
@@ -3286,7 +3286,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Male,722,Fracture,Ankle,Severe,Non-contact,No,Football,Amateur,Southern Europe,Training,Artificial Turf,Ice/Heat Therapy,Fully Recovered,182,1446.52
 29,Female,2492,Fracture,Head,Severe,Fall,No,Football,Amateur,Western Europe,Warm-up,Grass,Medication,Fully Recovered,344,3363.34
 17,Male,827,Facial Injury,Face,Minor,Non-contact,No,Boxing,Professional,Southern Europe,Warm-up,Training Mat,Medication,Fully Recovered,7,304.52
-40,Female,1288,Muscle Strain,Achilles,Moderate,Fall,No,Athletics,Professional,Southern Europe,Warm-up,Road,Rest,Fully Recovered,57,250
+40,Female,1288,Muscle Strain,Achilles,Moderate,Fall,No,Athletics,Professional,Southern Europe,Warm-up,Road,Rest,Fully Recovered,57,250.0
 17,Female,2238,Hamstring Injury,Hamstring,Minor,Fall,No,Athletics,Amateur,Southern Europe,Training,Indoor Track,Ice/Heat Therapy,Fully Recovered,1,76.47
 34,Female,2219,Tendon Injury,Calf,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Competition,Road,Physiotherapy,Fully Recovered,5,192.97
 28,Male,1512,Muscle Strain,Knee,Moderate,Contact,No,Football,Amateur,Northern Europe,Warm-up,Artificial Turf,Surgery,Fully Recovered,60,4828.67
@@ -3313,7 +3313,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Male,1955,Tendon Injury,Knee,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,28,641.6
 22,Female,1473,Tendon Injury,Hamstring,Moderate,Contact,No,Football,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,28,644.67
 31,Female,2013,Shoulder Injury,Shoulder,Minor,Fall,No,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Ice/Heat Therapy,Fully Recovered,11,131.46
-38,Female,1538,Wrist Strain,Wrist,Minor,Contact,Yes,Tennis,Amateur,Northern Europe,Training,Clay,Ice/Heat Therapy,Fully Recovered,5,126
+38,Female,1538,Wrist Strain,Wrist,Minor,Contact,Yes,Tennis,Amateur,Northern Europe,Training,Clay,Ice/Heat Therapy,Fully Recovered,5,126.0
 36,Female,2483,Muscle Strain,Knee,Moderate,Non-contact,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,49,949.87
 16,Female,395,Shoulder Injury,Shoulder,Moderate,Contact,Yes,Tennis,Professional,Central Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,36,2726.62
 39,Male,217,Fracture,Shoulder,Severe,Non-contact,Yes,Basketball,Professional,Northern Europe,Training,Indoor Court,Surgery,Fully Recovered,175,15699.62
@@ -3363,7 +3363,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 16,Female,1028,Muscle Strain,Knee,Minor,Fall,No,Football,Professional,Western Europe,Training,Grass,Medication,Fully Recovered,8,247.81
 18,Male,1021,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Southern Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,42,1533.46
 19,Male,1814,Facial Injury,Face,Severe,Contact,No,Boxing,Amateur,Western Europe,Competition,Ring,Rest,Recovered with Limitation,312,1630.65
-29,Female,1475,Fracture,Calf,Minor,Contact,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,13,275
+29,Female,1475,Fracture,Calf,Minor,Contact,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,13,275.0
 38,Female,1364,Shoulder Injury,Shoulder,Severe,Overuse,No,Boxing,Amateur,Northern Europe,Competition,Training Mat,Physiotherapy,Fully Recovered,301,7902.74
 31,Female,1110,Contusion,Head,Moderate,Overuse,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Recovered with Limitation,21,456.61
 24,Female,2266,Concussion,Head,Minor,Fall,Yes,Football,Amateur,Northern Europe,Training,Grass,Medication,Fully Recovered,1,149.04
@@ -3425,12 +3425,12 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Female,1368,Knee Injury,Knee,Moderate,Contact,No,Tennis,Amateur,Western Europe,Competition,Hard Court,Rest,Fully Recovered,32,156.54
 20,Female,2574,Achilles Injury,Achilles,Severe,Contact,No,Athletics,Amateur,Northern Europe,Training,Field,Physiotherapy,Fully Recovered,198,7159.26
 21,Female,1970,Fracture,Calf,Severe,Overuse,No,Athletics,Professional,Western Europe,Warm-up,Field,Rest,Fully Recovered,268,2983.69
-37,Female,903,Shin Splints,Shin,Minor,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Field,Surgery,Fully Recovered,7,329
+37,Female,903,Shin Splints,Shin,Minor,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Field,Surgery,Fully Recovered,7,329.0
 19,Female,2552,Concussion,Head,Severe,Fall,No,Boxing,Professional,Southern Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,274,1288.92
 19,Female,615,Eye Injury,Eye,Moderate,Contact,Yes,Boxing,Amateur,Central Europe,Training,Training Mat,Massage,Fully Recovered,42,658.49
 21,Male,2519,Shin Splints,Shin,Moderate,Overuse,No,Athletics,Professional,Southern Europe,Competition,Road,Physiotherapy,Fully Recovered,19,754.58
 39,Male,1976,Fracture,Ankle,Minor,Overuse,No,Basketball,Professional,Southern Europe,Competition,Wooden Floor,Medication,Fully Recovered,9,267.06
-21,Female,398,Ligament Sprain,Foot,Severe,Non-contact,No,Football,Professional,Central Europe,Competition,Grass,Ice/Heat Therapy,Recovered with Limitation,73,4410
+21,Female,398,Ligament Sprain,Foot,Severe,Non-contact,No,Football,Professional,Central Europe,Competition,Grass,Ice/Heat Therapy,Recovered with Limitation,73,4410.0
 17,Male,432,Knee Injury,Knee,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Rest,Fully Recovered,1,109.33
 40,Female,1603,Knee Injury,Knee,Severe,Fall,No,Basketball,Professional,Western Europe,Warm-up,Wooden Floor,Medication,Fully Recovered,141,1469.97
 21,Female,1109,Shoulder Injury,Shoulder,Severe,Contact,Yes,Boxing,Professional,Central Europe,Training,Training Mat,Rest,Recovered with Limitation,229,1372.02
@@ -3788,7 +3788,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,81,Eye Injury,Eye,Moderate,Fall,No,Boxing,Professional,Central Europe,Training,Ring,Massage,Fully Recovered,59,571.25
 27,Female,2426,Shoulder Injury,Shoulder,Severe,Overuse,No,Boxing,Amateur,Central Europe,Competition,Ring,Physiotherapy,Recovered with Limitation,108,10260.99
 28,Female,1269,Ankle Sprain,Ankle,Severe,Non-contact,No,Basketball,Amateur,Western Europe,Training,Outdoor Court,Physiotherapy,Fully Recovered,272,9915.5
-27,Female,1944,Shin Splints,Shin,Minor,Contact,No,Athletics,Amateur,Central Europe,Warm-up,Indoor Track,Rest,Fully Recovered,14,116
+27,Female,1944,Shin Splints,Shin,Minor,Contact,No,Athletics,Amateur,Central Europe,Warm-up,Indoor Track,Rest,Fully Recovered,14,116.0
 20,Female,918,Fracture,Foot,Minor,Contact,No,Football,Amateur,Central Europe,Warm-up,Grass,Medication,Fully Recovered,14,85.74
 25,Male,883,Fracture,Ribs,Minor,Overuse,Yes,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Massage,Fully Recovered,4,159.69
 16,Male,1270,Fracture,Shin,Moderate,Non-contact,Yes,Athletics,Professional,Northern Europe,Competition,Indoor Track,Rest,Fully Recovered,49,451.15
@@ -3949,7 +3949,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 34,Female,1730,Facial Injury,Face,Minor,Non-contact,No,Boxing,Professional,Western Europe,Competition,Training Mat,Ice/Heat Therapy,Fully Recovered,4,93.37
 23,Male,1015,Ligament Sprain,Ankle,Minor,Non-contact,Yes,Football,Professional,Northern Europe,Competition,Artificial Turf,Physiotherapy,Fully Recovered,11,62.31
 16,Male,1544,Wrist Strain,Wrist,Minor,Contact,Yes,Tennis,Professional,Northern Europe,Training,Clay,Medication,Fully Recovered,6,79.29
-34,Male,2072,Fracture,Achilles,Minor,Overuse,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Rest,Fully Recovered,9,36
+34,Male,2072,Fracture,Achilles,Minor,Overuse,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Rest,Fully Recovered,9,36.0
 28,Male,1658,Wrist Strain,Wrist,Minor,Contact,Yes,Tennis,Amateur,Central Europe,Competition,Grass,Surgery,Recovered with Limitation,4,1246.49
 25,Female,15,Knee Injury,Knee,Severe,Contact,Yes,Basketball,Amateur,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,84,2047.17
 20,Female,181,Fracture,Knee,Moderate,Overuse,No,Basketball,Professional,Western Europe,Competition,Wooden Floor,Rest,Fully Recovered,46,372.12
@@ -4035,7 +4035,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,2042,Rib Injury,Ribs,Severe,Contact,No,Boxing,Amateur,Northern Europe,Competition,Ring,Physiotherapy,Fully Recovered,220,14354.43
 19,Female,836,Fracture,Back,Minor,Contact,No,Athletics,Amateur,Central Europe,Training,Track,Surgery,Fully Recovered,3,639.41
 30,Female,1271,Concussion,Head,Minor,Non-contact,No,Boxing,Amateur,Northern Europe,Competition,Gym Floor,Surgery,Retired,2,417.13
-38,Female,1572,Fracture,Calf,Minor,Fall,No,Athletics,Amateur,Western Europe,Competition,Field,Physiotherapy,Fully Recovered,12,51
+38,Female,1572,Fracture,Calf,Minor,Fall,No,Athletics,Amateur,Western Europe,Competition,Field,Physiotherapy,Fully Recovered,12,51.0
 39,Female,1743,Knee Injury,Knee,Minor,Overuse,No,Tennis,Professional,Western Europe,Warm-up,Clay,Ice/Heat Therapy,Fully Recovered,6,183.35
 25,Female,258,Muscle Strain,Calf,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Indoor Court,Surgery,Fully Recovered,27,5419.62
 32,Female,977,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Rest,Fully Recovered,11,83.35
@@ -4049,7 +4049,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Female,2385,Knee Injury,Knee,Moderate,Contact,No,Tennis,Amateur,Northern Europe,Warm-up,Grass,Massage,Fully Recovered,57,464.68
 32,Female,511,Eye Injury,Eye,Severe,Overuse,No,Boxing,Amateur,Central Europe,Training,Gym Floor,Rest,Fully Recovered,272,2807.26
 36,Female,2221,Back Strain,Back,Moderate,Fall,No,Tennis,Amateur,Central Europe,Training,Clay,Rest,Fully Recovered,29,376.11
-17,Female,1445,Ankle Sprain,Ankle,Moderate,Non-contact,No,Tennis,Professional,Central Europe,Competition,Clay,Physiotherapy,Retired,50,1268
+17,Female,1445,Ankle Sprain,Ankle,Moderate,Non-contact,No,Tennis,Professional,Central Europe,Competition,Clay,Physiotherapy,Retired,50,1268.0
 37,Male,1335,Shoulder Injury,Shoulder,Severe,Non-contact,No,Boxing,Amateur,Central Europe,Training,Gym Floor,Physiotherapy,Fully Recovered,195,9953.67
 33,Male,1532,Contusion,Shoulder,Moderate,Contact,No,Football,Amateur,Central Europe,Warm-up,Grass,Massage,Fully Recovered,25,1162.1
 26,Female,667,Finger Injury,Finger,Minor,Overuse,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Physiotherapy,Fully Recovered,1,213.25
@@ -4123,7 +4123,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 22,Female,846,Tendon Injury,Hamstring,Minor,Overuse,No,Athletics,Amateur,Northern Europe,Training,Road,Rest,Fully Recovered,1,41.28
 39,Male,1054,Wrist Strain,Wrist,Severe,Fall,Yes,Tennis,Amateur,Western Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,208,6789.68
 19,Female,1822,Ankle Sprain,Ankle,Minor,Overuse,Yes,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Medication,Fully Recovered,12,256.35
-31,Female,1718,Shoulder Injury,Shoulder,Minor,Contact,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Rest,Recovered with Limitation,3,68
+31,Female,1718,Shoulder Injury,Shoulder,Minor,Contact,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Rest,Recovered with Limitation,3,68.0
 31,Male,1049,Rib Injury,Ribs,Minor,Contact,No,Boxing,Professional,Central Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,5,39.45
 30,Female,1912,Tendon Injury,Shoulder,Minor,Non-contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,2,94.69
 22,Female,2201,Muscle Strain,Calf,Minor,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,6,391.57
@@ -4319,7 +4319,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 39,Female,607,Ligament Sprain,Hamstring,Minor,Fall,No,Football,Amateur,Central Europe,Competition,Grass,Medication,Recovered with Limitation,12,270.02
 38,Female,2455,Fracture,Face,Moderate,Contact,No,Boxing,Amateur,Western Europe,Competition,Ring,Physiotherapy,Fully Recovered,55,1235.22
 34,Female,1660,Eye Injury,Eye,Moderate,Non-contact,Yes,Boxing,Professional,Southern Europe,Warm-up,Training Mat,Physiotherapy,Fully Recovered,58,1765.78
-19,Male,550,Muscle Strain,Foot,Minor,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Indoor Track,Massage,Fully Recovered,4,277
+19,Male,550,Muscle Strain,Foot,Minor,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Indoor Track,Massage,Fully Recovered,4,277.0
 39,Female,803,Fracture,Back,Minor,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Track,Surgery,Fully Recovered,5,458.05
 27,Female,2380,Finger Injury,Finger,Moderate,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Outdoor Court,Medication,Recovered with Limitation,31,1270.82
 16,Female,1905,Fracture,Knee,Minor,Fall,No,Basketball,Professional,Western Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,12,73.91
@@ -4331,7 +4331,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 25,Female,603,Facial Injury,Face,Minor,Contact,No,Boxing,Amateur,Central Europe,Training,Gym Floor,Medication,Fully Recovered,11,123.3
 38,Male,749,Shin Splints,Shin,Minor,Fall,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Surgery,Fully Recovered,5,892.69
 30,Female,1207,Muscle Strain,Calf,Moderate,Non-contact,No,Basketball,Professional,Western Europe,Training,Wooden Floor,Massage,Fully Recovered,32,1030.26
-17,Male,2139,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Surgery,Fully Recovered,57,1848
+17,Male,2139,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Surgery,Fully Recovered,57,1848.0
 37,Female,1946,Fracture,Hamstring,Minor,Overuse,No,Athletics,Professional,Southern Europe,Competition,Indoor Track,Rest,Retired,7,33.16
 34,Female,2312,Fracture,Hamstring,Minor,Contact,Yes,Athletics,Amateur,Western Europe,Competition,Track,Physiotherapy,Fully Recovered,3,427.98
 20,Female,1988,Fracture,Calf,Moderate,Overuse,No,Football,Amateur,Southern Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,30,273.65
@@ -4365,7 +4365,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Male,383,Shin Splints,Shin,Moderate,Overuse,No,Athletics,Amateur,Southern Europe,Competition,Road,Massage,Fully Recovered,43,928.74
 18,Male,1208,Shin Splints,Shin,Severe,Contact,Yes,Athletics,Amateur,Southern Europe,Warm-up,Indoor Track,Rest,Fully Recovered,149,3236.53
 21,Male,202,Ankle Sprain,Ankle,Minor,Contact,No,Tennis,Amateur,Northern Europe,Training,Indoor Court,Medication,Fully Recovered,7,64.46
-17,Male,1376,Ligament Sprain,Foot,Minor,Fall,No,Football,Amateur,Western Europe,Training,Indoor Court,Rest,Fully Recovered,12,148
+17,Male,1376,Ligament Sprain,Foot,Minor,Fall,No,Football,Amateur,Western Europe,Training,Indoor Court,Rest,Fully Recovered,12,148.0
 21,Female,2699,Tennis Elbow,Elbow,Severe,Non-contact,No,Tennis,Amateur,Northern Europe,Warm-up,Hard Court,Medication,Fully Recovered,96,10011.38
 20,Female,1473,Knee Injury,Knee,Minor,Contact,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Surgery,Fully Recovered,13,250.29
 35,Male,397,Contusion,Ankle,Minor,Non-contact,No,Football,Professional,Central Europe,Warm-up,Grass,Rest,Fully Recovered,10,15.01
@@ -4438,7 +4438,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Male,1002,Finger Injury,Finger,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,5,336.31
 26,Male,2580,Wrist Strain,Wrist,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,3,21.7
 18,Female,2133,Tennis Elbow,Elbow,Moderate,Fall,Yes,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,25,2019.37
-36,Female,1732,Fracture,Ankle,Moderate,Contact,Yes,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Physiotherapy,Fully Recovered,59,1313
+36,Female,1732,Fracture,Ankle,Moderate,Contact,Yes,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Physiotherapy,Fully Recovered,59,1313.0
 18,Male,1060,Fracture,Calf,Moderate,Contact,No,Athletics,Professional,Central Europe,Warm-up,Indoor Track,Rest,Fully Recovered,59,507.95
 26,Male,637,Tendon Injury,Calf,Minor,Non-contact,Yes,Football,Amateur,Central Europe,Competition,Indoor Court,Surgery,Fully Recovered,2,747.05
 40,Female,750,Knee Injury,Knee,Minor,Non-contact,No,Tennis,Professional,Western Europe,Training,Clay,Medication,Recovered with Limitation,4,258.68
@@ -4472,7 +4472,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,679,Fracture,Back,Minor,Overuse,No,Basketball,Professional,Western Europe,Warm-up,Indoor Court,Medication,Fully Recovered,12,94.48
 16,Female,696,Muscle Strain,Hamstring,Minor,Overuse,No,Football,Amateur,Northern Europe,Training,Indoor Court,Surgery,Fully Recovered,13,1131.33
 17,Female,2100,Tennis Elbow,Elbow,Moderate,Fall,No,Tennis,Professional,Central Europe,Training,Clay,Physiotherapy,Fully Recovered,25,1384.07
-23,Male,727,Muscle Strain,Back,Severe,Non-contact,Yes,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Massage,Fully Recovered,135,7436
+23,Male,727,Muscle Strain,Back,Severe,Non-contact,Yes,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Massage,Fully Recovered,135,7436.0
 31,Female,895,Ankle Sprain,Ankle,Minor,Contact,No,Tennis,Professional,Southern Europe,Training,Hard Court,Medication,Fully Recovered,8,307.48
 18,Male,1317,Ligament Sprain,Ankle,Minor,Contact,No,Football,Amateur,Northern Europe,Competition,Grass,Rest,Fully Recovered,7,60.55
 16,Male,1669,Eye Injury,Eye,Minor,Non-contact,No,Boxing,Professional,Western Europe,Training,Ring,Rest,Fully Recovered,12,59.9
@@ -4510,7 +4510,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 16,Female,2079,Fracture,Ankle,Moderate,Overuse,No,Football,Amateur,Northern Europe,Training,Indoor Court,Surgery,Retired,52,5800.61
 38,Female,2035,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Central Europe,Training,Clay,Surgery,Fully Recovered,11,1286.27
 36,Female,108,Concussion,Head,Moderate,Non-contact,No,Boxing,Professional,Western Europe,Training,Ring,Rest,Fully Recovered,45,527.07
-30,Female,120,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Rest,Fully Recovered,29,444
+30,Female,120,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Rest,Fully Recovered,29,444.0
 19,Female,1916,Knee Injury,Knee,Minor,Fall,Yes,Basketball,Professional,Central Europe,Warm-up,Outdoor Court,Surgery,Recovered with Limitation,4,298.8
 22,Male,50,Fracture,Eye,Moderate,Fall,Yes,Boxing,Professional,Central Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,21,781.98
 27,Female,94,Fracture,Calf,Severe,Overuse,No,Athletics,Amateur,Northern Europe,Training,Track,Ice/Heat Therapy,Fully Recovered,163,1114.42
@@ -4533,7 +4533,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 40,Female,770,Muscle Strain,Head,Minor,Fall,No,Football,Amateur,Central Europe,Warm-up,Grass,Massage,Retired,1,271.32
 22,Female,693,Back Strain,Back,Minor,Fall,No,Basketball,Professional,Southern Europe,Warm-up,Outdoor Court,Rest,Fully Recovered,4,84.5
 38,Female,2192,Ligament Sprain,Hip,Minor,Fall,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Rest,Fully Recovered,2,73.83
-32,Female,39,Contusion,Ankle,Severe,Overuse,No,Football,Professional,Southern Europe,Training,Artificial Turf,Massage,Recovered with Limitation,214,8135
+32,Female,39,Contusion,Ankle,Severe,Overuse,No,Football,Professional,Southern Europe,Training,Artificial Turf,Massage,Recovered with Limitation,214,8135.0
 17,Male,515,Knee Injury,Knee,Minor,Fall,No,Tennis,Amateur,Western Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,14,108.34
 33,Male,308,Ligament Sprain,Ankle,Minor,Fall,No,Football,Amateur,Southern Europe,Warm-up,Indoor Court,Rest,Fully Recovered,4,72.16
 20,Female,46,Eye Injury,Eye,Moderate,Contact,No,Boxing,Amateur,Northern Europe,Competition,Ring,Physiotherapy,Recovered with Limitation,53,1062.31
@@ -4618,7 +4618,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Female,1873,Ankle Sprain,Ankle,Minor,Non-contact,No,Basketball,Professional,Southern Europe,Warm-up,Wooden Floor,Physiotherapy,Fully Recovered,3,211.41
 22,Male,2150,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Rest,Recovered with Limitation,9,27.74
 40,Male,1151,Eye Injury,Eye,Minor,Contact,No,Boxing,Amateur,Northern Europe,Warm-up,Gym Floor,Medication,Fully Recovered,12,177.38
-23,Male,2377,Rib Injury,Ribs,Moderate,Non-contact,No,Boxing,Amateur,Southern Europe,Warm-up,Ring,Surgery,Fully Recovered,48,5576
+23,Male,2377,Rib Injury,Ribs,Moderate,Non-contact,No,Boxing,Amateur,Southern Europe,Warm-up,Ring,Surgery,Fully Recovered,48,5576.0
 31,Female,2208,Muscle Strain,Foot,Minor,Overuse,No,Athletics,Professional,Northern Europe,Competition,Field,Medication,Fully Recovered,10,63.12
 29,Female,719,Concussion,Head,Moderate,Contact,Yes,Football,Amateur,Western Europe,Training,Grass,Rest,Fully Recovered,16,437.94
 37,Female,610,Fracture,Face,Moderate,Overuse,No,Boxing,Amateur,Northern Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,52,1466.85
@@ -4655,7 +4655,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 31,Female,1985,Muscle Strain,Shoulder,Moderate,Fall,No,Football,Amateur,Central Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,36,1859.13
 17,Male,2672,Back Strain,Back,Minor,Overuse,No,Basketball,Professional,Northern Europe,Competition,Outdoor Court,Massage,Fully Recovered,11,117.71
 20,Female,2641,Knee Injury,Knee,Moderate,Overuse,No,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Massage,Fully Recovered,57,1004.63
-22,Female,2012,Knee Injury,Knee,Severe,Non-contact,Yes,Basketball,Professional,Southern Europe,Warm-up,Wooden Floor,Physiotherapy,Fully Recovered,164,13618
+22,Female,2012,Knee Injury,Knee,Severe,Non-contact,Yes,Basketball,Professional,Southern Europe,Warm-up,Wooden Floor,Physiotherapy,Fully Recovered,164,13618.0
 24,Female,417,Eye Injury,Eye,Severe,Overuse,No,Boxing,Professional,Northern Europe,Training,Gym Floor,Massage,Fully Recovered,195,2143.91
 36,Female,992,Muscle Strain,Foot,Moderate,Fall,No,Football,Professional,Western Europe,Warm-up,Artificial Turf,Rest,Fully Recovered,39,307.79
 23,Female,870,Muscle Strain,Calf,Moderate,Contact,No,Athletics,Amateur,Central Europe,Competition,Track,Surgery,Recovered with Limitation,47,3663.62
@@ -4673,7 +4673,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Female,767,Facial Injury,Face,Minor,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Surgery,Fully Recovered,6,873.18
 33,Female,622,Knee Injury,Knee,Minor,Non-contact,No,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,11,391.72
 36,Female,2213,Concussion,Head,Moderate,Overuse,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,59,1877.22
-20,Female,2116,Contusion,Foot,Severe,Overuse,No,Football,Amateur,Central Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,183,5633
+20,Female,2116,Contusion,Foot,Severe,Overuse,No,Football,Amateur,Central Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,183,5633.0
 35,Female,1402,Ankle Sprain,Ankle,Minor,Contact,No,Basketball,Professional,Central Europe,Training,Wooden Floor,Ice/Heat Therapy,Fully Recovered,13,133.01
 20,Female,1845,Muscle Strain,Back,Minor,Non-contact,No,Basketball,Amateur,Western Europe,Training,Outdoor Court,Rest,Recovered with Limitation,13,32.32
 37,Female,175,Ankle Sprain,Ankle,Severe,Overuse,No,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,297,5421.43
@@ -4773,7 +4773,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,745,Knee Injury,Knee,Severe,Fall,Yes,Basketball,Amateur,Western Europe,Competition,Outdoor Court,Physiotherapy,Recovered with Limitation,155,8189.3
 33,Female,634,Ankle Sprain,Ankle,Moderate,Overuse,Yes,Basketball,Professional,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,19,671.59
 30,Female,100,Shoulder Injury,Shoulder,Minor,Fall,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Medication,Fully Recovered,3,167.3
-29,Female,1469,Contusion,Shoulder,Moderate,Fall,Yes,Football,Amateur,Central Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,54,296
+29,Female,1469,Contusion,Shoulder,Moderate,Fall,Yes,Football,Amateur,Central Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,54,296.0
 37,Female,289,Back Strain,Back,Severe,Non-contact,No,Tennis,Amateur,Central Europe,Warm-up,Grass,Massage,Fully Recovered,346,4266.17
 26,Male,2595,Facial Injury,Face,Minor,Fall,No,Boxing,Amateur,Northern Europe,Warm-up,Ring,Physiotherapy,Fully Recovered,4,53.05
 20,Female,2240,Finger Injury,Finger,Severe,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Outdoor Court,Surgery,Fully Recovered,252,36529.47
@@ -4787,7 +4787,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 26,Female,1350,Fracture,Knee,Severe,Fall,No,Football,Professional,Central Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,314,5494.98
 16,Male,622,Hamstring Injury,Hamstring,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Indoor Track,Ice/Heat Therapy,Recovered with Limitation,1,76.35
 23,Male,1728,Back Strain,Back,Minor,Fall,No,Tennis,Professional,Central Europe,Warm-up,Hard Court,Physiotherapy,Fully Recovered,5,173.5
-18,Male,885,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Warm-up,Hard Court,Medication,Fully Recovered,12,108
+18,Male,885,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Warm-up,Hard Court,Medication,Fully Recovered,12,108.0
 33,Female,2099,Ligament Sprain,Head,Minor,Fall,Yes,Football,Amateur,Central Europe,Competition,Grass,Surgery,Fully Recovered,11,655.48
 35,Female,1625,Wrist Strain,Wrist,Moderate,Overuse,No,Tennis,Amateur,Northern Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,54,760.97
 22,Female,1969,Contusion,Head,Moderate,Contact,Yes,Football,Professional,Northern Europe,Training,Indoor Court,Surgery,Fully Recovered,21,2872.11
@@ -4843,9 +4843,9 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Female,2510,Hamstring Injury,Hamstring,Minor,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Field,Physiotherapy,Fully Recovered,13,136.7
 26,Male,2107,Concussion,Head,Moderate,Overuse,Yes,Football,Amateur,Western Europe,Warm-up,Artificial Turf,Rest,Fully Recovered,25,551.03
 27,Female,460,Knee Injury,Knee,Minor,Contact,No,Basketball,Professional,Central Europe,Training,Outdoor Court,Massage,Fully Recovered,13,94.57
-33,Male,1126,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Amateur,Western Europe,Competition,Ring,Physiotherapy,Fully Recovered,23,1743
+33,Male,1126,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Amateur,Western Europe,Competition,Ring,Physiotherapy,Fully Recovered,23,1743.0
 39,Female,1967,Shoulder Injury,Shoulder,Moderate,Fall,No,Tennis,Amateur,Central Europe,Competition,Clay,Massage,Fully Recovered,45,1058.53
-25,Male,2021,Muscle Strain,Achilles,Severe,Non-contact,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,200,6996
+25,Male,2021,Muscle Strain,Achilles,Severe,Non-contact,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,200,6996.0
 27,Male,1324,Hamstring Injury,Hamstring,Minor,Contact,No,Athletics,Amateur,Western Europe,Competition,Field,Surgery,Fully Recovered,1,489.4
 32,Male,909,Ankle Sprain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,10,128.09
 16,Female,573,Finger Injury,Finger,Moderate,Fall,No,Basketball,Professional,Southern Europe,Training,Wooden Floor,Ice/Heat Therapy,Fully Recovered,16,728.15
@@ -5041,7 +5041,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Male,521,Eye Injury,Eye,Minor,Fall,No,Boxing,Amateur,Western Europe,Training,Training Mat,Ice/Heat Therapy,Fully Recovered,3,150.33
 19,Female,2313,Knee Injury,Knee,Moderate,Non-contact,No,Basketball,Professional,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,31,253.06
 25,Female,1816,Eye Injury,Eye,Minor,Overuse,No,Boxing,Amateur,Western Europe,Training,Training Mat,Massage,Recovered with Limitation,12,35.59
-29,Male,2083,Shin Splints,Shin,Minor,Overuse,No,Athletics,Professional,Western Europe,Training,Track,Medication,Fully Recovered,9,299
+29,Male,2083,Shin Splints,Shin,Minor,Overuse,No,Athletics,Professional,Western Europe,Training,Track,Medication,Fully Recovered,9,299.0
 37,Female,2477,Shoulder Injury,Shoulder,Minor,Non-contact,No,Boxing,Amateur,Northern Europe,Competition,Training Mat,Surgery,Fully Recovered,5,1364.3
 40,Female,120,Facial Injury,Face,Severe,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Surgery,Fully Recovered,353,40055.67
 23,Female,1981,Tendon Injury,Shoulder,Severe,Non-contact,No,Football,Amateur,Western Europe,Competition,Grass,Surgery,Retired,94,44103.74
@@ -5119,7 +5119,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Male,765,Fracture,Knee,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Training,Indoor Track,Rest,Fully Recovered,9,73.25
 26,Female,1871,Tennis Elbow,Elbow,Minor,Contact,No,Tennis,Amateur,Central Europe,Warm-up,Grass,Massage,Recovered with Limitation,4,239.33
 28,Female,1157,Finger Injury,Finger,Moderate,Contact,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Physiotherapy,Fully Recovered,35,672.7
-38,Male,1222,Ankle Sprain,Ankle,Moderate,Contact,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Surgery,Fully Recovered,22,4164
+38,Male,1222,Ankle Sprain,Ankle,Moderate,Contact,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Surgery,Fully Recovered,22,4164.0
 32,Female,689,Shin Splints,Shin,Moderate,Contact,No,Athletics,Amateur,Southern Europe,Training,Indoor Track,Massage,Fully Recovered,47,1105.98
 24,Female,1042,Tendon Injury,Hip,Moderate,Fall,No,Football,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,35,885.9
 25,Female,2593,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Amateur,Southern Europe,Training,Track,Physiotherapy,Retired,1,438.78
@@ -5195,7 +5195,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Male,2375,Rib Injury,Ribs,Moderate,Overuse,No,Boxing,Amateur,Central Europe,Training,Training Mat,Ice/Heat Therapy,Retired,51,579.66
 36,Female,914,Tendon Injury,Ankle,Minor,Overuse,No,Football,Amateur,Western Europe,Training,Artificial Turf,Medication,Recovered with Limitation,12,245.01
 35,Female,1613,Contusion,Foot,Severe,Non-contact,Yes,Football,Amateur,Central Europe,Training,Artificial Turf,Rest,Fully Recovered,339,2277.97
-23,Female,1691,Fracture,Shoulder,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Training,Outdoor Court,Surgery,Fully Recovered,59,5941
+23,Female,1691,Fracture,Shoulder,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Training,Outdoor Court,Surgery,Fully Recovered,59,5941.0
 19,Female,1845,Knee Injury,Knee,Minor,Overuse,Yes,Basketball,Professional,Central Europe,Training,Wooden Floor,Surgery,Fully Recovered,12,216.81
 25,Female,2165,Tennis Elbow,Elbow,Moderate,Contact,No,Tennis,Amateur,Southern Europe,Competition,Indoor Court,Rest,Fully Recovered,33,416.67
 39,Male,1913,Finger Injury,Finger,Severe,Non-contact,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Massage,Fully Recovered,194,4444.13
@@ -5221,8 +5221,8 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 31,Female,686,Fracture,Ankle,Severe,Contact,No,Football,Amateur,Southern Europe,Training,Grass,Rest,Fully Recovered,98,3503.16
 37,Female,1250,Shin Splints,Shin,Minor,Overuse,No,Athletics,Amateur,Southern Europe,Warm-up,Indoor Track,Physiotherapy,Fully Recovered,9,305.35
 35,Female,991,Tennis Elbow,Elbow,Severe,Overuse,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Massage,Fully Recovered,226,6259.98
-19,Female,492,Concussion,Head,Severe,Fall,No,Football,Amateur,Northern Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,153,2984
-22,Male,232,Concussion,Head,Minor,Overuse,No,Boxing,Professional,Western Europe,Training,Ring,Medication,Fully Recovered,2,139
+19,Female,492,Concussion,Head,Severe,Fall,No,Football,Amateur,Northern Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,153,2984.0
+22,Male,232,Concussion,Head,Minor,Overuse,No,Boxing,Professional,Western Europe,Training,Ring,Medication,Fully Recovered,2,139.0
 19,Male,520,Fracture,Hamstring,Moderate,Fall,No,Athletics,Amateur,Southern Europe,Training,Field,Massage,Fully Recovered,43,546.86
 24,Female,517,Knee Injury,Knee,Moderate,Non-contact,No,Tennis,Amateur,Southern Europe,Competition,Grass,Physiotherapy,Fully Recovered,31,1676.85
 35,Female,646,Rib Injury,Ribs,Severe,Non-contact,No,Boxing,Professional,Central Europe,Training,Training Mat,Surgery,Fully Recovered,212,19912.85
@@ -5242,7 +5242,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Female,1708,Tendon Injury,Shin,Severe,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Medication,Fully Recovered,172,1939.61
 20,Male,1096,Wrist Strain,Wrist,Severe,Fall,No,Tennis,Amateur,Northern Europe,Competition,Grass,Surgery,Fully Recovered,214,33680.8
 35,Male,2682,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Southern Europe,Training,Gym Floor,Ice/Heat Therapy,Fully Recovered,15,213.89
-19,Female,2462,Back Strain,Back,Minor,Overuse,No,Basketball,Professional,Western Europe,Training,Wooden Floor,Ice/Heat Therapy,Fully Recovered,2,144
+19,Female,2462,Back Strain,Back,Minor,Overuse,No,Basketball,Professional,Western Europe,Training,Wooden Floor,Ice/Heat Therapy,Fully Recovered,2,144.0
 25,Female,612,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Central Europe,Competition,Indoor Track,Medication,Fully Recovered,7,193.87
 20,Female,2425,Shin Splints,Shin,Severe,Non-contact,Yes,Athletics,Professional,Southern Europe,Training,Road,Rest,Fully Recovered,239,2517.63
 26,Male,2280,Shoulder Injury,Shoulder,Severe,Contact,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,107,5595.93
@@ -5436,7 +5436,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Male,2180,Muscle Strain,Back,Minor,Overuse,No,Athletics,Amateur,Western Europe,Warm-up,Field,Medication,Fully Recovered,4,140.19
 18,Female,1911,Ankle Sprain,Ankle,Minor,Contact,No,Tennis,Amateur,Central Europe,Warm-up,Hard Court,Medication,Fully Recovered,4,68.46
 26,Female,1065,Fracture,Back,Minor,Fall,No,Basketball,Professional,Southern Europe,Training,Wooden Floor,Physiotherapy,Fully Recovered,4,233.32
-39,Female,194,Rib Injury,Ribs,Minor,Contact,Yes,Boxing,Amateur,Western Europe,Competition,Training Mat,Surgery,Fully Recovered,13,1448
+39,Female,194,Rib Injury,Ribs,Minor,Contact,Yes,Boxing,Amateur,Western Europe,Competition,Training Mat,Surgery,Fully Recovered,13,1448.0
 36,Female,2605,Fracture,Face,Moderate,Fall,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Medication,Fully Recovered,25,1360.09
 28,Female,1020,Fracture,Shoulder,Moderate,Non-contact,Yes,Boxing,Professional,Western Europe,Competition,Ring,Medication,Fully Recovered,47,443.09
 29,Female,2301,Muscle Strain,Hamstring,Severe,Fall,No,Football,Amateur,Central Europe,Warm-up,Indoor Court,Medication,Fully Recovered,165,3143.09
@@ -5552,7 +5552,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Male,2259,Eye Injury,Eye,Minor,Overuse,Yes,Boxing,Amateur,Southern Europe,Warm-up,Ring,Rest,Recovered with Limitation,13,149.66
 19,Female,2112,Fracture,Achilles,Moderate,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Medication,Fully Recovered,19,659.21
 21,Female,732,Shin Splints,Shin,Moderate,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Ice/Heat Therapy,Fully Recovered,54,619.92
-36,Female,2412,Muscle Strain,Hamstring,Minor,Overuse,No,Athletics,Professional,Central Europe,Training,Track,Surgery,Recovered with Limitation,13,285
+36,Female,2412,Muscle Strain,Hamstring,Minor,Overuse,No,Athletics,Professional,Central Europe,Training,Track,Surgery,Recovered with Limitation,13,285.0
 39,Male,1547,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Professional,Western Europe,Training,Hard Court,Medication,Recovered with Limitation,7,158.39
 17,Female,2411,Tennis Elbow,Elbow,Minor,Contact,Yes,Tennis,Professional,Central Europe,Training,Grass,Rest,Fully Recovered,2,114.16
 31,Female,52,Fracture,Calf,Minor,Contact,No,Football,Professional,Western Europe,Warm-up,Artificial Turf,Surgery,Fully Recovered,12,731.64
@@ -5593,7 +5593,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,1805,Fracture,Hip,Moderate,Contact,No,Athletics,Amateur,Southern Europe,Competition,Field,Medication,Fully Recovered,22,1195.88
 20,Male,1973,Rib Injury,Ribs,Severe,Contact,Yes,Boxing,Amateur,Northern Europe,Warm-up,Training Mat,Medication,Recovered with Limitation,305,9660.8
 26,Female,1365,Tennis Elbow,Elbow,Minor,Overuse,No,Tennis,Professional,Northern Europe,Warm-up,Grass,Medication,Recovered with Limitation,4,244.76
-25,Female,1604,Muscle Strain,Back,Minor,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Track,Surgery,Recovered with Limitation,7,922
+25,Female,1604,Muscle Strain,Back,Minor,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Track,Surgery,Recovered with Limitation,7,922.0
 34,Female,2541,Eye Injury,Eye,Minor,Non-contact,Yes,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Physiotherapy,Retired,7,406.76
 27,Female,672,Ligament Sprain,Ankle,Minor,Fall,No,Football,Amateur,Western Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,14,163.71
 38,Male,1667,Muscle Strain,Hip,Severe,Fall,Yes,Athletics,Amateur,Southern Europe,Training,Indoor Track,Medication,Fully Recovered,83,3231.7
@@ -5610,7 +5610,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Male,2487,Wrist Strain,Wrist,Minor,Contact,Yes,Tennis,Amateur,Western Europe,Training,Indoor Court,Rest,Recovered with Limitation,2,21.76
 28,Female,950,Shoulder Injury,Shoulder,Moderate,Contact,No,Boxing,Professional,Central Europe,Training,Gym Floor,Physiotherapy,Recovered with Limitation,29,825.26
 28,Female,1283,Shoulder Injury,Shoulder,Moderate,Contact,No,Tennis,Amateur,Northern Europe,Training,Clay,Rest,Fully Recovered,54,402.7
-17,Male,2645,Back Strain,Back,Severe,Fall,Yes,Tennis,Amateur,Northern Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,189,10957
+17,Male,2645,Back Strain,Back,Severe,Fall,Yes,Tennis,Amateur,Northern Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,189,10957.0
 19,Male,1783,Muscle Strain,Shin,Severe,Fall,No,Athletics,Professional,Southern Europe,Training,Road,Rest,Fully Recovered,99,1478.36
 23,Male,2569,Achilles Injury,Achilles,Minor,Overuse,No,Athletics,Professional,Northern Europe,Warm-up,Field,Medication,Fully Recovered,5,258.3
 20,Female,2319,Back Strain,Back,Minor,Fall,No,Basketball,Professional,Northern Europe,Training,Outdoor Court,Ice/Heat Therapy,Retired,12,155.43
@@ -5832,7 +5832,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,949,Contusion,Shoulder,Moderate,Contact,Yes,Football,Amateur,Southern Europe,Training,Grass,Surgery,Fully Recovered,26,1768.92
 24,Male,2597,Back Strain,Back,Minor,Non-contact,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Massage,Fully Recovered,8,106.51
 39,Male,1661,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Ice/Heat Therapy,Fully Recovered,36,208.37
-35,Female,2514,Fracture,Achilles,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Training,Indoor Court,Rest,Retired,33,319
+35,Female,2514,Fracture,Achilles,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Training,Indoor Court,Rest,Retired,33,319.0
 32,Male,2237,Muscle Strain,Foot,Minor,Contact,No,Athletics,Professional,Western Europe,Warm-up,Indoor Track,Rest,Fully Recovered,1,77.06
 26,Female,124,Muscle Strain,Calf,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Warm-up,Field,Physiotherapy,Fully Recovered,5,338.61
 35,Male,2171,Contusion,Hamstring,Moderate,Fall,No,Football,Amateur,Southern Europe,Competition,Indoor Court,Medication,Fully Recovered,38,946.84
@@ -5917,7 +5917,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 37,Female,2526,Fracture,Achilles,Minor,Overuse,No,Athletics,Amateur,Central Europe,Training,Road,Ice/Heat Therapy,Retired,4,110.61
 29,Male,1293,Knee Injury,Knee,Moderate,Fall,No,Basketball,Professional,Northern Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,41,325.98
 32,Female,817,Finger Injury,Finger,Minor,Non-contact,No,Basketball,Amateur,Southern Europe,Training,Wooden Floor,Physiotherapy,Fully Recovered,2,339.69
-26,Male,2146,Shin Splints,Shin,Moderate,Contact,No,Athletics,Professional,Southern Europe,Training,Field,Rest,Fully Recovered,56,433
+26,Male,2146,Shin Splints,Shin,Moderate,Contact,No,Athletics,Professional,Southern Europe,Training,Field,Rest,Fully Recovered,56,433.0
 22,Female,631,Fracture,Hamstring,Minor,Overuse,No,Athletics,Amateur,Western Europe,Training,Indoor Track,Ice/Heat Therapy,Fully Recovered,1,60.86
 33,Female,1442,Shoulder Injury,Shoulder,Severe,Fall,No,Tennis,Professional,Central Europe,Training,Grass,Massage,Fully Recovered,227,6286.91
 21,Female,2518,Shin Splints,Shin,Minor,Overuse,Yes,Athletics,Amateur,Southern Europe,Competition,Field,Ice/Heat Therapy,Fully Recovered,1,134.08
@@ -5987,7 +5987,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Male,2647,Back Strain,Back,Moderate,Non-contact,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,53,1109.22
 19,Male,2691,Fracture,Calf,Minor,Contact,No,Football,Professional,Southern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,8,137.16
 26,Female,1778,Muscle Strain,Achilles,Moderate,Overuse,No,Athletics,Professional,Western Europe,Competition,Indoor Track,Surgery,Fully Recovered,43,2657.87
-26,Female,1931,Knee Injury,Knee,Minor,Contact,No,Tennis,Amateur,Central Europe,Training,Hard Court,Ice/Heat Therapy,Fully Recovered,3,84
+26,Female,1931,Knee Injury,Knee,Minor,Contact,No,Tennis,Amateur,Central Europe,Training,Hard Court,Ice/Heat Therapy,Fully Recovered,3,84.0
 27,Female,33,Back Strain,Back,Moderate,Non-contact,No,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Massage,Fully Recovered,33,1067.11
 16,Male,660,Back Strain,Back,Moderate,Non-contact,No,Basketball,Amateur,Western Europe,Training,Indoor Court,Massage,Fully Recovered,50,403.82
 16,Male,933,Shoulder Injury,Shoulder,Severe,Overuse,No,Boxing,Amateur,Southern Europe,Warm-up,Training Mat,Surgery,Fully Recovered,130,44157.08
@@ -6003,7 +6003,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Female,1647,Tendon Injury,Ankle,Severe,Fall,No,Football,Amateur,Northern Europe,Competition,Artificial Turf,Medication,Fully Recovered,220,4846.59
 23,Male,551,Muscle Strain,Calf,Minor,Contact,No,Basketball,Amateur,Western Europe,Training,Indoor Court,Massage,Recovered with Limitation,3,72.34
 40,Female,1125,Tennis Elbow,Elbow,Minor,Contact,No,Tennis,Amateur,Western Europe,Training,Clay,Massage,Fully Recovered,1,262.66
-32,Female,2061,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Professional,Central Europe,Warm-up,Field,Massage,Fully Recovered,4,196
+32,Female,2061,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Professional,Central Europe,Warm-up,Field,Massage,Fully Recovered,4,196.0
 22,Female,131,Contusion,Ankle,Minor,Overuse,No,Football,Amateur,Western Europe,Training,Grass,Physiotherapy,Fully Recovered,13,108.7
 17,Female,373,Contusion,Ankle,Minor,Non-contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,5,121.55
 17,Female,797,Shoulder Injury,Shoulder,Minor,Overuse,No,Tennis,Professional,Western Europe,Competition,Clay,Physiotherapy,Fully Recovered,7,143.79
@@ -6481,7 +6481,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 39,Female,535,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Tennis,Amateur,Central Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,45,430.6
 19,Male,1317,Eye Injury,Eye,Minor,Non-contact,No,Boxing,Professional,Central Europe,Warm-up,Gym Floor,Surgery,Fully Recovered,5,1472.62
 25,Female,1893,Knee Injury,Knee,Moderate,Non-contact,No,Tennis,Amateur,Western Europe,Training,Grass,Rest,Fully Recovered,38,398.93
-38,Female,1707,Muscle Strain,Calf,Moderate,Contact,No,Athletics,Professional,Western Europe,Training,Field,Rest,Fully Recovered,15,389
+38,Female,1707,Muscle Strain,Calf,Moderate,Contact,No,Athletics,Professional,Western Europe,Training,Field,Rest,Fully Recovered,15,389.0
 23,Female,939,Concussion,Head,Minor,Overuse,No,Football,Amateur,Northern Europe,Training,Grass,Massage,Fully Recovered,12,152.62
 16,Male,2311,Fracture,Face,Minor,Fall,No,Boxing,Amateur,Northern Europe,Competition,Ring,Medication,Fully Recovered,6,314.22
 40,Female,2012,Shoulder Injury,Shoulder,Minor,Overuse,No,Boxing,Amateur,Central Europe,Training,Training Mat,Rest,Recovered with Limitation,5,59.62
@@ -6519,7 +6519,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Female,1853,Ligament Sprain,Calf,Moderate,Non-contact,No,Football,Professional,Western Europe,Training,Grass,Rest,Retired,23,242.16
 18,Female,902,Facial Injury,Face,Minor,Non-contact,No,Boxing,Amateur,Northern Europe,Training,Training Mat,Ice/Heat Therapy,Fully Recovered,3,146.23
 39,Male,2553,Fracture,Shin,Moderate,Fall,No,Athletics,Amateur,Western Europe,Competition,Indoor Track,Massage,Recovered with Limitation,31,939.16
-33,Male,309,Fracture,Hip,Minor,Fall,Yes,Football,Amateur,Northern Europe,Competition,Indoor Court,Rest,Recovered with Limitation,12,116
+33,Male,309,Fracture,Hip,Minor,Fall,Yes,Football,Amateur,Northern Europe,Competition,Indoor Court,Rest,Recovered with Limitation,12,116.0
 37,Female,1050,Knee Injury,Knee,Moderate,Fall,Yes,Basketball,Amateur,Central Europe,Training,Outdoor Court,Ice/Heat Therapy,Recovered with Limitation,40,279.73
 39,Female,1884,Tendon Injury,Hip,Moderate,Non-contact,No,Athletics,Amateur,Western Europe,Competition,Road,Rest,Fully Recovered,55,395.04
 40,Female,815,Achilles Injury,Achilles,Moderate,Fall,No,Athletics,Professional,Northern Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,37,684.72
@@ -6673,7 +6673,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Male,194,Shin Splints,Shin,Moderate,Fall,No,Athletics,Professional,Western Europe,Competition,Field,Ice/Heat Therapy,Fully Recovered,42,687.62
 37,Female,21,Rib Injury,Ribs,Minor,Contact,No,Boxing,Professional,Western Europe,Training,Ring,Rest,Fully Recovered,7,127.42
 32,Female,1275,Fracture,Head,Moderate,Fall,Yes,Boxing,Amateur,Southern Europe,Competition,Training Mat,Medication,Fully Recovered,15,910.88
-35,Male,1961,Fracture,Hip,Minor,Fall,Yes,Football,Amateur,Central Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,3,189
+35,Male,1961,Fracture,Hip,Minor,Fall,Yes,Football,Amateur,Central Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,3,189.0
 32,Male,472,Fracture,Ankle,Minor,Overuse,No,Basketball,Amateur,Northern Europe,Competition,Wooden Floor,Massage,Fully Recovered,13,273.4
 36,Male,476,Tennis Elbow,Elbow,Minor,Contact,No,Tennis,Amateur,Western Europe,Competition,Clay,Massage,Fully Recovered,1,180.12
 37,Male,1975,Ankle Sprain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Massage,Recovered with Limitation,10,114.21
@@ -6854,7 +6854,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,2497,Fracture,Shoulder,Minor,Contact,No,Football,Amateur,Southern Europe,Training,Artificial Turf,Physiotherapy,Fully Recovered,13,384.45
 22,Male,1801,Eye Injury,Eye,Moderate,Overuse,No,Boxing,Amateur,Central Europe,Training,Ring,Rest,Fully Recovered,37,172.02
 32,Female,247,Concussion,Head,Moderate,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Ice/Heat Therapy,Retired,52,741.79
-33,Female,1813,Ligament Sprain,Hamstring,Minor,Fall,No,Football,Amateur,Central Europe,Training,Indoor Court,Medication,Fully Recovered,2,290
+33,Female,1813,Ligament Sprain,Hamstring,Minor,Fall,No,Football,Amateur,Central Europe,Training,Indoor Court,Medication,Fully Recovered,2,290.0
 37,Male,2125,Contusion,Hip,Moderate,Fall,No,Football,Amateur,Central Europe,Training,Grass,Medication,Fully Recovered,41,832.37
 17,Female,195,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Amateur,Western Europe,Training,Training Mat,Rest,Fully Recovered,36,221.06
 25,Female,1724,Shin Splints,Shin,Minor,Overuse,Yes,Athletics,Amateur,Central Europe,Competition,Indoor Track,Ice/Heat Therapy,Fully Recovered,9,180.28
@@ -6972,7 +6972,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,2004,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Amateur,Southern Europe,Competition,Road,Massage,Fully Recovered,7,282.56
 38,Female,1255,Shoulder Injury,Shoulder,Minor,Fall,Yes,Boxing,Amateur,Central Europe,Competition,Training Mat,Physiotherapy,Fully Recovered,10,132.99
 27,Female,453,Fracture,Nose,Minor,Overuse,No,Boxing,Amateur,Western Europe,Training,Gym Floor,Ice/Heat Therapy,Fully Recovered,11,55.68
-29,Female,152,Muscle Strain,Calf,Minor,Contact,No,Football,Amateur,Western Europe,Training,Artificial Turf,Medication,Fully Recovered,9,190
+29,Female,152,Muscle Strain,Calf,Minor,Contact,No,Football,Amateur,Western Europe,Training,Artificial Turf,Medication,Fully Recovered,9,190.0
 40,Female,2194,Fracture,Shoulder,Minor,Overuse,No,Football,Amateur,Central Europe,Competition,Artificial Turf,Massage,Recovered with Limitation,14,144.73
 33,Male,1586,Shoulder Injury,Shoulder,Minor,Overuse,Yes,Boxing,Professional,Southern Europe,Competition,Ring,Medication,Recovered with Limitation,13,191.88
 19,Male,2619,Rib Injury,Ribs,Minor,Non-contact,Yes,Boxing,Amateur,Western Europe,Warm-up,Ring,Physiotherapy,Fully Recovered,9,188.08
@@ -7041,7 +7041,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Female,1272,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Professional,Central Europe,Competition,Road,Physiotherapy,Fully Recovered,3,423.71
 39,Female,436,Knee Injury,Knee,Minor,Non-contact,No,Tennis,Professional,Western Europe,Training,Grass,Massage,Fully Recovered,11,181.19
 20,Male,621,Muscle Strain,Hip,Moderate,Overuse,No,Athletics,Amateur,Northern Europe,Competition,Indoor Track,Rest,Retired,42,503.59
-40,Female,2700,Ligament Sprain,Foot,Moderate,Non-contact,No,Football,Amateur,Central Europe,Competition,Grass,Massage,Fully Recovered,47,711
+40,Female,2700,Ligament Sprain,Foot,Moderate,Non-contact,No,Football,Amateur,Central Europe,Competition,Grass,Massage,Fully Recovered,47,711.0
 30,Male,221,Muscle Strain,Foot,Severe,Fall,No,Athletics,Professional,Central Europe,Training,Indoor Track,Ice/Heat Therapy,Fully Recovered,333,1542.76
 16,Male,992,Contusion,Hamstring,Moderate,Non-contact,Yes,Football,Amateur,Central Europe,Training,Grass,Medication,Fully Recovered,27,1390.55
 32,Male,2626,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Professional,Northern Europe,Training,Gym Floor,Rest,Fully Recovered,8,146.38
@@ -7115,7 +7115,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 34,Male,2381,Back Strain,Back,Moderate,Overuse,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Recovered with Limitation,15,1683.76
 25,Female,2302,Contusion,Hamstring,Minor,Contact,No,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,8,26.27
 28,Male,288,Fracture,Calf,Minor,Contact,Yes,Athletics,Amateur,Central Europe,Competition,Field,Physiotherapy,Fully Recovered,12,209.02
-28,Male,2536,Contusion,Foot,Severe,Non-contact,No,Football,Amateur,Central Europe,Training,Grass,Ice/Heat Therapy,Retired,230,5960
+28,Male,2536,Contusion,Foot,Severe,Non-contact,No,Football,Amateur,Central Europe,Training,Grass,Ice/Heat Therapy,Retired,230,5960.0
 25,Female,1816,Tendon Injury,Calf,Moderate,Overuse,No,Athletics,Amateur,Northern Europe,Training,Track,Rest,Fully Recovered,52,414.78
 23,Male,759,Fracture,Knee,Moderate,Fall,No,Basketball,Professional,Central Europe,Competition,Wooden Floor,Physiotherapy,Fully Recovered,18,1393.08
 20,Male,1793,Muscle Strain,Hip,Minor,Non-contact,No,Football,Amateur,Northern Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,5,29.33
@@ -7173,7 +7173,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,2457,Tendon Injury,Shoulder,Moderate,Contact,No,Football,Amateur,Southern Europe,Warm-up,Grass,Massage,Fully Recovered,20,1001.28
 23,Female,2079,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Surgery,Fully Recovered,9,331.42
 34,Female,2001,Muscle Strain,Hamstring,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Field,Medication,Fully Recovered,7,298.16
-29,Female,1091,Eye Injury,Eye,Moderate,Fall,No,Boxing,Professional,Central Europe,Training,Ring,Physiotherapy,Recovered with Limitation,22,1041
+29,Female,1091,Eye Injury,Eye,Moderate,Fall,No,Boxing,Professional,Central Europe,Training,Ring,Physiotherapy,Recovered with Limitation,22,1041.0
 29,Female,1571,Fracture,Shin,Minor,Contact,No,Athletics,Amateur,Western Europe,Competition,Field,Massage,Fully Recovered,1,129.88
 18,Male,811,Tendon Injury,Hamstring,Minor,Fall,Yes,Athletics,Amateur,Central Europe,Competition,Indoor Track,Rest,Recovered with Limitation,9,55.62
 33,Female,259,Eye Injury,Eye,Moderate,Overuse,No,Boxing,Professional,Northern Europe,Training,Training Mat,Ice/Heat Therapy,Fully Recovered,26,459.61
@@ -7333,7 +7333,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Male,1171,Fracture,Foot,Moderate,Contact,No,Football,Amateur,Central Europe,Competition,Grass,Physiotherapy,Fully Recovered,56,808.28
 22,Male,961,Muscle Strain,Achilles,Severe,Contact,No,Basketball,Amateur,Southern Europe,Training,Outdoor Court,Massage,Fully Recovered,242,2972.58
 32,Male,1166,Rib Injury,Ribs,Minor,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Medication,Fully Recovered,12,343.28
-34,Female,1992,Muscle Strain,Knee,Minor,Fall,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Medication,Fully Recovered,14,59
+34,Female,1992,Muscle Strain,Knee,Minor,Fall,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Medication,Fully Recovered,14,59.0
 21,Female,1181,Shoulder Injury,Shoulder,Minor,Overuse,Yes,Boxing,Professional,Western Europe,Training,Ring,Rest,Fully Recovered,7,53.19
 21,Male,1536,Back Strain,Back,Minor,Fall,Yes,Basketball,Amateur,Western Europe,Training,Wooden Floor,Massage,Fully Recovered,11,190.8
 30,Female,2007,Ankle Sprain,Ankle,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,48,1589.05
@@ -7483,7 +7483,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Female,544,Fracture,Shin,Moderate,Overuse,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Rest,Recovered with Limitation,32,507.01
 20,Female,1021,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Professional,Southern Europe,Warm-up,Field,Rest,Retired,7,54.71
 22,Female,1519,Contusion,Foot,Severe,Non-contact,Yes,Football,Amateur,Northern Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,340,3213.07
-35,Female,1202,Fracture,Hand,Severe,Overuse,Yes,Boxing,Professional,Southern Europe,Warm-up,Ring,Ice/Heat Therapy,Fully Recovered,135,3715
+35,Female,1202,Fracture,Hand,Severe,Overuse,Yes,Boxing,Professional,Southern Europe,Warm-up,Ring,Ice/Heat Therapy,Fully Recovered,135,3715.0
 18,Female,769,Shoulder Injury,Shoulder,Moderate,Non-contact,No,Boxing,Amateur,Southern Europe,Training,Ring,Massage,Recovered with Limitation,58,343.43
 38,Female,2387,Back Strain,Back,Severe,Contact,Yes,Tennis,Amateur,Western Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,107,5958.81
 16,Male,2606,Tennis Elbow,Elbow,Severe,Contact,Yes,Tennis,Amateur,Central Europe,Competition,Grass,Physiotherapy,Fully Recovered,113,9101.99
@@ -7523,7 +7523,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Female,1629,Fracture,Ankle,Moderate,Fall,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Ice/Heat Therapy,Fully Recovered,44,447.75
 32,Male,205,Facial Injury,Face,Severe,Overuse,No,Boxing,Amateur,Northern Europe,Competition,Training Mat,Ice/Heat Therapy,Fully Recovered,134,3872.08
 37,Female,2318,Concussion,Head,Minor,Overuse,No,Football,Amateur,Southern Europe,Training,Artificial Turf,Ice/Heat Therapy,Recovered with Limitation,6,157.7
-23,Female,2564,Achilles Injury,Achilles,Moderate,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Field,Ice/Heat Therapy,Fully Recovered,37,616
+23,Female,2564,Achilles Injury,Achilles,Moderate,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Field,Ice/Heat Therapy,Fully Recovered,37,616.0
 37,Female,256,Fracture,Back,Minor,Non-contact,Yes,Athletics,Amateur,Central Europe,Competition,Field,Massage,Fully Recovered,12,263.8
 31,Female,660,Back Strain,Back,Moderate,Fall,Yes,Basketball,Amateur,Southern Europe,Warm-up,Wooden Floor,Rest,Fully Recovered,35,558.9
 35,Female,106,Knee Injury,Knee,Minor,Fall,Yes,Basketball,Amateur,Western Europe,Competition,Indoor Court,Surgery,Fully Recovered,10,882.25
@@ -7695,7 +7695,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 40,Female,1482,Shoulder Injury,Shoulder,Minor,Non-contact,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Rest,Fully Recovered,6,92.79
 28,Male,282,Rib Injury,Ribs,Minor,Non-contact,No,Boxing,Professional,Western Europe,Training,Gym Floor,Massage,Fully Recovered,10,63.78
 28,Female,2601,Concussion,Head,Minor,Fall,Yes,Football,Professional,Northern Europe,Training,Indoor Court,Massage,Fully Recovered,13,240.99
-22,Female,428,Wrist Strain,Wrist,Moderate,Overuse,Yes,Tennis,Amateur,Central Europe,Competition,Clay,Massage,Retired,57,830
+22,Female,428,Wrist Strain,Wrist,Moderate,Overuse,Yes,Tennis,Amateur,Central Europe,Competition,Clay,Massage,Retired,57,830.0
 25,Male,708,Fracture,Nose,Minor,Fall,Yes,Boxing,Professional,Northern Europe,Training,Gym Floor,Massage,Recovered with Limitation,2,162.69
 18,Male,1364,Tendon Injury,Shoulder,Moderate,Contact,No,Football,Amateur,Northern Europe,Warm-up,Grass,Massage,Recovered with Limitation,55,332.33
 35,Female,190,Knee Injury,Knee,Minor,Non-contact,No,Basketball,Professional,Northern Europe,Competition,Indoor Court,Rest,Fully Recovered,4,135.63
@@ -7798,7 +7798,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,1951,Contusion,Ankle,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Indoor Court,Ice/Heat Therapy,Retired,35,373.98
 39,Male,68,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Amateur,Southern Europe,Training,Indoor Court,Surgery,Fully Recovered,50,4448.63
 23,Female,406,Fracture,Knee,Moderate,Overuse,No,Athletics,Professional,Western Europe,Competition,Field,Medication,Fully Recovered,59,1216.47
-23,Female,2371,Shin Splints,Shin,Moderate,Overuse,No,Athletics,Professional,Southern Europe,Competition,Track,Ice/Heat Therapy,Recovered with Limitation,28,243
+23,Female,2371,Shin Splints,Shin,Moderate,Overuse,No,Athletics,Professional,Southern Europe,Competition,Track,Ice/Heat Therapy,Recovered with Limitation,28,243.0
 21,Female,798,Hamstring Injury,Hamstring,Moderate,Overuse,No,Athletics,Amateur,Central Europe,Warm-up,Road,Massage,Retired,20,1088.81
 29,Female,995,Shin Splints,Shin,Moderate,Overuse,No,Athletics,Professional,Northern Europe,Warm-up,Field,Rest,Fully Recovered,60,240.25
 17,Female,708,Tendon Injury,Head,Minor,Contact,No,Football,Amateur,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,5,108.08
@@ -7982,7 +7982,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Male,722,Muscle Strain,Foot,Minor,Fall,Yes,Football,Amateur,Central Europe,Training,Artificial Turf,Ice/Heat Therapy,Fully Recovered,2,31.38
 17,Male,1548,Eye Injury,Eye,Minor,Fall,No,Boxing,Amateur,Central Europe,Training,Gym Floor,Ice/Heat Therapy,Retired,4,61.92
 27,Male,1027,Hamstring Injury,Hamstring,Moderate,Contact,Yes,Athletics,Amateur,Central Europe,Competition,Road,Medication,Fully Recovered,46,1375.51
-17,Female,2518,Muscle Strain,Back,Minor,Overuse,No,Athletics,Amateur,Central Europe,Training,Indoor Track,Surgery,Recovered with Limitation,12,1489
+17,Female,2518,Muscle Strain,Back,Minor,Overuse,No,Athletics,Amateur,Central Europe,Training,Indoor Track,Surgery,Recovered with Limitation,12,1489.0
 23,Female,139,Knee Injury,Knee,Moderate,Contact,No,Tennis,Professional,Southern Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,53,2769.2
 34,Female,1550,Muscle Strain,Shoulder,Minor,Contact,No,Basketball,Professional,Central Europe,Warm-up,Outdoor Court,Medication,Fully Recovered,1,266.89
 21,Female,1194,Wrist Strain,Wrist,Minor,Contact,No,Tennis,Amateur,Central Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,4,145.16
@@ -8014,7 +8014,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,1477,Tendon Injury,Shoulder,Moderate,Contact,No,Football,Amateur,Western Europe,Competition,Artificial Turf,Surgery,Fully Recovered,24,2694.01
 25,Male,2160,Muscle Strain,Head,Moderate,Non-contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,19,228.22
 18,Female,276,Tennis Elbow,Elbow,Minor,Overuse,No,Tennis,Amateur,Western Europe,Competition,Hard Court,Ice/Heat Therapy,Fully Recovered,10,196.85
-35,Female,2466,Contusion,Hip,Minor,Non-contact,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,1,348
+35,Female,2466,Contusion,Hip,Minor,Non-contact,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,1,348.0
 35,Female,1488,Tendon Injury,Hamstring,Minor,Fall,No,Football,Amateur,Northern Europe,Competition,Grass,Surgery,Fully Recovered,8,659.78
 24,Female,237,Muscle Strain,Finger,Minor,Contact,Yes,Basketball,Amateur,Central Europe,Training,Outdoor Court,Ice/Heat Therapy,Fully Recovered,4,71.32
 36,Male,1697,Muscle Strain,Calf,Moderate,Contact,No,Basketball,Professional,Central Europe,Warm-up,Outdoor Court,Rest,Fully Recovered,44,325.8
@@ -8063,7 +8063,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Male,2434,Shoulder Injury,Shoulder,Minor,Contact,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Rest,Fully Recovered,4,76.89
 29,Female,1009,Ankle Sprain,Ankle,Minor,Overuse,Yes,Basketball,Amateur,Western Europe,Competition,Wooden Floor,Rest,Fully Recovered,1,85.35
 34,Female,1598,Muscle Strain,Achilles,Moderate,Overuse,Yes,Athletics,Professional,Western Europe,Warm-up,Field,Massage,Recovered with Limitation,37,516.13
-36,Male,298,Back Strain,Back,Moderate,Contact,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,57,1801
+36,Male,298,Back Strain,Back,Moderate,Contact,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,57,1801.0
 28,Female,724,Knee Injury,Knee,Minor,Contact,Yes,Tennis,Amateur,Southern Europe,Training,Grass,Massage,Fully Recovered,6,181.89
 29,Female,905,Muscle Strain,Ankle,Minor,Fall,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Rest,Fully Recovered,4,86.88
 26,Female,2205,Tendon Injury,Hip,Moderate,Non-contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,37,1056.56
@@ -8100,7 +8100,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 17,Male,1420,Contusion,Foot,Moderate,Overuse,No,Football,Professional,Northern Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,53,254.24
 35,Male,2179,Muscle Strain,Foot,Moderate,Non-contact,Yes,Athletics,Amateur,Northern Europe,Warm-up,Field,Massage,Fully Recovered,34,980.27
 33,Female,735,Fracture,Ribs,Minor,Fall,No,Boxing,Professional,Southern Europe,Warm-up,Ring,Surgery,Fully Recovered,4,1174.84
-25,Male,896,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Professional,Central Europe,Training,Road,Surgery,Fully Recovered,33,4082
+25,Male,896,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Professional,Central Europe,Training,Road,Surgery,Fully Recovered,33,4082.0
 39,Female,1593,Knee Injury,Knee,Moderate,Non-contact,No,Tennis,Professional,Central Europe,Warm-up,Hard Court,Physiotherapy,Fully Recovered,20,1775.26
 31,Male,1850,Back Strain,Back,Minor,Overuse,No,Tennis,Professional,Central Europe,Training,Hard Court,Medication,Fully Recovered,10,239.56
 39,Female,1355,Fracture,Head,Moderate,Fall,No,Boxing,Professional,Northern Europe,Competition,Ring,Rest,Fully Recovered,47,448.58
@@ -8290,12 +8290,12 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 25,Female,2163,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Physiotherapy,Fully Recovered,4,317.88
 28,Male,2110,Rib Injury,Ribs,Minor,Non-contact,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Physiotherapy,Recovered with Limitation,11,257.59
 39,Female,855,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Amateur,Central Europe,Training,Gym Floor,Physiotherapy,Fully Recovered,12,274.61
-38,Female,2401,Finger Injury,Finger,Moderate,Overuse,Yes,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Rest,Recovered with Limitation,24,155
+38,Female,2401,Finger Injury,Finger,Moderate,Overuse,Yes,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Rest,Recovered with Limitation,24,155.0
 25,Female,1289,Fracture,Ribs,Moderate,Contact,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Surgery,Fully Recovered,40,5511.54
 21,Male,2105,Fracture,Wrist,Moderate,Overuse,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Rest,Fully Recovered,36,340.89
 38,Female,1520,Tendon Injury,Knee,Moderate,Fall,No,Athletics,Amateur,Northern Europe,Competition,Field,Physiotherapy,Fully Recovered,25,1947.81
 40,Male,208,Wrist Strain,Wrist,Minor,Fall,Yes,Tennis,Amateur,Southern Europe,Training,Grass,Surgery,Fully Recovered,12,865.08
-23,Male,2351,Fracture,Nose,Minor,Overuse,No,Boxing,Professional,Western Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,1,183
+23,Male,2351,Fracture,Nose,Minor,Overuse,No,Boxing,Professional,Western Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,1,183.0
 21,Female,1925,Achilles Injury,Achilles,Minor,Contact,Yes,Athletics,Amateur,Southern Europe,Competition,Field,Surgery,Fully Recovered,5,749.81
 23,Female,1186,Fracture,Wrist,Minor,Overuse,No,Basketball,Professional,Southern Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Retired,14,108.22
 24,Female,578,Tendon Injury,Head,Minor,Overuse,No,Football,Amateur,Central Europe,Training,Grass,Medication,Retired,3,116.54
@@ -8390,7 +8390,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Male,1726,Fracture,Hand,Moderate,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Surgery,Fully Recovered,15,2702.94
 37,Female,1343,Facial Injury,Face,Moderate,Non-contact,No,Boxing,Amateur,Northern Europe,Training,Gym Floor,Surgery,Fully Recovered,18,2917.04
 30,Male,568,Shin Splints,Shin,Moderate,Contact,No,Athletics,Professional,Western Europe,Competition,Road,Ice/Heat Therapy,Fully Recovered,46,377.41
-20,Female,688,Concussion,Head,Moderate,Contact,No,Football,Amateur,Northern Europe,Competition,Grass,Physiotherapy,Fully Recovered,36,1399
+20,Female,688,Concussion,Head,Moderate,Contact,No,Football,Amateur,Northern Europe,Competition,Grass,Physiotherapy,Fully Recovered,36,1399.0
 32,Female,1570,Shoulder Injury,Shoulder,Severe,Overuse,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Surgery,Fully Recovered,300,39809.24
 19,Female,1641,Tendon Injury,Knee,Severe,Contact,No,Athletics,Amateur,Central Europe,Training,Indoor Track,Surgery,Fully Recovered,199,37870.89
 26,Female,1631,Tendon Injury,Hip,Moderate,Non-contact,Yes,Athletics,Amateur,Western Europe,Training,Field,Surgery,Fully Recovered,59,3174.25
@@ -8613,13 +8613,13 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,1007,Tendon Injury,Hip,Moderate,Non-contact,No,Football,Professional,Central Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,21,1575.25
 32,Female,338,Back Strain,Back,Minor,Contact,No,Tennis,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,11,141.41
 30,Male,2574,Concussion,Head,Moderate,Overuse,Yes,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Physiotherapy,Fully Recovered,27,987.69
-34,Male,1920,Facial Injury,Face,Moderate,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Gym Floor,Massage,Fully Recovered,45,855
+34,Male,1920,Facial Injury,Face,Moderate,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Gym Floor,Massage,Fully Recovered,45,855.0
 23,Male,713,Muscle Strain,Calf,Minor,Contact,No,Athletics,Professional,Central Europe,Competition,Field,Ice/Heat Therapy,Fully Recovered,9,75.33
 33,Male,2188,Wrist Strain,Wrist,Moderate,Overuse,No,Tennis,Professional,Northern Europe,Warm-up,Clay,Massage,Fully Recovered,29,1050.39
 28,Male,45,Muscle Strain,Back,Minor,Contact,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Massage,Fully Recovered,6,107.87
 22,Female,435,Eye Injury,Eye,Minor,Contact,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Medication,Fully Recovered,11,78.26
 23,Female,1752,Wrist Strain,Wrist,Moderate,Fall,No,Tennis,Amateur,Southern Europe,Training,Hard Court,Physiotherapy,Fully Recovered,15,932.01
-23,Female,1975,Tendon Injury,Shin,Minor,Contact,No,Athletics,Amateur,Northern Europe,Training,Track,Rest,Fully Recovered,12,49
+23,Female,1975,Tendon Injury,Shin,Minor,Contact,No,Athletics,Amateur,Northern Europe,Training,Track,Rest,Fully Recovered,12,49.0
 19,Female,2589,Muscle Strain,Wrist,Minor,Fall,No,Basketball,Amateur,Southern Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,5,392.09
 16,Male,783,Back Strain,Back,Minor,Non-contact,No,Basketball,Amateur,Western Europe,Training,Indoor Court,Massage,Fully Recovered,9,199.62
 22,Male,189,Fracture,Foot,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Road,Ice/Heat Therapy,Retired,14,105.06
@@ -8757,7 +8757,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 17,Male,718,Tendon Injury,Knee,Moderate,Non-contact,Yes,Football,Amateur,Western Europe,Training,Indoor Court,Medication,Fully Recovered,38,965.85
 16,Female,2382,Fracture,Shoulder,Minor,Non-contact,Yes,Football,Professional,Central Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,10,358.07
 20,Female,1077,Back Strain,Back,Severe,Fall,No,Tennis,Professional,Southern Europe,Training,Grass,Rest,Fully Recovered,256,4447.22
-24,Female,2416,Tennis Elbow,Elbow,Moderate,Overuse,No,Tennis,Amateur,Western Europe,Warm-up,Hard Court,Physiotherapy,Fully Recovered,17,1387
+24,Female,2416,Tennis Elbow,Elbow,Moderate,Overuse,No,Tennis,Amateur,Western Europe,Warm-up,Hard Court,Physiotherapy,Fully Recovered,17,1387.0
 39,Male,13,Eye Injury,Eye,Minor,Fall,Yes,Boxing,Amateur,Northern Europe,Warm-up,Training Mat,Massage,Fully Recovered,5,166.77
 39,Female,2179,Concussion,Head,Moderate,Non-contact,No,Boxing,Professional,Northern Europe,Training,Training Mat,Ice/Heat Therapy,Recovered with Limitation,43,736.97
 19,Female,1923,Tendon Injury,Shoulder,Minor,Non-contact,No,Football,Amateur,Central Europe,Competition,Indoor Court,Rest,Fully Recovered,14,61.77
@@ -8865,7 +8865,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 37,Female,1092,Ankle Sprain,Ankle,Moderate,Fall,No,Tennis,Amateur,Western Europe,Warm-up,Hard Court,Massage,Fully Recovered,50,731.66
 39,Female,2129,Achilles Injury,Achilles,Moderate,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Road,Surgery,Fully Recovered,41,2380.19
 21,Female,2566,Muscle Strain,Shoulder,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,13,262.88
-20,Female,2555,Fracture,Shoulder,Severe,Non-contact,No,Football,Amateur,Western Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,126,8483
+20,Female,2555,Fracture,Shoulder,Severe,Non-contact,No,Football,Amateur,Western Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,126,8483.0
 39,Female,1606,Back Strain,Back,Moderate,Fall,No,Tennis,Amateur,Central Europe,Competition,Hard Court,Physiotherapy,Fully Recovered,31,725.91
 29,Female,1590,Ligament Sprain,Hamstring,Minor,Overuse,No,Football,Amateur,Western Europe,Training,Grass,Massage,Fully Recovered,13,38.51
 40,Female,2480,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Western Europe,Training,Clay,Ice/Heat Therapy,Fully Recovered,12,72.59
@@ -8939,7 +8939,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,978,Tendon Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Warm-up,Track,Ice/Heat Therapy,Fully Recovered,1,186.49
 26,Male,1222,Ankle Sprain,Ankle,Moderate,Non-contact,No,Tennis,Professional,Southern Europe,Competition,Hard Court,Massage,Fully Recovered,43,752.23
 29,Female,1249,Fracture,Ribs,Moderate,Overuse,No,Boxing,Professional,Central Europe,Warm-up,Ring,Rest,Fully Recovered,42,583.68
-34,Female,1315,Concussion,Head,Minor,Non-contact,No,Boxing,Amateur,Western Europe,Training,Training Mat,Massage,Fully Recovered,5,180
+34,Female,1315,Concussion,Head,Minor,Non-contact,No,Boxing,Amateur,Western Europe,Training,Training Mat,Massage,Fully Recovered,5,180.0
 35,Female,99,Ankle Sprain,Ankle,Minor,Contact,No,Basketball,Professional,Central Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,7,205.94
 37,Male,1567,Tendon Injury,Hamstring,Minor,Overuse,No,Football,Professional,Western Europe,Competition,Indoor Court,Rest,Retired,10,140.62
 19,Male,730,Concussion,Head,Minor,Contact,No,Football,Amateur,Southern Europe,Training,Artificial Turf,Medication,Fully Recovered,11,58.22
@@ -9038,7 +9038,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 31,Female,446,Hamstring Injury,Hamstring,Minor,Contact,No,Athletics,Professional,Southern Europe,Training,Field,Massage,Fully Recovered,7,263.62
 25,Female,2440,Shin Splints,Shin,Severe,Contact,No,Athletics,Amateur,Northern Europe,Competition,Road,Rest,Fully Recovered,289,3318.34
 27,Male,80,Fracture,Eye,Minor,Overuse,No,Boxing,Amateur,Central Europe,Training,Ring,Rest,Fully Recovered,4,51.6
-17,Male,708,Fracture,Calf,Minor,Non-contact,No,Football,Amateur,Northern Europe,Training,Indoor Court,Massage,Fully Recovered,1,185
+17,Male,708,Fracture,Calf,Minor,Non-contact,No,Football,Amateur,Northern Europe,Training,Indoor Court,Massage,Fully Recovered,1,185.0
 39,Female,1109,Eye Injury,Eye,Severe,Non-contact,No,Boxing,Professional,Western Europe,Warm-up,Gym Floor,Massage,Fully Recovered,108,4356.3
 37,Female,1906,Finger Injury,Finger,Minor,Non-contact,No,Basketball,Amateur,Southern Europe,Training,Outdoor Court,Ice/Heat Therapy,Fully Recovered,8,153.5
 29,Female,1857,Finger Injury,Finger,Minor,Overuse,No,Basketball,Amateur,Northern Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,14,911.61
@@ -9080,7 +9080,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Female,2140,Shoulder Injury,Shoulder,Moderate,Contact,Yes,Tennis,Professional,Central Europe,Warm-up,Hard Court,Medication,Fully Recovered,17,1382.95
 27,Female,2325,Shoulder Injury,Shoulder,Minor,Non-contact,Yes,Tennis,Amateur,Northern Europe,Competition,Clay,Ice/Heat Therapy,Fully Recovered,8,138.64
 22,Male,1730,Shoulder Injury,Shoulder,Moderate,Overuse,Yes,Tennis,Professional,Central Europe,Warm-up,Grass,Ice/Heat Therapy,Recovered with Limitation,22,475.55
-21,Male,897,Wrist Strain,Wrist,Moderate,Non-contact,Yes,Tennis,Amateur,Northern Europe,Training,Indoor Court,Massage,Retired,33,944
+21,Male,897,Wrist Strain,Wrist,Moderate,Non-contact,Yes,Tennis,Amateur,Northern Europe,Training,Indoor Court,Massage,Retired,33,944.0
 36,Female,1621,Muscle Strain,Knee,Moderate,Overuse,No,Football,Professional,Western Europe,Competition,Indoor Court,Massage,Fully Recovered,49,948.36
 27,Male,534,Contusion,Ankle,Minor,Fall,No,Football,Professional,Central Europe,Warm-up,Grass,Medication,Fully Recovered,13,93.53
 31,Female,48,Back Strain,Back,Moderate,Contact,No,Tennis,Amateur,Northern Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,18,743.66
@@ -9193,7 +9193,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 39,Male,541,Achilles Injury,Achilles,Severe,Contact,Yes,Athletics,Amateur,Northern Europe,Training,Road,Massage,Fully Recovered,210,8332.75
 39,Male,2294,Ankle Sprain,Ankle,Severe,Overuse,No,Tennis,Amateur,Central Europe,Competition,Clay,Massage,Recovered with Limitation,336,4023.19
 26,Female,2687,Fracture,Face,Minor,Fall,No,Boxing,Amateur,Northern Europe,Competition,Gym Floor,Massage,Fully Recovered,6,252.17
-21,Male,1412,Finger Injury,Finger,Moderate,Overuse,No,Basketball,Professional,Central Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,18,1608
+21,Male,1412,Finger Injury,Finger,Moderate,Overuse,No,Basketball,Professional,Central Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,18,1608.0
 40,Male,44,Concussion,Head,Minor,Non-contact,No,Football,Amateur,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,12,27.93
 33,Female,2305,Fracture,Shoulder,Minor,Fall,No,Football,Amateur,Southern Europe,Training,Indoor Court,Massage,Recovered with Limitation,7,154.19
 33,Female,616,Ankle Sprain,Ankle,Moderate,Non-contact,Yes,Tennis,Professional,Southern Europe,Training,Clay,Ice/Heat Therapy,Fully Recovered,33,269.69
@@ -9303,7 +9303,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Male,49,Back Strain,Back,Minor,Contact,No,Basketball,Professional,Southern Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,3,35.63
 28,Male,140,Ligament Sprain,Ankle,Moderate,Contact,No,Football,Amateur,Southern Europe,Warm-up,Indoor Court,Medication,Recovered with Limitation,18,1237.79
 31,Male,1608,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Central Europe,Training,Field,Medication,Fully Recovered,14,301.97
-36,Male,1026,Knee Injury,Knee,Minor,Fall,Yes,Basketball,Amateur,Western Europe,Competition,Wooden Floor,Surgery,Fully Recovered,13,767
+36,Male,1026,Knee Injury,Knee,Minor,Fall,Yes,Basketball,Amateur,Western Europe,Competition,Wooden Floor,Surgery,Fully Recovered,13,767.0
 27,Female,2586,Concussion,Head,Minor,Fall,No,Boxing,Amateur,Central Europe,Competition,Training Mat,Medication,Recovered with Limitation,3,151.13
 24,Female,127,Hamstring Injury,Hamstring,Minor,Overuse,No,Athletics,Professional,Western Europe,Training,Road,Medication,Recovered with Limitation,2,204.17
 32,Female,1256,Finger Injury,Finger,Moderate,Fall,No,Basketball,Professional,Northern Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Fully Recovered,34,544.36
@@ -9344,7 +9344,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 33,Female,744,Finger Injury,Finger,Minor,Overuse,No,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Massage,Fully Recovered,11,271.6
 28,Female,2474,Concussion,Head,Moderate,Fall,No,Boxing,Professional,Western Europe,Training,Ring,Physiotherapy,Recovered with Limitation,55,592.61
 19,Female,508,Eye Injury,Eye,Minor,Contact,No,Boxing,Amateur,Northern Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,11,28.12
-37,Female,2540,Knee Injury,Knee,Minor,Fall,No,Tennis,Amateur,Central Europe,Training,Hard Court,Surgery,Fully Recovered,8,1065
+37,Female,2540,Knee Injury,Knee,Minor,Fall,No,Tennis,Amateur,Central Europe,Training,Hard Court,Surgery,Fully Recovered,8,1065.0
 26,Male,1632,Achilles Injury,Achilles,Moderate,Non-contact,No,Athletics,Amateur,Central Europe,Training,Field,Massage,Recovered with Limitation,26,922.1
 39,Female,715,Shoulder Injury,Shoulder,Minor,Fall,No,Tennis,Amateur,Northern Europe,Training,Indoor Court,Rest,Fully Recovered,14,49.89
 18,Female,1782,Fracture,Hand,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Massage,Fully Recovered,7,264.23
@@ -9836,7 +9836,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Female,2530,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Amateur,Central Europe,Competition,Gym Floor,Medication,Fully Recovered,24,1092.65
 17,Female,2348,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Amateur,Western Europe,Training,Field,Medication,Fully Recovered,11,305.06
 20,Female,2496,Finger Injury,Finger,Minor,Non-contact,Yes,Basketball,Professional,Western Europe,Training,Outdoor Court,Medication,Fully Recovered,9,120.97
-31,Female,867,Muscle Strain,Knee,Moderate,Overuse,No,Athletics,Professional,Western Europe,Warm-up,Track,Ice/Heat Therapy,Fully Recovered,47,460
+31,Female,867,Muscle Strain,Knee,Moderate,Overuse,No,Athletics,Professional,Western Europe,Warm-up,Track,Ice/Heat Therapy,Fully Recovered,47,460.0
 40,Female,1329,Tennis Elbow,Elbow,Minor,Non-contact,No,Tennis,Professional,Central Europe,Warm-up,Grass,Surgery,Fully Recovered,9,911.2
 32,Female,1768,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Competition,Field,Medication,Fully Recovered,3,93.59
 35,Female,1746,Facial Injury,Face,Minor,Non-contact,No,Boxing,Professional,Northern Europe,Competition,Training Mat,Physiotherapy,Fully Recovered,8,390.19
@@ -10008,7 +10008,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,2339,Finger Injury,Finger,Minor,Contact,No,Basketball,Amateur,Southern Europe,Training,Outdoor Court,Surgery,Fully Recovered,10,644.64
 38,Male,853,Fracture,Finger,Moderate,Non-contact,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Surgery,Recovered with Limitation,28,3901.06
 21,Female,467,Muscle Strain,Back,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Indoor Track,Massage,Fully Recovered,1,165.37
-29,Female,2056,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Professional,Southern Europe,Warm-up,Hard Court,Rest,Fully Recovered,52,442
+29,Female,2056,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Professional,Southern Europe,Warm-up,Hard Court,Rest,Fully Recovered,52,442.0
 23,Male,763,Contusion,Calf,Moderate,Overuse,No,Football,Professional,Central Europe,Training,Indoor Court,Rest,Fully Recovered,16,581.71
 22,Male,964,Tendon Injury,Hip,Minor,Fall,No,Athletics,Professional,Western Europe,Warm-up,Indoor Track,Rest,Fully Recovered,4,65.25
 26,Male,7,Knee Injury,Knee,Moderate,Non-contact,No,Tennis,Amateur,Southern Europe,Warm-up,Clay,Physiotherapy,Fully Recovered,48,1250.72
@@ -10248,7 +10248,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Male,1498,Fracture,Finger,Minor,Non-contact,No,Basketball,Professional,Northern Europe,Competition,Indoor Court,Massage,Fully Recovered,9,131.46
 22,Female,1806,Fracture,Face,Minor,Non-contact,No,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Surgery,Recovered with Limitation,8,1177.78
 27,Female,166,Back Strain,Back,Severe,Contact,No,Tennis,Amateur,Western Europe,Training,Clay,Medication,Fully Recovered,310,2465.16
-34,Female,726,Wrist Strain,Wrist,Minor,Non-contact,Yes,Tennis,Professional,Central Europe,Warm-up,Hard Court,Surgery,Fully Recovered,3,262
+34,Female,726,Wrist Strain,Wrist,Minor,Non-contact,Yes,Tennis,Professional,Central Europe,Warm-up,Hard Court,Surgery,Fully Recovered,3,262.0
 32,Male,2425,Shoulder Injury,Shoulder,Severe,Overuse,Yes,Tennis,Professional,Western Europe,Competition,Clay,Medication,Fully Recovered,296,4329.53
 18,Male,2318,Hamstring Injury,Hamstring,Moderate,Overuse,No,Athletics,Professional,Central Europe,Warm-up,Field,Massage,Fully Recovered,54,604.33
 26,Male,2228,Shoulder Injury,Shoulder,Moderate,Contact,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,54,373.74
@@ -10385,7 +10385,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Male,1136,Muscle Strain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Southern Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,3,150.65
 24,Female,2173,Hamstring Injury,Hamstring,Moderate,Non-contact,No,Athletics,Amateur,Central Europe,Warm-up,Track,Rest,Recovered with Limitation,29,334.92
 17,Female,2012,Fracture,Knee,Minor,Non-contact,No,Athletics,Professional,Southern Europe,Warm-up,Road,Physiotherapy,Fully Recovered,7,390.73
-16,Male,4,Ankle Sprain,Ankle,Minor,Contact,No,Tennis,Professional,Northern Europe,Warm-up,Hard Court,Medication,Fully Recovered,1,47
+16,Male,4,Ankle Sprain,Ankle,Minor,Contact,No,Tennis,Professional,Northern Europe,Warm-up,Hard Court,Medication,Fully Recovered,1,47.0
 24,Male,1634,Ankle Sprain,Ankle,Severe,Overuse,No,Basketball,Amateur,Western Europe,Competition,Wooden Floor,Ice/Heat Therapy,Fully Recovered,205,3836.84
 21,Female,1938,Rib Injury,Ribs,Moderate,Non-contact,Yes,Boxing,Amateur,Western Europe,Competition,Gym Floor,Massage,Fully Recovered,21,1109.19
 27,Female,1845,Muscle Strain,Hamstring,Moderate,Fall,No,Football,Professional,Southern Europe,Training,Grass,Physiotherapy,Fully Recovered,58,1031.1
@@ -10452,7 +10452,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Female,107,Eye Injury,Eye,Minor,Fall,No,Boxing,Professional,Western Europe,Warm-up,Gym Floor,Surgery,Fully Recovered,10,679.17
 18,Female,1302,Tendon Injury,Hip,Minor,Overuse,No,Athletics,Amateur,Central Europe,Warm-up,Field,Surgery,Fully Recovered,11,366.02
 32,Female,157,Back Strain,Back,Moderate,Non-contact,No,Tennis,Amateur,Central Europe,Training,Clay,Massage,Fully Recovered,27,946.31
-22,Female,2289,Ankle Sprain,Ankle,Minor,Fall,Yes,Tennis,Amateur,Northern Europe,Warm-up,Indoor Court,Surgery,Recovered with Limitation,11,1178
+22,Female,2289,Ankle Sprain,Ankle,Minor,Fall,Yes,Tennis,Amateur,Northern Europe,Warm-up,Indoor Court,Surgery,Recovered with Limitation,11,1178.0
 18,Male,1742,Back Strain,Back,Severe,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Outdoor Court,Rest,Fully Recovered,258,2566.38
 29,Female,1437,Wrist Strain,Wrist,Minor,Fall,Yes,Tennis,Amateur,Central Europe,Warm-up,Clay,Rest,Recovered with Limitation,6,22.86
 20,Male,1820,Muscle Strain,Shoulder,Moderate,Overuse,No,Basketball,Professional,Western Europe,Competition,Outdoor Court,Medication,Fully Recovered,48,490.18
@@ -10460,7 +10460,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,2155,Knee Injury,Knee,Severe,Contact,No,Tennis,Professional,Central Europe,Training,Indoor Court,Medication,Fully Recovered,212,6663.87
 40,Female,708,Shoulder Injury,Shoulder,Severe,Fall,Yes,Boxing,Amateur,Northern Europe,Training,Ring,Medication,Fully Recovered,190,7596.49
 40,Female,669,Muscle Strain,Finger,Severe,Contact,No,Basketball,Amateur,Southern Europe,Competition,Wooden Floor,Massage,Fully Recovered,77,6546.13
-37,Female,2186,Back Strain,Back,Severe,Fall,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,101,28886
+37,Female,2186,Back Strain,Back,Severe,Fall,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,101,28886.0
 24,Female,122,Concussion,Head,Moderate,Non-contact,No,Football,Professional,Southern Europe,Warm-up,Artificial Turf,Ice/Heat Therapy,Fully Recovered,31,385.51
 31,Female,2398,Facial Injury,Face,Minor,Fall,No,Boxing,Professional,Central Europe,Competition,Ring,Surgery,Fully Recovered,9,1215.32
 24,Female,1469,Contusion,Knee,Minor,Fall,No,Football,Amateur,Central Europe,Training,Grass,Physiotherapy,Fully Recovered,9,329.29
@@ -10558,7 +10558,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,2507,Concussion,Head,Moderate,Overuse,No,Boxing,Amateur,Northern Europe,Warm-up,Ring,Ice/Heat Therapy,Fully Recovered,57,715.46
 30,Male,543,Wrist Strain,Wrist,Severe,Contact,Yes,Tennis,Amateur,Northern Europe,Training,Clay,Massage,Fully Recovered,239,8526.17
 35,Male,575,Shoulder Injury,Shoulder,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Training,Clay,Rest,Fully Recovered,12,131.88
-29,Female,479,Shoulder Injury,Shoulder,Severe,Contact,No,Boxing,Amateur,Central Europe,Training,Training Mat,Rest,Recovered with Limitation,330,3302
+29,Female,479,Shoulder Injury,Shoulder,Severe,Contact,No,Boxing,Amateur,Central Europe,Training,Training Mat,Rest,Recovered with Limitation,330,3302.0
 22,Male,1746,Muscle Strain,Hip,Minor,Overuse,No,Athletics,Amateur,Central Europe,Warm-up,Road,Surgery,Fully Recovered,10,277.17
 27,Male,2654,Tendon Injury,Hip,Minor,Non-contact,No,Football,Amateur,Central Europe,Competition,Artificial Turf,Ice/Heat Therapy,Fully Recovered,4,150.86
 20,Female,1196,Tennis Elbow,Elbow,Moderate,Overuse,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,25,1944.83
@@ -10923,7 +10923,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,2247,Ankle Sprain,Ankle,Severe,Non-contact,No,Tennis,Professional,Northern Europe,Warm-up,Clay,Surgery,Fully Recovered,118,44113.1
 33,Female,712,Shoulder Injury,Shoulder,Minor,Non-contact,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Rest,Recovered with Limitation,9,130.58
 32,Male,291,Ligament Sprain,Head,Minor,Fall,No,Football,Amateur,Western Europe,Training,Grass,Physiotherapy,Fully Recovered,13,308.33
-39,Male,2352,Fracture,Achilles,Minor,Non-contact,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Surgery,Retired,6,1313
+39,Male,2352,Fracture,Achilles,Minor,Non-contact,No,Basketball,Amateur,Western Europe,Training,Wooden Floor,Surgery,Retired,6,1313.0
 17,Female,389,Muscle Strain,Achilles,Moderate,Overuse,No,Athletics,Amateur,Northern Europe,Training,Track,Medication,Fully Recovered,45,1185.94
 30,Male,2389,Finger Injury,Finger,Minor,Fall,Yes,Basketball,Amateur,Southern Europe,Competition,Outdoor Court,Physiotherapy,Fully Recovered,1,392.23
 25,Female,427,Concussion,Head,Severe,Non-contact,No,Boxing,Professional,Northern Europe,Warm-up,Ring,Physiotherapy,Fully Recovered,117,11877.14
@@ -10979,7 +10979,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Female,2027,Shin Splints,Shin,Moderate,Contact,No,Athletics,Amateur,Central Europe,Warm-up,Road,Medication,Fully Recovered,34,988.28
 27,Female,27,Rib Injury,Ribs,Minor,Overuse,Yes,Boxing,Amateur,Northern Europe,Training,Gym Floor,Physiotherapy,Fully Recovered,11,204.19
 19,Female,1729,Facial Injury,Face,Moderate,Non-contact,Yes,Boxing,Amateur,Central Europe,Training,Ring,Ice/Heat Therapy,Recovered with Limitation,34,382.41
-16,Female,2264,Muscle Strain,Ankle,Minor,Non-contact,No,Football,Amateur,Western Europe,Training,Artificial Turf,Massage,Recovered with Limitation,8,118
+16,Female,2264,Muscle Strain,Ankle,Minor,Non-contact,No,Football,Amateur,Western Europe,Training,Artificial Turf,Massage,Recovered with Limitation,8,118.0
 18,Female,1793,Ankle Sprain,Ankle,Moderate,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,40,447.62
 26,Male,87,Muscle Strain,Foot,Minor,Overuse,No,Athletics,Professional,Western Europe,Warm-up,Track,Physiotherapy,Fully Recovered,12,425.46
 17,Male,772,Rib Injury,Ribs,Minor,Contact,No,Boxing,Amateur,Northern Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,14,118.09
@@ -11112,7 +11112,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 22,Female,542,Tendon Injury,Knee,Minor,Contact,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Massage,Fully Recovered,14,173.18
 29,Female,758,Ankle Sprain,Ankle,Minor,Overuse,No,Tennis,Amateur,Central Europe,Competition,Clay,Medication,Fully Recovered,3,110.91
 33,Female,1319,Ankle Sprain,Ankle,Severe,Fall,No,Tennis,Amateur,Western Europe,Training,Grass,Surgery,Fully Recovered,278,31136.29
-19,Male,1281,Tendon Injury,Calf,Moderate,Non-contact,No,Football,Amateur,Northern Europe,Training,Artificial Turf,Massage,Recovered with Limitation,17,412
+19,Male,1281,Tendon Injury,Calf,Moderate,Non-contact,No,Football,Amateur,Northern Europe,Training,Artificial Turf,Massage,Recovered with Limitation,17,412.0
 29,Female,72,Knee Injury,Knee,Moderate,Contact,No,Tennis,Amateur,Central Europe,Competition,Clay,Medication,Fully Recovered,41,934.97
 16,Female,1127,Tendon Injury,Hip,Minor,Contact,No,Athletics,Amateur,Central Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,13,83.3
 21,Female,797,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Professional,Western Europe,Training,Track,Rest,Fully Recovered,4,112.24
@@ -11150,7 +11150,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 16,Female,767,Eye Injury,Eye,Minor,Non-contact,No,Boxing,Amateur,Northern Europe,Warm-up,Ring,Massage,Fully Recovered,14,234.39
 19,Male,2512,Tendon Injury,Calf,Minor,Overuse,No,Athletics,Amateur,Western Europe,Warm-up,Track,Ice/Heat Therapy,Fully Recovered,4,143.37
 33,Male,2644,Ligament Sprain,Hamstring,Severe,Fall,Yes,Football,Amateur,Northern Europe,Warm-up,Artificial Turf,Massage,Fully Recovered,113,4338.21
-39,Female,1038,Concussion,Head,Moderate,Overuse,Yes,Football,Amateur,Central Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,33,721
+39,Female,1038,Concussion,Head,Moderate,Overuse,Yes,Football,Amateur,Central Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,33,721.0
 26,Female,176,Ankle Sprain,Ankle,Severe,Fall,No,Basketball,Professional,Northern Europe,Competition,Wooden Floor,Rest,Fully Recovered,234,701.56
 22,Male,253,Concussion,Head,Minor,Contact,Yes,Boxing,Amateur,Central Europe,Training,Ring,Surgery,Fully Recovered,3,507.09
 38,Female,1274,Tendon Injury,Achilles,Severe,Fall,No,Athletics,Amateur,Central Europe,Competition,Field,Massage,Fully Recovered,251,2122.51
@@ -11251,7 +11251,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Female,544,Wrist Strain,Wrist,Minor,Overuse,No,Tennis,Amateur,Western Europe,Warm-up,Hard Court,Massage,Recovered with Limitation,5,259.78
 24,Female,471,Shoulder Injury,Shoulder,Minor,Non-contact,No,Boxing,Professional,Central Europe,Training,Training Mat,Physiotherapy,Recovered with Limitation,13,457.11
 23,Male,1962,Fracture,Head,Minor,Contact,No,Boxing,Professional,Southern Europe,Competition,Ring,Medication,Fully Recovered,10,213.77
-35,Male,1361,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,5,268
+35,Male,1361,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Western Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,5,268.0
 33,Female,711,Tendon Injury,Knee,Severe,Contact,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Medication,Fully Recovered,355,2448.31
 35,Female,1308,Fracture,Calf,Minor,Contact,Yes,Football,Amateur,Northern Europe,Competition,Artificial Turf,Physiotherapy,Recovered with Limitation,4,146.71
 18,Female,356,Back Strain,Back,Severe,Overuse,Yes,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,127,4121.75
@@ -11317,7 +11317,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 32,Female,1473,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Southern Europe,Competition,Indoor Court,Rest,Fully Recovered,59,326.18
 37,Female,1335,Facial Injury,Face,Severe,Fall,No,Boxing,Professional,Western Europe,Warm-up,Ring,Ice/Heat Therapy,Recovered with Limitation,263,3853.8
 38,Female,1530,Shoulder Injury,Shoulder,Severe,Non-contact,No,Tennis,Professional,Northern Europe,Training,Hard Court,Rest,Fully Recovered,180,1300.32
-28,Female,2313,Knee Injury,Knee,Moderate,Fall,No,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Surgery,Recovered with Limitation,39,5112
+28,Female,2313,Knee Injury,Knee,Moderate,Fall,No,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Surgery,Recovered with Limitation,39,5112.0
 22,Male,1415,Concussion,Head,Moderate,Contact,No,Boxing,Amateur,Central Europe,Training,Ring,Ice/Heat Therapy,Fully Recovered,40,739.39
 17,Male,1382,Ankle Sprain,Ankle,Moderate,Fall,No,Tennis,Amateur,Central Europe,Competition,Hard Court,Medication,Recovered with Limitation,59,823.25
 35,Female,2271,Tendon Injury,Hip,Moderate,Overuse,No,Football,Amateur,Southern Europe,Warm-up,Grass,Rest,Fully Recovered,17,457.62
@@ -11494,7 +11494,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 34,Female,1846,Facial Injury,Face,Minor,Contact,No,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Massage,Fully Recovered,10,85.25
 32,Female,1512,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Amateur,Western Europe,Competition,Road,Massage,Recovered with Limitation,14,254.64
 33,Female,804,Contusion,Shoulder,Minor,Contact,Yes,Football,Amateur,Central Europe,Warm-up,Artificial Turf,Rest,Fully Recovered,11,60.4
-38,Female,2310,Shoulder Injury,Shoulder,Minor,Contact,No,Boxing,Amateur,Northern Europe,Warm-up,Training Mat,Rest,Fully Recovered,14,125
+38,Female,2310,Shoulder Injury,Shoulder,Minor,Contact,No,Boxing,Amateur,Northern Europe,Warm-up,Training Mat,Rest,Fully Recovered,14,125.0
 36,Male,169,Muscle Strain,Hip,Severe,Non-contact,No,Football,Amateur,Central Europe,Warm-up,Artificial Turf,Rest,Recovered with Limitation,163,901.18
 37,Female,2114,Fracture,Hand,Moderate,Contact,No,Boxing,Amateur,Western Europe,Warm-up,Gym Floor,Ice/Heat Therapy,Recovered with Limitation,50,201.11
 40,Female,1635,Muscle Strain,Hip,Moderate,Overuse,Yes,Athletics,Professional,Northern Europe,Warm-up,Indoor Track,Ice/Heat Therapy,Fully Recovered,38,778.19
@@ -11689,7 +11689,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Female,534,Finger Injury,Finger,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Ice/Heat Therapy,Fully Recovered,9,50.09
 29,Female,385,Fracture,Ankle,Minor,Overuse,No,Basketball,Professional,Central Europe,Warm-up,Outdoor Court,Physiotherapy,Fully Recovered,14,359.5
 18,Female,1979,Hamstring Injury,Hamstring,Severe,Fall,No,Athletics,Professional,Central Europe,Warm-up,Road,Physiotherapy,Fully Recovered,313,13467.45
-29,Female,974,Knee Injury,Knee,Moderate,Contact,Yes,Tennis,Amateur,Central Europe,Competition,Grass,Massage,Fully Recovered,28,771
+29,Female,974,Knee Injury,Knee,Moderate,Contact,Yes,Tennis,Amateur,Central Europe,Competition,Grass,Massage,Fully Recovered,28,771.0
 22,Female,1679,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Northern Europe,Warm-up,Gym Floor,Rest,Recovered with Limitation,8,24.78
 35,Male,218,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Northern Europe,Training,Hard Court,Medication,Fully Recovered,8,249.46
 38,Female,1423,Shoulder Injury,Shoulder,Minor,Fall,No,Tennis,Amateur,Central Europe,Competition,Indoor Court,Rest,Fully Recovered,4,140.3
@@ -11770,7 +11770,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 27,Female,318,Hamstring Injury,Hamstring,Moderate,Non-contact,No,Athletics,Amateur,Central Europe,Training,Track,Medication,Recovered with Limitation,20,1240.18
 37,Female,997,Tendon Injury,Back,Minor,Overuse,No,Athletics,Professional,Western Europe,Competition,Track,Massage,Fully Recovered,7,248.55
 16,Male,570,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Amateur,Central Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Retired,27,471.34
-30,Male,902,Hamstring Injury,Hamstring,Minor,Fall,Yes,Athletics,Amateur,Central Europe,Warm-up,Field,Rest,Fully Recovered,11,141
+30,Male,902,Hamstring Injury,Hamstring,Minor,Fall,Yes,Athletics,Amateur,Central Europe,Warm-up,Field,Rest,Fully Recovered,11,141.0
 16,Male,769,Back Strain,Back,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Competition,Wooden Floor,Massage,Fully Recovered,11,101.51
 26,Male,2663,Muscle Strain,Foot,Moderate,Fall,Yes,Football,Amateur,Southern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,35,836.41
 16,Male,1365,Concussion,Head,Moderate,Fall,No,Football,Professional,Central Europe,Competition,Grass,Surgery,Fully Recovered,32,1600.43
@@ -11852,7 +11852,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 37,Female,131,Knee Injury,Knee,Moderate,Non-contact,No,Tennis,Professional,Central Europe,Training,Grass,Surgery,Fully Recovered,21,2051.06
 27,Male,307,Tendon Injury,Knee,Minor,Contact,No,Athletics,Professional,Southern Europe,Training,Road,Massage,Fully Recovered,6,240.57
 34,Female,2327,Finger Injury,Finger,Severe,Contact,No,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Rest,Fully Recovered,128,2327.11
-32,Male,427,Knee Injury,Knee,Moderate,Non-contact,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,57,458
+32,Male,427,Knee Injury,Knee,Moderate,Non-contact,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,57,458.0
 31,Female,608,Ligament Sprain,Calf,Moderate,Overuse,No,Football,Professional,Central Europe,Training,Artificial Turf,Ice/Heat Therapy,Fully Recovered,27,790.38
 25,Female,605,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Amateur,Southern Europe,Training,Ring,Surgery,Fully Recovered,13,1272.23
 32,Male,1515,Fracture,Face,Severe,Overuse,Yes,Boxing,Professional,Northern Europe,Competition,Ring,Ice/Heat Therapy,Fully Recovered,220,5221.85
@@ -12028,7 +12028,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 28,Female,1202,Hamstring Injury,Hamstring,Severe,Fall,No,Athletics,Professional,Central Europe,Training,Track,Medication,Recovered with Limitation,199,7621.19
 28,Female,2032,Finger Injury,Finger,Minor,Contact,No,Basketball,Amateur,Central Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,3,492.25
 29,Male,2276,Hamstring Injury,Hamstring,Moderate,Overuse,No,Athletics,Professional,Southern Europe,Warm-up,Road,Ice/Heat Therapy,Fully Recovered,25,429.44
-36,Male,2416,Ankle Sprain,Ankle,Minor,Overuse,No,Tennis,Amateur,Northern Europe,Warm-up,Clay,Rest,Fully Recovered,4,54
+36,Male,2416,Ankle Sprain,Ankle,Minor,Overuse,No,Tennis,Amateur,Northern Europe,Warm-up,Clay,Rest,Fully Recovered,4,54.0
 30,Female,2103,Contusion,Foot,Severe,Fall,No,Football,Amateur,Central Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,118,5098.5
 33,Female,909,Tennis Elbow,Elbow,Moderate,Fall,Yes,Tennis,Amateur,Western Europe,Competition,Hard Court,Rest,Fully Recovered,47,584.23
 38,Male,2184,Fracture,Ankle,Severe,Fall,No,Football,Amateur,Northern Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,340,5419.16
@@ -12107,7 +12107,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 37,Female,1941,Muscle Strain,Hip,Minor,Contact,Yes,Athletics,Amateur,Western Europe,Training,Field,Physiotherapy,Fully Recovered,10,266.41
 18,Male,709,Shoulder Injury,Shoulder,Minor,Contact,Yes,Tennis,Amateur,Central Europe,Warm-up,Indoor Court,Medication,Recovered with Limitation,11,171.87
 37,Male,1328,Rib Injury,Ribs,Severe,Contact,No,Boxing,Amateur,Western Europe,Competition,Ring,Massage,Fully Recovered,80,8722.1
-25,Male,2511,Contusion,Head,Severe,Contact,No,Football,Amateur,Central Europe,Training,Indoor Court,Medication,Recovered with Limitation,237,8295
+25,Male,2511,Contusion,Head,Severe,Contact,No,Football,Amateur,Central Europe,Training,Indoor Court,Medication,Recovered with Limitation,237,8295.0
 24,Female,2181,Tendon Injury,Foot,Severe,Fall,No,Athletics,Professional,Northern Europe,Training,Track,Rest,Recovered with Limitation,269,2743.3
 36,Female,1298,Concussion,Head,Severe,Non-contact,No,Football,Amateur,Northern Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,189,2358.24
 31,Female,20,Hamstring Injury,Hamstring,Minor,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Field,Medication,Fully Recovered,1,67.83
@@ -12271,7 +12271,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Male,292,Eye Injury,Eye,Minor,Contact,No,Boxing,Professional,Central Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,5,71.84
 36,Female,1679,Rib Injury,Ribs,Minor,Non-contact,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Rest,Fully Recovered,9,75.97
 29,Female,92,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Professional,Southern Europe,Competition,Road,Rest,Fully Recovered,4,105.89
-20,Female,988,Eye Injury,Eye,Moderate,Fall,Yes,Boxing,Amateur,Western Europe,Training,Gym Floor,Physiotherapy,Recovered with Limitation,59,1755
+20,Female,988,Eye Injury,Eye,Moderate,Fall,Yes,Boxing,Amateur,Western Europe,Training,Gym Floor,Physiotherapy,Recovered with Limitation,59,1755.0
 22,Female,418,Rib Injury,Ribs,Minor,Fall,No,Boxing,Professional,Western Europe,Competition,Training Mat,Massage,Fully Recovered,11,124.24
 17,Male,1418,Ankle Sprain,Ankle,Minor,Overuse,Yes,Basketball,Professional,Central Europe,Training,Wooden Floor,Medication,Fully Recovered,1,86.8
 27,Female,2503,Muscle Strain,Calf,Severe,Non-contact,No,Basketball,Professional,Western Europe,Training,Outdoor Court,Ice/Heat Therapy,Fully Recovered,106,1518.12
@@ -12306,7 +12306,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,685,Muscle Strain,Wrist,Minor,Fall,No,Basketball,Professional,Central Europe,Training,Outdoor Court,Rest,Fully Recovered,4,134.36
 19,Male,765,Back Strain,Back,Severe,Fall,No,Tennis,Amateur,Northern Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,107,12029.59
 33,Female,881,Back Strain,Back,Moderate,Contact,No,Basketball,Professional,Western Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,57,1591.83
-19,Female,617,Fracture,Calf,Moderate,Overuse,No,Football,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,33,1201
+19,Female,617,Fracture,Calf,Moderate,Overuse,No,Football,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,33,1201.0
 28,Female,1625,Fracture,Achilles,Severe,Fall,No,Athletics,Amateur,Western Europe,Competition,Track,Rest,Fully Recovered,269,966.96
 37,Female,714,Fracture,Foot,Minor,Contact,No,Football,Professional,Northern Europe,Competition,Indoor Court,Surgery,Fully Recovered,11,1166.42
 17,Female,1543,Contusion,Knee,Minor,Fall,No,Football,Amateur,Central Europe,Training,Indoor Court,Rest,Fully Recovered,2,27.94
@@ -12426,7 +12426,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 25,Female,483,Tendon Injury,Knee,Moderate,Contact,No,Football,Amateur,Western Europe,Training,Artificial Turf,Medication,Fully Recovered,20,557.61
 37,Male,1155,Eye Injury,Eye,Moderate,Non-contact,No,Boxing,Amateur,Western Europe,Training,Ring,Rest,Fully Recovered,49,590.41
 23,Male,515,Fracture,Back,Moderate,Non-contact,No,Athletics,Professional,Southern Europe,Competition,Road,Medication,Fully Recovered,42,1293.32
-29,Male,1429,Contusion,Hamstring,Minor,Overuse,No,Football,Amateur,Central Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,10,87
+29,Male,1429,Contusion,Hamstring,Minor,Overuse,No,Football,Amateur,Central Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,10,87.0
 39,Female,2042,Hamstring Injury,Hamstring,Minor,Fall,No,Athletics,Professional,Southern Europe,Training,Indoor Track,Surgery,Fully Recovered,2,378.22
 26,Female,317,Muscle Strain,Knee,Moderate,Non-contact,No,Athletics,Amateur,Western Europe,Warm-up,Track,Massage,Recovered with Limitation,37,513.07
 22,Male,2409,Muscle Strain,Foot,Moderate,Non-contact,No,Football,Amateur,Central Europe,Training,Indoor Court,Surgery,Fully Recovered,26,3572.87
@@ -12473,7 +12473,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 17,Male,1696,Wrist Strain,Wrist,Minor,Fall,No,Tennis,Amateur,Northern Europe,Competition,Grass,Physiotherapy,Fully Recovered,9,108.76
 34,Female,1525,Ankle Sprain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Fully Recovered,4,136.68
 20,Female,92,Muscle Strain,Shoulder,Minor,Overuse,No,Football,Professional,Central Europe,Warm-up,Artificial Turf,Physiotherapy,Fully Recovered,8,198.52
-34,Female,2081,Muscle Strain,Knee,Minor,Contact,No,Athletics,Amateur,Central Europe,Competition,Field,Ice/Heat Therapy,Recovered with Limitation,14,104
+34,Female,2081,Muscle Strain,Knee,Minor,Contact,No,Athletics,Amateur,Central Europe,Competition,Field,Ice/Heat Therapy,Recovered with Limitation,14,104.0
 25,Male,2427,Muscle Strain,Achilles,Severe,Fall,No,Athletics,Amateur,Northern Europe,Warm-up,Track,Rest,Fully Recovered,82,683.68
 36,Female,442,Muscle Strain,Back,Minor,Non-contact,Yes,Athletics,Professional,Central Europe,Training,Indoor Track,Physiotherapy,Fully Recovered,13,209.39
 21,Female,80,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Northern Europe,Training,Ring,Rest,Fully Recovered,7,92.33
@@ -12504,7 +12504,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 26,Female,507,Achilles Injury,Achilles,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Competition,Indoor Track,Medication,Fully Recovered,2,144.65
 32,Male,1544,Tendon Injury,Achilles,Moderate,Non-contact,Yes,Athletics,Amateur,Southern Europe,Training,Indoor Track,Medication,Fully Recovered,42,1177.71
 18,Female,2041,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Central Europe,Competition,Track,Physiotherapy,Fully Recovered,2,381.34
-35,Female,1709,Eye Injury,Eye,Minor,Non-contact,No,Boxing,Professional,Western Europe,Competition,Ring,Massage,Fully Recovered,3,229
+35,Female,1709,Eye Injury,Eye,Minor,Non-contact,No,Boxing,Professional,Western Europe,Competition,Ring,Massage,Fully Recovered,3,229.0
 35,Female,1720,Knee Injury,Knee,Minor,Fall,No,Basketball,Professional,Central Europe,Training,Wooden Floor,Medication,Fully Recovered,12,85.13
 39,Male,1446,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Medication,Fully Recovered,14,329.53
 17,Male,1718,Shoulder Injury,Shoulder,Severe,Fall,No,Tennis,Amateur,Northern Europe,Warm-up,Grass,Medication,Fully Recovered,250,5196.5
@@ -12650,7 +12650,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 37,Female,1520,Ankle Sprain,Ankle,Moderate,Contact,No,Tennis,Amateur,Southern Europe,Training,Hard Court,Physiotherapy,Fully Recovered,39,1921.45
 23,Female,810,Achilles Injury,Achilles,Moderate,Fall,No,Athletics,Amateur,Southern Europe,Warm-up,Field,Physiotherapy,Recovered with Limitation,50,1455.53
 38,Male,2166,Eye Injury,Eye,Severe,Contact,No,Boxing,Professional,Northern Europe,Training,Training Mat,Physiotherapy,Fully Recovered,159,10764.99
-23,Female,2472,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Amateur,Western Europe,Competition,Gym Floor,Physiotherapy,Fully Recovered,14,428
+23,Female,2472,Rib Injury,Ribs,Minor,Overuse,No,Boxing,Amateur,Western Europe,Competition,Gym Floor,Physiotherapy,Fully Recovered,14,428.0
 40,Male,331,Eye Injury,Eye,Severe,Fall,No,Boxing,Amateur,Western Europe,Competition,Ring,Ice/Heat Therapy,Fully Recovered,177,5887.96
 34,Female,566,Fracture,Back,Moderate,Overuse,No,Basketball,Professional,Central Europe,Competition,Indoor Court,Massage,Recovered with Limitation,16,663.24
 22,Female,903,Muscle Strain,Hamstring,Minor,Contact,Yes,Athletics,Professional,Northern Europe,Training,Track,Medication,Fully Recovered,12,114.84
@@ -12724,7 +12724,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Female,94,Facial Injury,Face,Moderate,Non-contact,Yes,Boxing,Amateur,Western Europe,Training,Gym Floor,Ice/Heat Therapy,Fully Recovered,50,570.41
 17,Female,417,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Amateur,Southern Europe,Competition,Indoor Track,Surgery,Fully Recovered,58,3608.96
 16,Female,2104,Eye Injury,Eye,Severe,Overuse,No,Boxing,Amateur,Central Europe,Competition,Ring,Ice/Heat Therapy,Recovered with Limitation,183,5794.52
-16,Male,1346,Achilles Injury,Achilles,Moderate,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Field,Ice/Heat Therapy,Fully Recovered,42,785
+16,Male,1346,Achilles Injury,Achilles,Moderate,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Field,Ice/Heat Therapy,Fully Recovered,42,785.0
 24,Female,603,Concussion,Head,Minor,Contact,No,Football,Professional,Southern Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,4,197.07
 18,Female,763,Muscle Strain,Foot,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Artificial Turf,Physiotherapy,Fully Recovered,31,648.65
 22,Female,2556,Muscle Strain,Achilles,Moderate,Fall,No,Athletics,Amateur,Central Europe,Warm-up,Field,Ice/Heat Therapy,Retired,56,384.43
@@ -12758,7 +12758,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,1820,Wrist Strain,Wrist,Moderate,Non-contact,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,42,1009.51
 17,Female,2569,Tennis Elbow,Elbow,Minor,Fall,No,Tennis,Amateur,Southern Europe,Competition,Indoor Court,Surgery,Fully Recovered,3,932.9
 38,Male,2211,Wrist Strain,Wrist,Severe,Non-contact,No,Tennis,Amateur,Southern Europe,Training,Hard Court,Medication,Fully Recovered,271,4946.72
-18,Female,2548,Muscle Strain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Medication,Fully Recovered,10,312
+18,Female,2548,Muscle Strain,Ankle,Minor,Non-contact,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Medication,Fully Recovered,10,312.0
 22,Female,2610,Back Strain,Back,Moderate,Fall,No,Tennis,Amateur,Western Europe,Warm-up,Hard Court,Rest,Fully Recovered,27,353.07
 24,Male,2433,Concussion,Head,Minor,Overuse,No,Football,Professional,Southern Europe,Training,Indoor Court,Massage,Fully Recovered,6,274.96
 24,Female,1062,Fracture,Knee,Moderate,Non-contact,No,Athletics,Professional,Southern Europe,Warm-up,Field,Medication,Fully Recovered,20,646.94
@@ -12812,7 +12812,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 26,Male,1420,Ankle Sprain,Ankle,Minor,Fall,No,Basketball,Amateur,Northern Europe,Warm-up,Wooden Floor,Surgery,Fully Recovered,3,563.66
 29,Male,1632,Tendon Injury,Calf,Moderate,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Indoor Track,Physiotherapy,Fully Recovered,50,1993.88
 40,Male,1110,Fracture,Shoulder,Minor,Fall,No,Football,Professional,Southern Europe,Competition,Grass,Surgery,Retired,3,218.29
-25,Female,1413,Wrist Strain,Wrist,Minor,Contact,No,Tennis,Amateur,Northern Europe,Training,Hard Court,Ice/Heat Therapy,Fully Recovered,10,84
+25,Female,1413,Wrist Strain,Wrist,Minor,Contact,No,Tennis,Amateur,Northern Europe,Training,Hard Court,Ice/Heat Therapy,Fully Recovered,10,84.0
 36,Female,284,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,8,182.71
 25,Female,2017,Fracture,Hamstring,Moderate,Fall,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,39,381.85
 35,Female,2384,Fracture,Eye,Minor,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Physiotherapy,Fully Recovered,2,123.89
@@ -12981,7 +12981,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 20,Male,1747,Shoulder Injury,Shoulder,Minor,Fall,No,Boxing,Amateur,Western Europe,Warm-up,Training Mat,Rest,Recovered with Limitation,5,22.59
 17,Male,306,Back Strain,Back,Severe,Contact,No,Tennis,Amateur,Southern Europe,Training,Hard Court,Surgery,Fully Recovered,98,27457.45
 23,Male,1988,Muscle Strain,Hamstring,Moderate,Overuse,No,Football,Amateur,Northern Europe,Warm-up,Grass,Physiotherapy,Recovered with Limitation,33,1633.15
-36,Male,2438,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Professional,Central Europe,Training,Ring,Rest,Fully Recovered,25,258
+36,Male,2438,Rib Injury,Ribs,Moderate,Fall,No,Boxing,Professional,Central Europe,Training,Ring,Rest,Fully Recovered,25,258.0
 22,Female,443,Concussion,Head,Severe,Contact,No,Boxing,Amateur,Southern Europe,Competition,Ring,Rest,Fully Recovered,105,3247.44
 18,Female,901,Ligament Sprain,Shoulder,Severe,Fall,No,Football,Amateur,Central Europe,Competition,Grass,Rest,Fully Recovered,149,3342.79
 37,Female,2011,Back Strain,Back,Severe,Fall,Yes,Tennis,Amateur,Western Europe,Training,Clay,Massage,Fully Recovered,331,4111.97
@@ -13199,7 +13199,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 18,Female,470,Fracture,Shoulder,Minor,Fall,Yes,Football,Amateur,Southern Europe,Training,Artificial Turf,Surgery,Fully Recovered,2,657.69
 38,Female,2328,Back Strain,Back,Minor,Fall,No,Basketball,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,4,39.74
 21,Female,2353,Wrist Strain,Wrist,Minor,Fall,No,Tennis,Professional,Central Europe,Competition,Hard Court,Rest,Fully Recovered,9,130.01
-19,Female,2421,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Northern Europe,Training,Clay,Massage,Fully Recovered,8,88
+19,Female,2421,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Northern Europe,Training,Clay,Massage,Fully Recovered,8,88.0
 22,Male,362,Fracture,Ankle,Moderate,Contact,No,Basketball,Amateur,Western Europe,Competition,Outdoor Court,Rest,Fully Recovered,30,476.49
 33,Female,2364,Concussion,Head,Moderate,Contact,No,Football,Amateur,Northern Europe,Warm-up,Grass,Massage,Fully Recovered,38,815.72
 20,Female,1155,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Surgery,Retired,13,523.81
@@ -13321,7 +13321,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 25,Female,74,Muscle Strain,Head,Moderate,Non-contact,No,Football,Professional,Southern Europe,Training,Artificial Turf,Surgery,Fully Recovered,25,5222.29
 17,Male,607,Knee Injury,Knee,Moderate,Fall,No,Tennis,Amateur,Western Europe,Training,Clay,Ice/Heat Therapy,Fully Recovered,49,556.42
 18,Female,2178,Knee Injury,Knee,Minor,Contact,No,Basketball,Amateur,Central Europe,Training,Wooden Floor,Massage,Fully Recovered,6,248.59
-16,Male,706,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Training,Road,Physiotherapy,Fully Recovered,11,186
+16,Male,706,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Northern Europe,Training,Road,Physiotherapy,Fully Recovered,11,186.0
 40,Female,1751,Wrist Strain,Wrist,Minor,Fall,No,Tennis,Professional,Southern Europe,Competition,Hard Court,Medication,Fully Recovered,1,92.72
 40,Female,1143,Shoulder Injury,Shoulder,Minor,Non-contact,No,Tennis,Amateur,Central Europe,Warm-up,Hard Court,Medication,Fully Recovered,11,242.24
 26,Female,77,Tennis Elbow,Elbow,Minor,Overuse,No,Tennis,Amateur,Southern Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,13,84.21
@@ -13346,7 +13346,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 36,Female,1919,Muscle Strain,Ankle,Moderate,Fall,Yes,Basketball,Amateur,Southern Europe,Training,Wooden Floor,Surgery,Fully Recovered,30,1635.28
 35,Female,376,Concussion,Head,Minor,Contact,No,Boxing,Professional,Northern Europe,Training,Ring,Surgery,Fully Recovered,11,1204.48
 38,Female,145,Facial Injury,Face,Moderate,Overuse,No,Boxing,Amateur,Western Europe,Competition,Gym Floor,Ice/Heat Therapy,Fully Recovered,23,226.72
-32,Female,1592,Shin Splints,Shin,Minor,Contact,Yes,Athletics,Professional,Northern Europe,Training,Indoor Track,Ice/Heat Therapy,Fully Recovered,8,79
+32,Female,1592,Shin Splints,Shin,Minor,Contact,Yes,Athletics,Professional,Northern Europe,Training,Indoor Track,Ice/Heat Therapy,Fully Recovered,8,79.0
 36,Female,1145,Ankle Sprain,Ankle,Severe,Fall,No,Basketball,Amateur,Northern Europe,Warm-up,Outdoor Court,Surgery,Fully Recovered,152,9095.5
 38,Male,2333,Hamstring Injury,Hamstring,Moderate,Fall,No,Athletics,Amateur,Southern Europe,Warm-up,Field,Ice/Heat Therapy,Retired,23,509.74
 24,Female,1054,Eye Injury,Eye,Severe,Contact,Yes,Boxing,Amateur,Southern Europe,Competition,Ring,Medication,Fully Recovered,308,8450.83
@@ -13484,7 +13484,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 38,Female,1299,Muscle Strain,Shoulder,Minor,Contact,No,Football,Amateur,Southern Europe,Training,Grass,Massage,Recovered with Limitation,13,54.21
 27,Male,1456,Back Strain,Back,Minor,Overuse,No,Tennis,Amateur,Northern Europe,Training,Hard Court,Surgery,Fully Recovered,13,857.76
 29,Female,2312,Muscle Strain,Back,Moderate,Non-contact,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Physiotherapy,Fully Recovered,47,1645.4
-29,Female,2206,Ligament Sprain,Hip,Minor,Fall,No,Football,Amateur,Southern Europe,Competition,Artificial Turf,Physiotherapy,Fully Recovered,14,87
+29,Female,2206,Ligament Sprain,Hip,Minor,Fall,No,Football,Amateur,Southern Europe,Competition,Artificial Turf,Physiotherapy,Fully Recovered,14,87.0
 17,Female,805,Hamstring Injury,Hamstring,Severe,Non-contact,No,Athletics,Amateur,Central Europe,Competition,Field,Physiotherapy,Fully Recovered,338,4756.73
 27,Female,2673,Fracture,Finger,Moderate,Overuse,No,Basketball,Amateur,Western Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,25,526.42
 33,Male,1796,Tendon Injury,Foot,Moderate,Contact,No,Football,Amateur,Southern Europe,Competition,Grass,Massage,Fully Recovered,16,1004.34
@@ -13654,7 +13654,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 27,Female,1727,Concussion,Head,Moderate,Fall,No,Boxing,Amateur,Central Europe,Competition,Ring,Ice/Heat Therapy,Fully Recovered,22,410.45
 17,Female,372,Tendon Injury,Knee,Minor,Contact,No,Football,Professional,Western Europe,Competition,Indoor Court,Physiotherapy,Fully Recovered,9,471.6
 16,Female,484,Concussion,Head,Minor,Fall,No,Football,Amateur,Northern Europe,Competition,Artificial Turf,Massage,Fully Recovered,11,47.9
-28,Female,1074,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Medication,Fully Recovered,18,1335
+28,Female,1074,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Outdoor Court,Medication,Fully Recovered,18,1335.0
 22,Female,1150,Fracture,Jaw,Moderate,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Training Mat,Massage,Recovered with Limitation,59,1072.27
 17,Female,1569,Fracture,Ribs,Severe,Fall,Yes,Boxing,Amateur,Central Europe,Warm-up,Gym Floor,Physiotherapy,Fully Recovered,257,4504.72
 19,Female,2128,Back Strain,Back,Minor,Contact,No,Basketball,Amateur,Central Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,1,117.41
@@ -13725,7 +13725,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 27,Female,1038,Shoulder Injury,Shoulder,Minor,Non-contact,No,Boxing,Professional,Central Europe,Competition,Training Mat,Physiotherapy,Fully Recovered,10,108.07
 37,Male,1937,Concussion,Head,Moderate,Fall,No,Football,Amateur,Southern Europe,Competition,Grass,Surgery,Fully Recovered,52,2362.87
 21,Female,680,Achilles Injury,Achilles,Minor,Contact,No,Athletics,Amateur,Central Europe,Training,Road,Massage,Fully Recovered,14,62.72
-25,Male,464,Ankle Sprain,Ankle,Severe,Non-contact,No,Tennis,Amateur,Northern Europe,Competition,Grass,Massage,Fully Recovered,262,5745
+25,Male,464,Ankle Sprain,Ankle,Severe,Non-contact,No,Tennis,Amateur,Northern Europe,Competition,Grass,Massage,Fully Recovered,262,5745.0
 29,Male,550,Knee Injury,Knee,Moderate,Overuse,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Massage,Fully Recovered,25,506.18
 38,Female,1471,Tendon Injury,Head,Severe,Overuse,No,Football,Amateur,Central Europe,Warm-up,Grass,Rest,Fully Recovered,77,3774.94
 38,Female,1211,Wrist Strain,Wrist,Minor,Overuse,No,Tennis,Amateur,Northern Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,14,342.96
@@ -13818,7 +13818,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 19,Female,2404,Concussion,Head,Moderate,Non-contact,No,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Surgery,Fully Recovered,20,4565.5
 36,Male,2408,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Professional,Central Europe,Warm-up,Road,Surgery,Fully Recovered,6,1095.26
 21,Female,2562,Shin Splints,Shin,Minor,Contact,No,Athletics,Amateur,Western Europe,Warm-up,Track,Surgery,Fully Recovered,1,374.34
-17,Female,1365,Concussion,Head,Moderate,Non-contact,No,Boxing,Professional,Southern Europe,Training,Ring,Medication,Fully Recovered,15,868
+17,Female,1365,Concussion,Head,Moderate,Non-contact,No,Boxing,Professional,Southern Europe,Training,Ring,Medication,Fully Recovered,15,868.0
 32,Female,2625,Fracture,Shoulder,Minor,Non-contact,No,Boxing,Amateur,Central Europe,Warm-up,Ring,Rest,Fully Recovered,11,138.69
 39,Male,405,Fracture,Foot,Minor,Fall,Yes,Athletics,Amateur,Central Europe,Training,Field,Physiotherapy,Fully Recovered,6,491.41
 16,Male,304,Fracture,Shoulder,Minor,Non-contact,No,Boxing,Amateur,Western Europe,Training,Ring,Physiotherapy,Retired,7,242.33
@@ -13849,14 +13849,14 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 17,Male,520,Hamstring Injury,Hamstring,Moderate,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Track,Medication,Fully Recovered,29,476.92
 39,Female,413,Contusion,Foot,Minor,Contact,No,Football,Professional,Central Europe,Competition,Indoor Court,Massage,Fully Recovered,2,187.04
 18,Female,1650,Achilles Injury,Achilles,Moderate,Fall,Yes,Athletics,Professional,Southern Europe,Competition,Road,Ice/Heat Therapy,Fully Recovered,19,610.65
-30,Male,1156,Facial Injury,Face,Minor,Overuse,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Massage,Fully Recovered,9,185
+30,Male,1156,Facial Injury,Face,Minor,Overuse,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Massage,Fully Recovered,9,185.0
 36,Male,1328,Achilles Injury,Achilles,Moderate,Contact,No,Athletics,Amateur,Central Europe,Warm-up,Field,Physiotherapy,Recovered with Limitation,17,1448.11
 37,Female,799,Fracture,Hamstring,Moderate,Non-contact,Yes,Athletics,Amateur,Central Europe,Competition,Track,Ice/Heat Therapy,Fully Recovered,57,233.04
 25,Male,1722,Ankle Sprain,Ankle,Minor,Overuse,No,Basketball,Amateur,Central Europe,Competition,Wooden Floor,Massage,Fully Recovered,2,256.46
 24,Male,625,Knee Injury,Knee,Minor,Overuse,No,Tennis,Amateur,Northern Europe,Training,Clay,Massage,Recovered with Limitation,7,287.82
 40,Male,1254,Contusion,Knee,Severe,Fall,No,Football,Amateur,Central Europe,Training,Artificial Turf,Ice/Heat Therapy,Fully Recovered,278,1849.96
 38,Male,2442,Shoulder Injury,Shoulder,Moderate,Fall,No,Tennis,Amateur,Western Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,48,1197.21
-24,Female,2009,Tennis Elbow,Elbow,Severe,Fall,No,Tennis,Amateur,Southern Europe,Warm-up,Hard Court,Massage,Fully Recovered,310,2875
+24,Female,2009,Tennis Elbow,Elbow,Severe,Fall,No,Tennis,Amateur,Southern Europe,Warm-up,Hard Court,Massage,Fully Recovered,310,2875.0
 38,Male,837,Muscle Strain,Hip,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Grass,Surgery,Fully Recovered,15,4849.53
 35,Male,2495,Ligament Sprain,Knee,Moderate,Fall,No,Football,Amateur,Western Europe,Training,Indoor Court,Surgery,Fully Recovered,49,1870.4
 39,Female,1342,Muscle Strain,Head,Moderate,Overuse,No,Football,Professional,Northern Europe,Competition,Grass,Ice/Heat Therapy,Fully Recovered,58,437.74
@@ -13920,7 +13920,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Male,1455,Muscle Strain,Head,Severe,Fall,No,Football,Amateur,Southern Europe,Competition,Grass,Surgery,Fully Recovered,299,28368.69
 37,Male,2468,Fracture,Foot,Minor,Non-contact,Yes,Football,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,11,382.75
 25,Female,258,Fracture,Knee,Moderate,Overuse,Yes,Athletics,Amateur,Northern Europe,Training,Track,Physiotherapy,Retired,30,1109.11
-21,Male,28,Fracture,Hip,Minor,Contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Massage,Fully Recovered,7,113
+21,Male,28,Fracture,Hip,Minor,Contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Massage,Fully Recovered,7,113.0
 23,Female,1941,Hamstring Injury,Hamstring,Moderate,Fall,No,Athletics,Amateur,Western Europe,Competition,Road,Ice/Heat Therapy,Recovered with Limitation,47,406.76
 38,Male,383,Tendon Injury,Ankle,Moderate,Contact,No,Football,Amateur,Northern Europe,Training,Grass,Rest,Fully Recovered,23,163.4
 34,Female,2640,Concussion,Head,Minor,Contact,No,Boxing,Amateur,Central Europe,Training,Ring,Rest,Fully Recovered,9,73.61
@@ -13946,7 +13946,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 40,Male,349,Concussion,Head,Moderate,Overuse,No,Boxing,Amateur,Southern Europe,Training,Training Mat,Ice/Heat Therapy,Fully Recovered,57,757.85
 38,Female,430,Muscle Strain,Ankle,Minor,Overuse,No,Basketball,Amateur,Western Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Fully Recovered,6,70.3
 19,Male,2678,Tendon Injury,Hip,Minor,Fall,No,Athletics,Amateur,Western Europe,Warm-up,Road,Physiotherapy,Fully Recovered,11,455.31
-33,Male,1385,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Ice/Heat Therapy,Recovered with Limitation,18,342
+33,Male,1385,Back Strain,Back,Moderate,Fall,No,Basketball,Amateur,Central Europe,Warm-up,Wooden Floor,Ice/Heat Therapy,Recovered with Limitation,18,342.0
 28,Male,1165,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Amateur,Western Europe,Competition,Road,Medication,Fully Recovered,2,241.89
 28,Female,1216,Muscle Strain,Foot,Severe,Contact,No,Athletics,Amateur,Central Europe,Competition,Road,Massage,Fully Recovered,124,1698.29
 20,Female,705,Shoulder Injury,Shoulder,Minor,Contact,Yes,Tennis,Amateur,Northern Europe,Warm-up,Clay,Surgery,Fully Recovered,11,224.89
@@ -13999,7 +13999,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Male,2213,Knee Injury,Knee,Moderate,Fall,No,Basketball,Amateur,Northern Europe,Competition,Wooden Floor,Massage,Fully Recovered,43,557.99
 25,Female,967,Concussion,Head,Moderate,Overuse,Yes,Boxing,Amateur,Central Europe,Training,Gym Floor,Rest,Retired,50,542.88
 27,Male,2419,Fracture,Foot,Moderate,Overuse,No,Athletics,Professional,Western Europe,Training,Field,Physiotherapy,Fully Recovered,51,1525.15
-40,Female,530,Ankle Sprain,Ankle,Minor,Fall,No,Basketball,Professional,Western Europe,Competition,Wooden Floor,Medication,Recovered with Limitation,3,148
+40,Female,530,Ankle Sprain,Ankle,Minor,Fall,No,Basketball,Professional,Western Europe,Competition,Wooden Floor,Medication,Recovered with Limitation,3,148.0
 18,Female,971,Ligament Sprain,Hip,Minor,Fall,No,Football,Professional,Central Europe,Training,Indoor Court,Ice/Heat Therapy,Fully Recovered,3,163.46
 28,Male,643,Eye Injury,Eye,Minor,Contact,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Rest,Fully Recovered,14,26.07
 23,Female,2384,Finger Injury,Finger,Moderate,Overuse,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Rest,Fully Recovered,22,485.43
@@ -14095,7 +14095,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 26,Male,1180,Back Strain,Back,Minor,Contact,No,Tennis,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Recovered with Limitation,14,380.6
 34,Male,183,Shin Splints,Shin,Minor,Overuse,Yes,Athletics,Professional,Southern Europe,Training,Road,Massage,Recovered with Limitation,2,236.39
 22,Female,339,Muscle Strain,Back,Minor,Overuse,No,Athletics,Amateur,Western Europe,Training,Indoor Track,Physiotherapy,Fully Recovered,10,174.04
-21,Female,2547,Muscle Strain,Shin,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Track,Rest,Fully Recovered,12,119
+21,Female,2547,Muscle Strain,Shin,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Track,Rest,Fully Recovered,12,119.0
 34,Male,1063,Ligament Sprain,Hip,Minor,Non-contact,No,Football,Professional,Central Europe,Warm-up,Indoor Court,Physiotherapy,Fully Recovered,10,374.5
 27,Female,2486,Back Strain,Back,Minor,Contact,No,Tennis,Amateur,Southern Europe,Training,Indoor Court,Surgery,Retired,4,362.68
 35,Male,1237,Finger Injury,Finger,Minor,Fall,No,Basketball,Professional,Southern Europe,Competition,Indoor Court,Rest,Fully Recovered,8,107.83
@@ -14151,7 +14151,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 23,Male,1051,Ankle Sprain,Ankle,Minor,Non-contact,Yes,Basketball,Amateur,Central Europe,Warm-up,Indoor Court,Ice/Heat Therapy,Fully Recovered,4,27.52
 32,Male,2450,Ligament Sprain,Knee,Moderate,Overuse,No,Football,Professional,Central Europe,Competition,Grass,Medication,Fully Recovered,26,1370.92
 29,Female,2401,Ligament Sprain,Hip,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Grass,Massage,Fully Recovered,57,837.39
-28,Male,716,Hamstring Injury,Hamstring,Minor,Non-contact,Yes,Athletics,Amateur,Southern Europe,Competition,Field,Massage,Fully Recovered,8,213
+28,Male,716,Hamstring Injury,Hamstring,Minor,Non-contact,Yes,Athletics,Amateur,Southern Europe,Competition,Field,Massage,Fully Recovered,8,213.0
 28,Male,323,Knee Injury,Knee,Moderate,Overuse,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Massage,Fully Recovered,35,1105.55
 40,Female,1658,Wrist Strain,Wrist,Moderate,Fall,Yes,Tennis,Amateur,Southern Europe,Competition,Hard Court,Rest,Fully Recovered,57,434.78
 36,Female,116,Fracture,Knee,Moderate,Contact,No,Basketball,Amateur,Northern Europe,Training,Indoor Court,Ice/Heat Therapy,Recovered with Limitation,29,521.79
@@ -14220,7 +14220,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 30,Female,2379,Wrist Strain,Wrist,Severe,Fall,No,Tennis,Amateur,Western Europe,Competition,Indoor Court,Surgery,Recovered with Limitation,355,39609.07
 23,Female,1083,Wrist Strain,Wrist,Minor,Non-contact,No,Tennis,Amateur,Central Europe,Warm-up,Indoor Court,Physiotherapy,Retired,14,332.74
 19,Male,1231,Wrist Strain,Wrist,Minor,Contact,No,Tennis,Professional,Southern Europe,Training,Grass,Massage,Recovered with Limitation,9,229.54
-25,Female,872,Back Strain,Back,Moderate,Non-contact,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,21,1125
+25,Female,872,Back Strain,Back,Moderate,Non-contact,No,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Massage,Fully Recovered,21,1125.0
 33,Male,652,Muscle Strain,Foot,Minor,Overuse,Yes,Athletics,Professional,Central Europe,Training,Field,Medication,Fully Recovered,6,225.81
 39,Female,1072,Concussion,Head,Severe,Contact,No,Football,Professional,Southern Europe,Warm-up,Indoor Court,Massage,Recovered with Limitation,245,5554.93
 32,Male,58,Shin Splints,Shin,Minor,Overuse,Yes,Athletics,Amateur,Western Europe,Training,Track,Rest,Fully Recovered,9,117.85
@@ -14465,7 +14465,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 22,Female,905,Fracture,Hip,Moderate,Overuse,No,Athletics,Amateur,Northern Europe,Competition,Track,Physiotherapy,Fully Recovered,40,1125.78
 35,Female,1656,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Amateur,Western Europe,Training,Road,Ice/Heat Therapy,Fully Recovered,31,521.27
 17,Female,731,Back Strain,Back,Minor,Contact,Yes,Basketball,Professional,Central Europe,Warm-up,Wooden Floor,Medication,Fully Recovered,6,68.75
-39,Male,597,Fracture,Finger,Severe,Contact,No,Basketball,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,191,12093
+39,Male,597,Fracture,Finger,Severe,Contact,No,Basketball,Amateur,Central Europe,Training,Indoor Court,Physiotherapy,Fully Recovered,191,12093.0
 38,Female,648,Hamstring Injury,Hamstring,Minor,Non-contact,No,Athletics,Amateur,Western Europe,Warm-up,Track,Rest,Fully Recovered,9,129.72
 24,Female,1973,Tendon Injury,Knee,Minor,Overuse,No,Football,Amateur,Southern Europe,Competition,Artificial Turf,Rest,Fully Recovered,13,66.62
 16,Female,693,Muscle Strain,Achilles,Minor,Overuse,No,Athletics,Professional,Southern Europe,Training,Road,Massage,Fully Recovered,9,42.33
@@ -14479,7 +14479,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 17,Female,905,Tennis Elbow,Elbow,Severe,Non-contact,Yes,Tennis,Amateur,Northern Europe,Competition,Hard Court,Physiotherapy,Fully Recovered,118,11697.19
 35,Male,2405,Concussion,Head,Moderate,Non-contact,No,Football,Professional,Central Europe,Warm-up,Artificial Turf,Surgery,Fully Recovered,19,4149.77
 34,Female,456,Tendon Injury,Back,Minor,Contact,No,Athletics,Professional,Western Europe,Training,Field,Medication,Fully Recovered,6,74.4
-19,Female,1940,Ankle Sprain,Ankle,Minor,Fall,Yes,Tennis,Amateur,Western Europe,Warm-up,Grass,Rest,Recovered with Limitation,14,149
+19,Female,1940,Ankle Sprain,Ankle,Minor,Fall,Yes,Tennis,Amateur,Western Europe,Warm-up,Grass,Rest,Recovered with Limitation,14,149.0
 24,Female,2620,Wrist Strain,Wrist,Minor,Overuse,Yes,Tennis,Amateur,Central Europe,Training,Grass,Physiotherapy,Recovered with Limitation,2,167.3
 40,Female,2160,Muscle Strain,Head,Moderate,Non-contact,Yes,Football,Professional,Western Europe,Warm-up,Grass,Medication,Fully Recovered,26,690.41
 26,Female,2285,Fracture,Calf,Minor,Contact,No,Football,Amateur,Southern Europe,Competition,Indoor Court,Ice/Heat Therapy,Fully Recovered,8,37.75
@@ -14499,7 +14499,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 29,Female,121,Ligament Sprain,Hamstring,Minor,Overuse,No,Football,Professional,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,9,105.26
 19,Female,689,Ligament Sprain,Knee,Minor,Contact,No,Football,Amateur,Western Europe,Competition,Artificial Turf,Physiotherapy,Fully Recovered,13,131.45
 29,Male,1250,Contusion,Foot,Minor,Non-contact,No,Football,Professional,Western Europe,Competition,Artificial Turf,Massage,Recovered with Limitation,11,187.02
-25,Male,104,Tendon Injury,Calf,Moderate,Contact,No,Athletics,Professional,Northern Europe,Competition,Track,Medication,Fully Recovered,30,1196
+25,Male,104,Tendon Injury,Calf,Moderate,Contact,No,Athletics,Professional,Northern Europe,Competition,Track,Medication,Fully Recovered,30,1196.0
 19,Male,232,Tendon Injury,Ankle,Minor,Fall,No,Football,Professional,Southern Europe,Training,Artificial Turf,Physiotherapy,Fully Recovered,7,183.56
 26,Female,1332,Concussion,Head,Severe,Contact,No,Football,Amateur,Central Europe,Training,Grass,Massage,Fully Recovered,180,1281.18
 36,Female,573,Ligament Sprain,Ankle,Minor,Fall,No,Football,Amateur,Southern Europe,Training,Artificial Turf,Physiotherapy,Fully Recovered,4,456.97
@@ -14535,7 +14535,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Male,2668,Shin Splints,Shin,Minor,Non-contact,No,Athletics,Amateur,Southern Europe,Warm-up,Road,Physiotherapy,Fully Recovered,11,430.1
 40,Female,2307,Facial Injury,Face,Moderate,Non-contact,No,Boxing,Amateur,Central Europe,Training,Training Mat,Physiotherapy,Recovered with Limitation,59,738.83
 32,Female,1377,Ankle Sprain,Ankle,Moderate,Contact,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Rest,Fully Recovered,29,529.61
-37,Female,1956,Hamstring Injury,Hamstring,Minor,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Medication,Fully Recovered,11,266
+37,Female,1956,Hamstring Injury,Hamstring,Minor,Contact,No,Athletics,Amateur,Northern Europe,Warm-up,Road,Medication,Fully Recovered,11,266.0
 40,Female,1266,Ankle Sprain,Ankle,Minor,Overuse,Yes,Basketball,Amateur,Southern Europe,Warm-up,Outdoor Court,Ice/Heat Therapy,Fully Recovered,9,48.19
 22,Female,888,Muscle Strain,Hamstring,Minor,Overuse,No,Athletics,Amateur,Central Europe,Training,Road,Medication,Fully Recovered,11,331.65
 40,Female,499,Knee Injury,Knee,Minor,Contact,No,Basketball,Professional,Western Europe,Warm-up,Wooden Floor,Physiotherapy,Fully Recovered,6,266.08
@@ -14591,7 +14591,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 16,Female,2545,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Amateur,Western Europe,Training,Road,Rest,Fully Recovered,6,148.01
 26,Female,1392,Finger Injury,Finger,Minor,Non-contact,No,Basketball,Amateur,Central Europe,Training,Outdoor Court,Massage,Fully Recovered,6,117.55
 26,Female,2403,Muscle Strain,Achilles,Severe,Overuse,No,Athletics,Professional,Northern Europe,Training,Indoor Track,Rest,Fully Recovered,292,1010.04
-37,Female,1996,Muscle Strain,Achilles,Moderate,Non-contact,No,Basketball,Professional,Western Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,25,723
+37,Female,1996,Muscle Strain,Achilles,Moderate,Non-contact,No,Basketball,Professional,Western Europe,Competition,Outdoor Court,Ice/Heat Therapy,Fully Recovered,25,723.0
 31,Male,2391,Achilles Injury,Achilles,Moderate,Non-contact,Yes,Athletics,Amateur,Northern Europe,Warm-up,Track,Ice/Heat Therapy,Fully Recovered,53,573.15
 34,Female,2171,Finger Injury,Finger,Moderate,Non-contact,No,Basketball,Amateur,Northern Europe,Competition,Wooden Floor,Ice/Heat Therapy,Fully Recovered,18,290.51
 28,Female,2079,Fracture,Foot,Minor,Non-contact,No,Athletics,Professional,Western Europe,Competition,Track,Surgery,Fully Recovered,7,570.38
@@ -14700,7 +14700,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,1652,Wrist Strain,Wrist,Moderate,Contact,No,Tennis,Amateur,Western Europe,Competition,Indoor Court,Surgery,Recovered with Limitation,47,4245.68
 33,Female,760,Tendon Injury,Head,Severe,Fall,Yes,Football,Professional,Northern Europe,Competition,Artificial Turf,Massage,Recovered with Limitation,84,4290.8
 28,Female,1971,Shoulder Injury,Shoulder,Severe,Overuse,No,Tennis,Amateur,Central Europe,Competition,Indoor Court,Medication,Fully Recovered,202,7380.21
-17,Female,1591,Fracture,Face,Moderate,Overuse,No,Boxing,Professional,Central Europe,Warm-up,Ring,Medication,Fully Recovered,20,900
+17,Female,1591,Fracture,Face,Moderate,Overuse,No,Boxing,Professional,Central Europe,Warm-up,Ring,Medication,Fully Recovered,20,900.0
 33,Female,13,Ankle Sprain,Ankle,Moderate,Non-contact,No,Tennis,Amateur,Central Europe,Training,Hard Court,Massage,Fully Recovered,28,609.13
 36,Male,354,Ligament Sprain,Calf,Moderate,Contact,Yes,Football,Amateur,Central Europe,Warm-up,Indoor Court,Medication,Fully Recovered,27,1361.56
 30,Female,1610,Hamstring Injury,Hamstring,Minor,Overuse,No,Athletics,Professional,Western Europe,Warm-up,Indoor Track,Physiotherapy,Fully Recovered,8,170.07
@@ -14734,7 +14734,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 24,Male,1343,Ankle Sprain,Ankle,Moderate,Fall,No,Basketball,Professional,Central Europe,Training,Outdoor Court,Surgery,Fully Recovered,39,1664.4
 18,Female,2176,Contusion,Foot,Minor,Contact,No,Football,Amateur,Western Europe,Warm-up,Indoor Court,Surgery,Fully Recovered,4,462.65
 20,Female,1530,Concussion,Head,Moderate,Overuse,No,Football,Amateur,Central Europe,Competition,Artificial Turf,Rest,Fully Recovered,33,332.92
-40,Female,2255,Muscle Strain,Shoulder,Moderate,Non-contact,Yes,Football,Professional,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,20,173
+40,Female,2255,Muscle Strain,Shoulder,Moderate,Non-contact,Yes,Football,Professional,Central Europe,Warm-up,Indoor Court,Rest,Fully Recovered,20,173.0
 38,Male,865,Tendon Injury,Foot,Severe,Contact,No,Football,Amateur,Western Europe,Competition,Indoor Court,Rest,Fully Recovered,174,1097.38
 25,Female,1007,Concussion,Head,Moderate,Overuse,No,Boxing,Amateur,Southern Europe,Warm-up,Gym Floor,Ice/Heat Therapy,Fully Recovered,56,792.4
 30,Male,897,Muscle Strain,Achilles,Minor,Non-contact,No,Athletics,Amateur,Central Europe,Warm-up,Field,Rest,Recovered with Limitation,8,42.14
@@ -14771,8 +14771,8 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 21,Female,745,Knee Injury,Knee,Minor,Contact,No,Tennis,Professional,Central Europe,Competition,Clay,Medication,Fully Recovered,14,41.71
 40,Female,1778,Achilles Injury,Achilles,Moderate,Contact,No,Athletics,Amateur,Northern Europe,Training,Track,Massage,Fully Recovered,34,1058.2
 25,Female,1694,Tendon Injury,Calf,Minor,Fall,No,Athletics,Amateur,Southern Europe,Training,Indoor Track,Physiotherapy,Fully Recovered,9,369.33
-29,Male,661,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Professional,Central Europe,Training,Field,Surgery,Fully Recovered,19,5684
-18,Male,98,Hamstring Injury,Hamstring,Severe,Fall,No,Athletics,Professional,Central Europe,Warm-up,Road,Medication,Recovered with Limitation,172,6289
+29,Male,661,Hamstring Injury,Hamstring,Moderate,Contact,No,Athletics,Professional,Central Europe,Training,Field,Surgery,Fully Recovered,19,5684.0
+18,Male,98,Hamstring Injury,Hamstring,Severe,Fall,No,Athletics,Professional,Central Europe,Warm-up,Road,Medication,Recovered with Limitation,172,6289.0
 27,Female,2350,Ligament Sprain,Head,Moderate,Overuse,No,Football,Amateur,Central Europe,Warm-up,Grass,Physiotherapy,Fully Recovered,59,1445.06
 25,Female,420,Achilles Injury,Achilles,Minor,Fall,No,Athletics,Professional,Western Europe,Warm-up,Indoor Track,Physiotherapy,Fully Recovered,8,423.17
 35,Female,656,Wrist Strain,Wrist,Severe,Contact,Yes,Tennis,Amateur,Western Europe,Training,Indoor Court,Surgery,Fully Recovered,79,19424.58
@@ -14845,7 +14845,7 @@ Age,Gender,MinutesPlayedLast30Days,InjuryType,BodyPart,Severity,InjuryCause,IsRe
 35,Male,830,Achilles Injury,Achilles,Minor,Non-contact,Yes,Athletics,Professional,Northern Europe,Training,Road,Physiotherapy,Fully Recovered,6,432.62
 33,Female,1730,Facial Injury,Face,Moderate,Non-contact,No,Boxing,Amateur,Southern Europe,Competition,Gym Floor,Physiotherapy,Fully Recovered,17,1293.87
 40,Male,548,Ankle Sprain,Ankle,Minor,Fall,No,Tennis,Amateur,Southern Europe,Warm-up,Indoor Court,Rest,Retired,13,118.56
-37,Female,2425,Contusion,Calf,Minor,Overuse,No,Football,Professional,Central Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,3,192
+37,Female,2425,Contusion,Calf,Minor,Overuse,No,Football,Professional,Central Europe,Training,Grass,Ice/Heat Therapy,Fully Recovered,3,192.0
 27,Male,1893,Muscle Strain,Achilles,Severe,Fall,No,Basketball,Professional,Northern Europe,Competition,Outdoor Court,Medication,Fully Recovered,261,6196.17
 34,Female,1249,Tendon Injury,Shoulder,Severe,Fall,No,Football,Amateur,Central Europe,Competition,Artificial Turf,Physiotherapy,Retired,94,5092.69
 30,Female,1118,Eye Injury,Eye,Minor,Contact,No,Boxing,Amateur,Central Europe,Warm-up,Training Mat,Rest,Fully Recovered,1,67.98
