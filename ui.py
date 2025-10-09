@@ -1,9 +1,10 @@
 import pandas as pd
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, flash, redirect, url_for
 
 from regression import InjuryRecoveryPredictor
 
 app = Flask(__name__)
+app.secret_key = 'k8s9d7f6h4j3k2l1m0n9b8v7c6x5z4a3s2d1f0g9h8j7'
 
 # load trained model
 predictor = InjuryRecoveryPredictor()
@@ -16,6 +17,47 @@ def ui():
 
 @app.route("/predict", methods=["POST"])
 def predict():
+    # Define required fields
+    required_fields = {
+        "age": "Age",
+        "gender": "Gender",
+        "minutes": "Minutes Played",
+        "injury": "Injury Type",
+        "body-part": "Body Part",
+        "severity": "Severity",
+        "cause": "Injury Cause",
+        "recurrent": "Recurrent Injury",
+        "sport": "Sport",
+        "competition": "Competition Level",
+        "region": "Region",
+        "event": "Event Type",
+        "surface": "Surface Type"
+    }
+    
+    # Check for missing fields
+    missing_fields = []
+    for field_name, display_name in required_fields.items():
+        value = request.form.get(field_name)
+        if not value or value.strip() == "":
+            missing_fields.append(display_name)
+    
+    # If any fields are missing, return error
+    if missing_fields:
+        error_message = f"Please fill in the following required fields: {', '.join(missing_fields)}"
+        flash(error_message, 'error')
+        return redirect(url_for('ui'))
+    
+    # all possible treatment methods
+    all_treatment_methods = ['Massage', 'Surgery', 'Physiotherapy', 'Rest', 'Ice/Heat Therapy', 'Medication']
+
+    # get fixed inputs from form
+    try:
+        age = float(request.form.get("age"))
+        minutes = float(request.form.get("minutes"))
+    except (ValueError, TypeError):
+        flash("Age and Minutes Played must be valid numbers", 'error')
+        return redirect(url_for('ui'))
+    
     # all possible treatment methods
     all_treatment_methods = ['Massage', 'Surgery', 'Physiotherapy', 'Rest', 'Ice/Heat Therapy', 'Medication']
 

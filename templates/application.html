@@ -11,6 +11,20 @@
         <h2>Follow the prompts to get your predicted recovery time, treatment method, and cost of recovery.</h2>
     </div>
 
+    <!-- Flash message display -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="alert-container">
+        {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">
+            {{ message }}
+            <button type="button" class="close-btn" onclick="this.parentElement.style.display='none';">&times;</button>
+            </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+    {% endwith %}
+
     <form action="/predict" method="POST">
         <div class="athlete-qs">
             <h2 class="form-headers">Athlete Specific Questions</h2>
@@ -393,5 +407,60 @@
             <button type="submit" id="predict">Predict</button>
         </div>
     </form>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            // Get all required fields
+            const requiredFields = form.querySelectorAll('[required]');
+            let missingFields = [];
+            
+            // Check each required field
+            requiredFields.forEach(field => {
+                if (!field.value || field.value.trim() === '') {
+                    missingFields.push(field.name || field.id);
+                    field.classList.add('error-field');
+                } else {
+                    field.classList.remove('error-field');
+                }
+            });
+            
+            // If there are missing fields, prevent submission and show alert
+            if (missingFields.length > 0) {
+                e.preventDefault();
+                
+                // Format field names nicely
+                const fieldNames = missingFields.map(name => {
+                    return name.replace(/-/g, ' ')
+                               .replace(/([A-Z])/g, ' $1')
+                               .trim()
+                               .split(' ')
+                               .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                               .join(' ');
+                });
+                
+                alert('Please fill in the following required fields:\n\n• ' + fieldNames.join('\n• '));
+                
+                // Scroll to first empty field
+                const firstEmpty = form.querySelector('.error-field');
+                if (firstEmpty) {
+                    firstEmpty.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    firstEmpty.focus();
+                }
+            }
+        });
+        
+        // Remove error styling when user starts typing
+        const inputs = form.querySelectorAll('input, select, textarea');
+        inputs.forEach(input => {
+            input.addEventListener('input', function() {
+                this.classList.remove('error-field');
+            });
+        });
+    }
+});
+</script>
 </body>
 </html>
