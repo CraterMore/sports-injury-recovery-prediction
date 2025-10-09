@@ -7,6 +7,9 @@ Joshua Bearfield, Femke Jansen, Carter Moore, Fiona Pendergast, Katherine Tse
 ## Project Summary
 A machine learning project that predicts optimal treatment methods and recovery timelines for various sports injuries. This tool combines two regression models to provide recovery insights for athletes and medical professionals.
 
+![alt text](/static/images/input_form.png)
+![alt text](/static/images/results_UI.png)
+
 ## Models
 ### Logistic Regression
 **Purpose:** Predict the probability of full recovery for different treatment methods
@@ -28,7 +31,7 @@ A machine learning project that predicts optimal treatment methods and recovery 
 ## Dataset
 The dataset originated from a multi-tab spreadsheet containing sports injury records across multiple variables. Using pandas, we performed data consolidation by joining tables on primary keys and selecting relevant features for our predictive models.
 
-![alt text](image.png)
+![alt text](/static/images/data.png)
 
 **Features Selected:**
 | Category| Features |
@@ -51,7 +54,7 @@ The dataset originated from a multi-tab spreadsheet containing sports injury rec
 
 **Sport-Specific Patterns:** Certain injuries are exclusive to specific sports (e.g., nose, jaw, face injuries predominantly in boxing)
 
-![alt text](image-1.png)
+![alt text](/static/images/data_breakdown.png)
 
 ## Technologies Used
 * Python
@@ -97,12 +100,20 @@ git clone https://github.com/CraterMore/sports-injury-recovery-prediction.git
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the models
+# Run the program 
 python ui.py
+# or Alternative top 3 option
+python top_3_ui.py
 
 # Open the localhost in your browser to use the UI
 # http://127.0.0.1:5000/
 ```
+
+## Alternate Results Display
+
+By altering our output to display the probability of a recovery not ending in retirement, we were able to display a much higher chance of a successful recovery. We determined the factors that might be the most useful for a user of this project would be more information across multiple recovery methods so we also implemented a "Top 3" recovery results page. 
+
+![alt text](/static/images/top3_results_UI.png)
 
 ## Contributors
 | Name | Major | Grad Year |
@@ -119,7 +130,6 @@ Worcester Polytechnic Institute
 CS 4243 Machine Learning A-Term 2025
 
 Professor Kyumin Lee
-
 
 ## Acknowledgements
 **Dataset:** Our dataset was created by FP20 for a data analysis challenge linked below.

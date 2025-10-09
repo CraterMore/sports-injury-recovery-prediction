@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injury Recovery Prediction Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .treatment-card {
+            background-color: #f9f9f9;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+        
+        .treatment-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .treatment-card.rank-1 {
+            border-left-color: #FFD700;
+            background-color: #fffef0;
+        }
+        
+        .treatment-card.rank-2 {
+            border-left-color: #C0C0C0;
+            background-color: #f9f9f9;
+        }
+        
+        .treatment-card.rank-3 {
+            border-left-color: #CD7F32;
+            background-color: #faf8f5;
+        }
+        
+        .rank-badge {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .rank-badge.rank-1 { background-color: #FFD700; color: #333; }
+        .rank-badge.rank-2 { background-color: #C0C0C0; color: #333; }
+        .rank-badge.rank-3 { background-color: #CD7F32; color: white; }
+        
+        .treatment-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .metrics {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        
+        .metric {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        
+        .metric-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .metric-unit {
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto 0;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Top 3 Recommended Treatment Methods</h1>
+        
+        {% for treatment in top_treatments %}
+        <div class="treatment-card rank-{{ loop.index }}">
+            <div>
+                <span class="rank-badge rank-{{ loop.index }}">
+                    {% if loop.index == 1 %}🥇 Best
+                    {% elif loop.index == 2 %}🥈 2nd Best
+                    {% else %}🥉 3rd Best
+                    {% endif %}
+                </span>
+            </div>
+            
+            <div class="treatment-name">{{ treatment.treatment }}</div>
+            
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-label">Recovery Probability</div>
+                    <div class="metric-value">
+                        {{ (treatment.recovery_prob * 100) | round(1) }}
+                        <span class="metric-unit">%</span>
+                    </div>
+                </div>
+                
+                <div class="metric">
+                    <div class="metric-label">Estimated Recovery Time</div>
+                    <div class="metric-value">
+                        {{ treatment.recovery_time }}
+                        <span class="metric-unit">days</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+        <a href="/" class="back-button">← New Prediction</a>
+    </div>
+</body>
+</html>
