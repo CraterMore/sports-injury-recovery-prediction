@@ -14,7 +14,7 @@ data = pd.read_csv(file, sep=",", converters={'Outcome': lambda x: int(x == 'Ful
 
 # splits the data into the instances and labels
 y = data.Outcome
-X = data.drop('Outcome', axis=1)
+X = data.drop('Outcome', axis=1).drop('DaysToRecovery', axis=1).drop('CostOfTreatmentEuros', axis=1)
 
 # extracts categorical features from X and turns them into numerical features using pandas factorize
 cat_columns = X.select_dtypes(object).columns
@@ -36,3 +36,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy: {:.2f}%".format(accuracy * 100))
+
+# print more detailed classification report
+from sklearn.metrics import classification_report
+print(classification_report(y_test, y_pred, zero_division=0))
